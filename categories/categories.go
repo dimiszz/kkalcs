@@ -28,7 +28,7 @@ type SubCategory struct {
 func GetCategories() ([]Category, error) {
 	url := "https://api.mercadolibre.com/sites/MLB/categories"
 
-	body, err := requests.MakeSimpleRequest(url, nil)
+	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("erro ao fazer requisição: %s", err)
 	}
@@ -46,7 +46,7 @@ func GetListingPrices(category string) ([]ListingPrice, error) {
 	url := "https://api.mercadolibre.com/sites/MLB/listing_prices?price=100&category_id=" + category
 	fmt.Println("URL:", url)
 
-	res, err := requests.MakeRequest(url, nil)
+	res, err := requests.MakeRequest(requests.GET, url, nil)
 	defer res.Body.Close()
 
 	var prices []ListingPrice
@@ -63,7 +63,7 @@ func GetListingPrices(category string) ([]ListingPrice, error) {
 
 func fetchCategory(categoryID string) (*SubCategory, error) {
 	url := fmt.Sprintf("https://api.mercadolibre.com/categories/%s", categoryID)
-	body, err := requests.MakeSimpleRequest(url, nil)
+	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 	if err != nil {
 		return nil, err
 	}

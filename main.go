@@ -3,11 +3,13 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"net/url"
 	"strings"
 
 	"dimi/ml-auth/auth"
 	"dimi/ml-auth/categories"
 	"dimi/ml-auth/dotenv"
+	"dimi/ml-auth/orders"
 	"dimi/ml-auth/requests"
 )
 
@@ -35,6 +37,14 @@ func main() {
 }
 
 func run() error {
+
+	// _, err := test.CreateTestUser()
+	// if err != nil {
+	// 	return fmt.Errorf("erro ao criar usuário de teste: %s", err)
+	// }
+	// Test()
+	// return nil
+
 	itemsId, err := getAllItemsIds()
 	if err != nil {
 		return fmt.Errorf("erro ao conseguir items: %s", err)
@@ -68,7 +78,7 @@ func getAllItemsIds() ([]string, error) {
 
 		fmt.Println("URL:", url)
 
-		body, err := requests.MakeSimpleRequest(url, nil)
+		body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 		if err != nil {
 			return nil, fmt.Errorf("erro ao fazer requisição: %s", err)
 		}
@@ -101,12 +111,17 @@ func getItemsDetails(itemsId []string) error {
 	url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s", USER_ID)
 	fmt.Println("URL:", url)
 
-	body, err := requests.MakeSimpleRequest(url, nil)
+	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 	if err != nil {
 		return fmt.Errorf("erro ao fazer requisição: %s", err)
 	}
 
-	fmt.Println("Body:", string(body))
+	ords, err := orders.ExtractOrders(body)
+	if err != nil {
+		return fmt.Errorf("erro ao extrair pedidos: %s", err)
+	}
+
+	fmt.Println("pedidos:", ords)
 
 	return nil
 }
@@ -116,4 +131,23 @@ func LoadUserId() {
 	start := len(access_token) - 9
 	userID := access_token[start:]
 	USER_ID = userID
+}
+
+func Test() {
+	urla := fmt.Sprintf("https://api.mercadolibre.com/orders/reports")
+
+	fromDate := "2023-01-01T00:00:00.000Z"
+	toDate := "2024-12-31T23:59:59.999Z"
+
+	data := url.Values{}
+	data.Set("filters.date_created.from", fromDate)
+	data.Set("filters.date_created.to", toDate)
+	data.Set("fields", "id,date_created,total_amount,status,order_items,shipping_cost,tags")
+
+	body, err := requests.MakeSimpleRequest(requests.GET, urla, data)
+	if err != nil {
+		fmt.Println("Erro ao fazer requisição:", err)
+		return
+	}
+	fmt.Println("Corpo da resposta:", string(body))
 }
