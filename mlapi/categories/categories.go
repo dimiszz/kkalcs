@@ -2,7 +2,7 @@ package categories
 
 import (
 	"container/list"
-	"dimi/ml-auth/requests"
+	"dimi/kkalcs/mlapi/requests"
 	"encoding/json"
 	"fmt"
 	"os"

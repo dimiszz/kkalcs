@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"strings"
 
-	"dimi/ml-auth/auth"
-	"dimi/ml-auth/categories"
-	"dimi/ml-auth/dotenv"
-	"dimi/ml-auth/orders"
-	"dimi/ml-auth/requests"
+	"dimi/kkalcs/dotenv"
+	"dimi/kkalcs/mlapi/auth"
+	"dimi/kkalcs/mlapi/categories"
+	"dimi/kkalcs/mlapi/orders"
+	"dimi/kkalcs/mlapi/requests"
 )
 
 type Paging struct {
@@ -134,7 +134,7 @@ func LoadUserId() {
 }
 
 func Test() {
-	urla := fmt.Sprintf("https://api.mercadolibre.com/orders/reports")
+	urla := "https://api.mercadolibre.com/orders/reports"
 
 	fromDate := "2023-01-01T00:00:00.000Z"
 	toDate := "2024-12-31T23:59:59.999Z"

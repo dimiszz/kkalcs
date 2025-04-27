@@ -2,7 +2,7 @@ package requests
 
 import (
 	"bytes"
-	"dimi/ml-auth/auth"
+	"dimi/kkalcs/mlapi/auth"
 	"encoding/json"
 	"fmt"
 	"io"

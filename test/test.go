@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"dimi/ml-auth/requests"
+	"dimi/kkalcs/mlapi/requests"
 )
 
 type TestUserResponse struct {

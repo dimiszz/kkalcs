@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"dimi/ml-auth/dotenv"
+	"dimi/kkalcs/dotenv"
 )
 
 type oAuthResponse struct {
