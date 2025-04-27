@@ -1,0 +1,34 @@
+[
+	{
+		"order_id": 2000010820070246,
+		"status": "paid",
+		"date_created": "2025-02-20T20:32:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900213984",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 116.19,
+				"listing_type_id": "",
+				"sale_fee": 13.36
+			}
+		]
+	},
+	{
+		"order_id": 2000010821544300,
+		"status": "paid",
+		"date_created": "2025-02-20T23:38:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3393281093",
+				"category_id": "MLB256843",
+				"quantity": 1,
+				"unit_price": 42.4,
+				"listing_type_id": "",
+				"sale_fee": 13.71
+			}
+		]
+	}
+]

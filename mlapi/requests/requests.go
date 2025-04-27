@@ -10,29 +10,66 @@ import (
 	"net/url"
 )
 
+var USER_ID string
+
 type Method string
 
 const (
-	GET    Method = "GET"
-	POST   Method = "POST"
-	PUT    Method = "PUT"
-	DELETE Method = "DELETE"
+	GET    Method = http.MethodGet
+	POST   Method = http.MethodPost
+	PUT    Method = http.MethodPut
+	DELETE Method = http.MethodDelete
 )
 
-func MakeRequest(method Method, url string, body url.Values) (*http.Response, error) {
+func MakeRequest(method Method, url string, body *bytes.Buffer) (*http.Response, error) {
 
-	var body_reader *bytes.Buffer
+	var bodyReader io.Reader
 	if body != nil {
-		converted, _ := urlValuesToJson(body)
-		body_reader = bytes.NewBuffer(converted)
+		bodyReader = body
 	} else {
-		body_reader = bytes.NewBuffer(nil)
+		bodyReader = nil
 	}
 
 	access_token := auth.GetAcessToken()
 	var bearer = "Bearer " + access_token
 
-	req, err := http.NewRequest(string(method), url, body_reader)
+	req, err := http.NewRequest(string(method), url, bodyReader)
+	if err != nil {
+		panic(err)
+	}
+
+	req.Header.Add("Authorization", bearer)
+	req.Header.Add("Content-Type", "application/json")
+
+	client := &http.Client{}
+	resp, err := client.Do(req)
+
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode != 200 && resp.StatusCode != 201 {
+		body, _ := io.ReadAll(resp.Body)
+		fmt.Println("Response Body:", string(body))
+		return nil, fmt.Errorf("error: status code %d", resp.StatusCode)
+	}
+
+	return resp, nil
+}
+
+func MakeTestRequest(method Method, url string, body *bytes.Buffer, userID string) (*http.Response, error) {
+
+	var bodyReader io.Reader
+	if body != nil {
+		bodyReader = body
+	} else {
+		bodyReader = nil
+	}
+
+	access_token := auth.GetAcessToken()
+	access_token = access_token[:len(access_token)-9] + userID
+	var bearer = "Bearer " + access_token
+
+	req, err := http.NewRequest(string(method), url, bodyReader)
 	if err != nil {
 		panic(err)
 	}
@@ -53,7 +90,7 @@ func MakeRequest(method Method, url string, body url.Values) (*http.Response, er
 	return resp, nil
 }
 
-func MakeSimpleRequest(method Method, url string, body url.Values) ([]byte, error) {
+func MakeSimpleRequest(method Method, url string, body *bytes.Buffer) ([]byte, error) {
 
 	resp, err := MakeRequest(method, url, body)
 	if err != nil {
@@ -67,7 +104,7 @@ func MakeSimpleRequest(method Method, url string, body url.Values) ([]byte, erro
 	return bodybyte, nil
 }
 
-func urlValuesToJson(body url.Values) ([]byte, error) {
+func UrlValuesToJson(body url.Values) ([]byte, error) {
 	m := make(map[string]string)
 	for key, vals := range body {
 		if len(vals) > 0 {

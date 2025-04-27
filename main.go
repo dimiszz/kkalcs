@@ -3,12 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"net/url"
-	"strings"
 
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/mlapi/auth"
-	"dimi/kkalcs/mlapi/categories"
 	"dimi/kkalcs/mlapi/orders"
 	"dimi/kkalcs/mlapi/requests"
 )
@@ -21,8 +18,6 @@ type SearchResult struct {
 	Paging  Paging   `json:"paging"`
 	Results []string `json:"results"`
 }
-
-var USER_ID string
 
 func main() {
 	dotenv.Load()
@@ -41,29 +36,32 @@ func run() error {
 	// _, err := test.CreateTestUser()
 	// if err != nil {
 	// 	return fmt.Errorf("erro ao criar usuário de teste: %s", err)
+	//}
+	//Test()
+	orders.Fetch()
+	return nil
+
+	// itemsId, err := getAllItemsIds()
+	// if err != nil {
+	// 	return fmt.Errorf("erro ao conseguir items: %s", err)
 	// }
-	// Test()
-	// return nil
+	// //fmt.Println("Items ID:", itemsId)
+	// //fmt.Println("Total de itens:", len(itemsId))
 
-	itemsId, err := getAllItemsIds()
-	if err != nil {
-		return fmt.Errorf("erro ao conseguir items: %s", err)
-	}
-	//fmt.Println("Items ID:", itemsId)
-	//fmt.Println("Total de itens:", len(itemsId))
+	// err = getItemsDetails(itemsId)
+	// if err != nil {
+	// 	return fmt.Errorf("erro ao conseguir items: %s", err)
+	// }
 
-	err = getItemsDetails(itemsId)
-	if err != nil {
-		return fmt.Errorf("erro ao conseguir items: %s", err)
-	}
+	//GetOrders()
 
 	fmt.Println()
 
-	cate, err := categories.GetListingPrices("MLB437616")
-	if err != nil {
-		return fmt.Errorf("erro ao conseguir items: %s", err)
-	}
-	fmt.Println("Prices: ", cate)
+	// cate, err := categories.GetListingPrices("MLB244658")
+	// if err != nil {
+	// 	return fmt.Errorf("erro ao conseguir items: %s", err)
+	// }
+	// fmt.Println("Prices: ", cate)
 
 	return nil
 }
@@ -74,7 +72,7 @@ func getAllItemsIds() ([]string, error) {
 	offset := 0
 
 	for {
-		url := fmt.Sprintf("https://api.mercadolibre.com/users/%s/items/search?offset=%d&limit=%d", USER_ID, offset, limit)
+		url := fmt.Sprintf("https://api.mercadolibre.com/users/%s/items/search?offset=%d&limit=%d", requests.USER_ID, offset, limit)
 
 		fmt.Println("URL:", url)
 
@@ -100,54 +98,29 @@ func getAllItemsIds() ([]string, error) {
 	return itemsId, nil
 }
 
-func getItemsDetails(itemsId []string) error {
-
-	temp := strings.Join(itemsId, ",")
-	fmt.Println(temp)
-	// =$ITEM_ID1,$ITEM_ID2
-
-	//url := fmt.Sprintf("https://api.mercadolibre.com/items?ids=%s&attributes=id,title,price,base_price,original_price", temp)
-	//url := fmt.Sprintf("https://api.mercadolibre.com/items/%s/prices", itemsId[0])
-	url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s", USER_ID)
-	fmt.Println("URL:", url)
-
-	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
-	if err != nil {
-		return fmt.Errorf("erro ao fazer requisição: %s", err)
-	}
-
-	ords, err := orders.ExtractOrders(body)
-	if err != nil {
-		return fmt.Errorf("erro ao extrair pedidos: %s", err)
-	}
-
-	fmt.Println("pedidos:", ords)
-
-	return nil
-}
-
 func LoadUserId() {
 	access_token := auth.GetAcessToken()
-	start := len(access_token) - 9
+	start := len(access_token) - 10
 	userID := access_token[start:]
-	USER_ID = userID
+	requests.USER_ID = userID
 }
 
 func Test() {
-	urla := "https://api.mercadolibre.com/orders/reports"
+	urla := "https://api.mercadolibre.com/orders/2000010821544300/discounts"
 
-	fromDate := "2023-01-01T00:00:00.000Z"
-	toDate := "2024-12-31T23:59:59.999Z"
-
-	data := url.Values{}
-	data.Set("filters.date_created.from", fromDate)
-	data.Set("filters.date_created.to", toDate)
-	data.Set("fields", "id,date_created,total_amount,status,order_items,shipping_cost,tags")
-
-	body, err := requests.MakeSimpleRequest(requests.GET, urla, data)
+	body, err := requests.MakeSimpleRequest(requests.GET, urla, nil)
 	if err != nil {
 		fmt.Println("Erro ao fazer requisição:", err)
 		return
 	}
 	fmt.Println("Corpo da resposta:", string(body))
+
+	urla = "https://api.mercadolibre.com/orders/2000010821544300"
+	body, err = requests.MakeSimpleRequest(requests.GET, urla, nil)
+	if err != nil {
+		fmt.Println("Erro ao fazer requisição:", err)
+		return
+	}
+	fmt.Println("Corpo da resposta:", string(body))
+
 }

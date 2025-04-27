@@ -43,7 +43,7 @@ func GetCategories() ([]Category, error) {
 }
 
 func GetListingPrices(category string) ([]ListingPrice, error) {
-	url := "https://api.mercadolibre.com/sites/MLB/listing_prices?price=100&category_id=" + category
+	url := "https://api.mercadolibre.com/sites/MLB/listing_prices?price=59.29&category_id=" + category
 	fmt.Println("URL:", url)
 
 	res, err := requests.MakeRequest(requests.GET, url, nil)
