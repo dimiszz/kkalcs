@@ -1,4 +1,4 @@
-# kkcalcs
+# kkalcs
 
 The .env file need to have:
 
