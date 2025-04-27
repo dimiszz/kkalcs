@@ -39,19 +39,22 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("erro ao conseguir items: %s", err)
 	}
-	fmt.Println("Items ID:", itemsId)
-	fmt.Println("Total de itens:", len(itemsId))
+	//fmt.Println("Items ID:", itemsId)
+	//fmt.Println("Total de itens:", len(itemsId))
 
 	err = getItemsDetails(itemsId)
 	if err != nil {
 		return fmt.Errorf("erro ao conseguir items: %s", err)
 	}
 
-	categories, err := categories.LoadOrFetchCategories()
+	fmt.Println()
+
+	cate, err := categories.GetListingPrices("MLB437616")
 	if err != nil {
-		return fmt.Errorf("erro ao conseguir categorias: %s", err)
+		return fmt.Errorf("erro ao conseguir items: %s", err)
 	}
-	fmt.Println("Categorias:", categories)
+	fmt.Println("Prices: ", cate)
+
 	return nil
 }
 
@@ -94,7 +97,8 @@ func getItemsDetails(itemsId []string) error {
 	// =$ITEM_ID1,$ITEM_ID2
 
 	//url := fmt.Sprintf("https://api.mercadolibre.com/items?ids=%s&attributes=id,title,price,base_price,original_price", temp)
-	url := fmt.Sprintf("https://api.mercadolibre.com/items/%s/prices", itemsId[0])
+	//url := fmt.Sprintf("https://api.mercadolibre.com/items/%s/prices", itemsId[0])
+	url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s", USER_ID)
 	fmt.Println("URL:", url)
 
 	body, err := requests.MakeSimpleRequest(url, nil)

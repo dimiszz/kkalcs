@@ -13,6 +13,12 @@ type Category struct {
 	Name string `json:"name"`
 }
 
+type ListingPrice struct {
+	ListingTypeID string  `json:"listing_type_id"`
+	SaleFeeAmount float64 `json:"sale_fee_amount"`
+	CurrencyID    string  `json:"currency_id"`
+}
+
 type SubCategory struct {
 	ID                 string     `json:"id"`
 	Name               string     `json:"name"`
@@ -36,18 +42,23 @@ func GetCategories() ([]Category, error) {
 	return result, nil
 }
 
-func GetSubCategories() (string, error) {
-	url := "https://api.mercadolibre.com/categories/MLB1055"
+func GetListingPrices(category string) ([]ListingPrice, error) {
+	url := "https://api.mercadolibre.com/sites/MLB/listing_prices?price=100&category_id=" + category
 	fmt.Println("URL:", url)
 
-	body, err := requests.MakeSimpleRequest(url, nil)
-	if err != nil {
-		return "", fmt.Errorf("erro ao fazer requisição: %s", err)
+	res, err := requests.MakeRequest(url, nil)
+	defer res.Body.Close()
+
+	var prices []ListingPrice
+	if err := json.NewDecoder(res.Body).Decode(&prices); err != nil {
+		return nil, fmt.Errorf("erro ao decodificar resposta: %v", err)
 	}
 
-	fmt.Println("Body:", string(body))
+	if err != nil {
+		return nil, fmt.Errorf("erro ao fazer requisição: %s", err)
+	}
 
-	return "", nil
+	return prices, nil
 }
 
 func fetchCategory(categoryID string) (*SubCategory, error) {
