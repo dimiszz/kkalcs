@@ -38,7 +38,13 @@ func run() error {
 	// 	return fmt.Errorf("erro ao criar usuário de teste: %s", err)
 	//}
 	//Test()
-	orders.Fetch()
+	//orders.FetchAll()
+
+	err := orders.FetchAll()
+	fmt.Println("Erro:", err)
+
+	orders.FetchShipping("44636621027")
+
 	return nil
 
 	// itemsId, err := getAllItemsIds()

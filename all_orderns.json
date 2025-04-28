@@ -30,5 +30,6741 @@
 				"sale_fee": 13.71
 			}
 		]
+	},
+	{
+		"order_id": 2000010821543448,
+		"status": "paid",
+		"date_created": "2025-02-20T23:38:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000010823331276,
+		"status": "paid",
+		"date_created": "2025-02-21T09:04:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3757295039",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 67.99,
+				"listing_type_id": "",
+				"sale_fee": 17.97
+			}
+		]
+	},
+	{
+		"order_id": 2000010824107700,
+		"status": "cancelled",
+		"date_created": "2025-02-21T10:32:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4102097558",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 55.39,
+				"listing_type_id": "",
+				"sale_fee": 15.89
+			}
+		]
+	},
+	{
+		"order_id": 2000010826591956,
+		"status": "paid",
+		"date_created": "2025-02-21T14:53:35.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010827646000,
+		"status": "paid",
+		"date_created": "2025-02-21T16:54:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 8,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000010827646010,
+		"status": "paid",
+		"date_created": "2025-02-21T16:54:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 2,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000010827991408,
+		"status": "paid",
+		"date_created": "2025-02-21T17:36:39.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651430784",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 126,
+				"listing_type_id": "",
+				"sale_fee": 22.68
+			}
+		]
+	},
+	{
+		"order_id": 2000010828602290,
+		"status": "paid",
+		"date_created": "2025-02-21T18:52:55.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974089",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 37.71,
+				"listing_type_id": "",
+				"sale_fee": 12.91
+			}
+		]
+	},
+	{
+		"order_id": 2000010829389950,
+		"status": "paid",
+		"date_created": "2025-02-21T20:33:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3075297329",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 14.45,
+				"listing_type_id": "",
+				"sale_fee": 2.91
+			}
+		]
+	},
+	{
+		"order_id": 2000010829463630,
+		"status": "paid",
+		"date_created": "2025-02-21T20:43:05.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 3,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000010831654104,
+		"status": "paid",
+		"date_created": "2025-02-22T08:24:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010831824626,
+		"status": "paid",
+		"date_created": "2025-02-22T08:59:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3924547668",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 223.59,
+				"listing_type_id": "",
+				"sale_fee": 25.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010832278776,
+		"status": "paid",
+		"date_created": "2025-02-22T10:11:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010832441266,
+		"status": "paid",
+		"date_created": "2025-02-22T10:33:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 3,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010832862786,
+		"status": "paid",
+		"date_created": "2025-02-22T11:30:39.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010834686980,
+		"status": "paid",
+		"date_created": "2025-02-22T15:35:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010835038168,
+		"status": "paid",
+		"date_created": "2025-02-22T16:23:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010835477674,
+		"status": "paid",
+		"date_created": "2025-02-22T17:26:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010836341782,
+		"status": "paid",
+		"date_created": "2025-02-22T19:33:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651430784",
+				"category_id": "MLB277485",
+				"quantity": 2,
+				"unit_price": 126,
+				"listing_type_id": "",
+				"sale_fee": 22.68
+			}
+		]
+	},
+	{
+		"order_id": 2000010838554564,
+		"status": "paid",
+		"date_created": "2025-02-23T07:52:54.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010838650998,
+		"status": "paid",
+		"date_created": "2025-02-23T08:22:54.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010838649592,
+		"status": "paid",
+		"date_created": "2025-02-23T08:22:54.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010841951324,
+		"status": "paid",
+		"date_created": "2025-02-23T16:18:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3114670098",
+				"category_id": "MLB271762",
+				"quantity": 2,
+				"unit_price": 65.58,
+				"listing_type_id": "",
+				"sale_fee": 14.15
+			}
+		]
+	},
+	{
+		"order_id": 2000010842332044,
+		"status": "cancelled",
+		"date_created": "2025-02-23T17:05:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010843483608,
+		"status": "paid",
+		"date_created": "2025-02-23T19:31:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010844021974,
+		"status": "paid",
+		"date_created": "2025-02-23T20:37:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010844857468,
+		"status": "paid",
+		"date_created": "2025-02-23T22:13:28.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010844958832,
+		"status": "paid",
+		"date_created": "2025-02-23T22:26:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010846257728,
+		"status": "paid",
+		"date_created": "2025-02-24T06:35:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010847165558,
+		"status": "paid",
+		"date_created": "2025-02-24T09:06:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010847576498,
+		"status": "paid",
+		"date_created": "2025-02-24T09:49:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010847712492,
+		"status": "paid",
+		"date_created": "2025-02-24T10:02:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3532112380",
+				"category_id": "MLB251373",
+				"quantity": 1,
+				"unit_price": 24.65,
+				"listing_type_id": "",
+				"sale_fee": 9.08
+			}
+		]
+	},
+	{
+		"order_id": 2000010848787938,
+		"status": "cancelled",
+		"date_created": "2025-02-24T11:45:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010848914292,
+		"status": "paid",
+		"date_created": "2025-02-24T11:54:51.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010848993200,
+		"status": "paid",
+		"date_created": "2025-02-24T12:03:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010849912518,
+		"status": "cancelled",
+		"date_created": "2025-02-24T13:26:56.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010850934812,
+		"status": "paid",
+		"date_created": "2025-02-24T14:59:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651365942",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 145.34,
+				"listing_type_id": "",
+				"sale_fee": 32.16
+			}
+		]
+	},
+	{
+		"order_id": 2000010850934820,
+		"status": "paid",
+		"date_created": "2025-02-24T14:59:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651365942",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 145.34,
+				"listing_type_id": "",
+				"sale_fee": 32.16
+			}
+		]
+	},
+	{
+		"order_id": 2000010851544832,
+		"status": "paid",
+		"date_created": "2025-02-24T15:55:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010852300530,
+		"status": "paid",
+		"date_created": "2025-02-24T17:08:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4762958292",
+				"category_id": "MLB277485",
+				"quantity": 3,
+				"unit_price": 75.89,
+				"listing_type_id": "",
+				"sale_fee": 13.87
+			}
+		]
+	},
+	{
+		"order_id": 2000010852289008,
+		"status": "paid",
+		"date_created": "2025-02-24T17:07:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010852726814,
+		"status": "paid",
+		"date_created": "2025-02-24T17:51:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010853738542,
+		"status": "paid",
+		"date_created": "2025-02-24T19:31:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010855552656,
+		"status": "paid",
+		"date_created": "2025-02-24T22:36:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010856371020,
+		"status": "cancelled",
+		"date_created": "2025-02-25T01:20:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000010856980728,
+		"status": "paid",
+		"date_created": "2025-02-25T06:46:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010856975062,
+		"status": "paid",
+		"date_created": "2025-02-25T06:46:38.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010857845354,
+		"status": "paid",
+		"date_created": "2025-02-25T08:59:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3120363163",
+				"category_id": "MLB193616",
+				"quantity": 1,
+				"unit_price": 23,
+				"listing_type_id": "",
+				"sale_fee": 10.04
+			}
+		]
+	},
+	{
+		"order_id": 2000010858111742,
+		"status": "paid",
+		"date_created": "2025-02-25T09:28:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3467672449",
+				"category_id": "MLB256843",
+				"quantity": 2,
+				"unit_price": 27.79,
+				"listing_type_id": "",
+				"sale_fee": 10.97
+			}
+		]
+	},
+	{
+		"order_id": 2000010859168710,
+		"status": "paid",
+		"date_created": "2025-02-25T11:10:00.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010859953994,
+		"status": "paid",
+		"date_created": "2025-02-25T12:26:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010860227726,
+		"status": "paid",
+		"date_created": "2025-02-25T12:51:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010860666082,
+		"status": "paid",
+		"date_created": "2025-02-25T13:30:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4762958292",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 75.89,
+				"listing_type_id": "",
+				"sale_fee": 13.87
+			}
+		]
+	},
+	{
+		"order_id": 2000010860768728,
+		"status": "paid",
+		"date_created": "2025-02-25T13:40:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010861330740,
+		"status": "paid",
+		"date_created": "2025-02-25T14:33:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010861335336,
+		"status": "cancelled",
+		"date_created": "2025-02-25T14:34:55.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010861376832,
+		"status": "cancelled",
+		"date_created": "2025-02-25T14:38:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010862839948,
+		"status": "paid",
+		"date_created": "2025-02-25T17:08:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010864130508,
+		"status": "paid",
+		"date_created": "2025-02-25T19:26:03.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000010865346272,
+		"status": "paid",
+		"date_created": "2025-02-25T21:31:55.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010865838998,
+		"status": "cancelled",
+		"date_created": "2025-02-25T22:31:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3120363163",
+				"category_id": "MLB193616",
+				"quantity": 1,
+				"unit_price": 23,
+				"listing_type_id": "",
+				"sale_fee": 10.04
+			}
+		]
+	},
+	{
+		"order_id": 2000010867253194,
+		"status": "paid",
+		"date_created": "2025-02-26T06:37:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651430784",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 126,
+				"listing_type_id": "",
+				"sale_fee": 22.68
+			}
+		]
+	},
+	{
+		"order_id": 2000010867316340,
+		"status": "cancelled",
+		"date_created": "2025-02-26T06:50:38.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3120363163",
+				"category_id": "MLB193616",
+				"quantity": 1,
+				"unit_price": 23,
+				"listing_type_id": "",
+				"sale_fee": 10.04
+			}
+		]
+	},
+	{
+		"order_id": 2000010868117494,
+		"status": "cancelled",
+		"date_created": "2025-02-26T08:56:28.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 6,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010868526936,
+		"status": "paid",
+		"date_created": "2025-02-26T09:39:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974089",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 37.71,
+				"listing_type_id": "",
+				"sale_fee": 12.91
+			}
+		]
+	},
+	{
+		"order_id": 2000010869269000,
+		"status": "paid",
+		"date_created": "2025-02-26T10:52:42.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010871848930,
+		"status": "paid",
+		"date_created": "2025-02-26T15:02:55.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010871860938,
+		"status": "paid",
+		"date_created": "2025-02-26T15:03:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 4,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010872239146,
+		"status": "paid",
+		"date_created": "2025-02-26T15:41:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3305461897",
+				"category_id": "MLB439179",
+				"quantity": 3,
+				"unit_price": 21.7,
+				"listing_type_id": "",
+				"sale_fee": 9.83
+			}
+		]
+	},
+	{
+		"order_id": 2000010872240774,
+		"status": "paid",
+		"date_created": "2025-02-26T15:41:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3302674985",
+				"category_id": "MLB439179",
+				"quantity": 3,
+				"unit_price": 14.1,
+				"listing_type_id": "",
+				"sale_fee": 7.87
+			}
+		]
+	},
+	{
+		"order_id": 2000010873173368,
+		"status": "paid",
+		"date_created": "2025-02-26T17:18:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4762958292",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 75.89,
+				"listing_type_id": "",
+				"sale_fee": 13.87
+			}
+		]
+	},
+	{
+		"order_id": 2000010873181376,
+		"status": "paid",
+		"date_created": "2025-02-26T17:20:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3902873952",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 141.91,
+				"listing_type_id": "",
+				"sale_fee": 23.42
+			}
+		]
+	},
+	{
+		"order_id": 2000010873842736,
+		"status": "paid",
+		"date_created": "2025-02-26T18:31:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010874933602,
+		"status": "paid",
+		"date_created": "2025-02-26T20:26:47.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3924547668",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 223.59,
+				"listing_type_id": "",
+				"sale_fee": 25.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010875515876,
+		"status": "paid",
+		"date_created": "2025-02-26T21:29:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3120363163",
+				"category_id": "MLB193616",
+				"quantity": 1,
+				"unit_price": 23,
+				"listing_type_id": "",
+				"sale_fee": 10.04
+			}
+		]
+	},
+	{
+		"order_id": 2000010876085454,
+		"status": "paid",
+		"date_created": "2025-02-26T22:41:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3084449156",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 30.2,
+				"listing_type_id": "",
+				"sale_fee": 11.94
+			}
+		]
+	},
+	{
+		"order_id": 2000010877276640,
+		"status": "paid",
+		"date_created": "2025-02-27T05:47:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010877927894,
+		"status": "paid",
+		"date_created": "2025-02-27T08:16:51.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010880203152,
+		"status": "paid",
+		"date_created": "2025-02-27T12:26:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010881440118,
+		"status": "paid",
+		"date_created": "2025-02-27T14:34:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010882582448,
+		"status": "paid",
+		"date_created": "2025-02-27T16:40:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010882784254,
+		"status": "paid",
+		"date_created": "2025-02-27T17:03:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010884144030,
+		"status": "paid",
+		"date_created": "2025-02-27T19:43:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3084449156",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 30.2,
+				"listing_type_id": "",
+				"sale_fee": 11.94
+			}
+		]
+	},
+	{
+		"order_id": 2000010884558238,
+		"status": "paid",
+		"date_created": "2025-02-27T20:32:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010884992274,
+		"status": "paid",
+		"date_created": "2025-02-27T21:23:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010885709638,
+		"status": "cancelled",
+		"date_created": "2025-02-27T23:03:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3728966695",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 29.05,
+				"listing_type_id": "",
+				"sale_fee": 10.28
+			}
+		]
+	},
+	{
+		"order_id": 2000010887310830,
+		"status": "paid",
+		"date_created": "2025-02-28T08:15:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010889775118,
+		"status": "paid",
+		"date_created": "2025-02-28T13:09:42.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010890687270,
+		"status": "paid",
+		"date_created": "2025-02-28T14:55:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010891895974,
+		"status": "paid",
+		"date_created": "2025-02-28T17:29:28.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3497529109",
+				"category_id": "MLB256842",
+				"quantity": 1,
+				"unit_price": 27.59,
+				"listing_type_id": "",
+				"sale_fee": 10.33
+			}
+		]
+	},
+	{
+		"order_id": 2000010892851230,
+		"status": "paid",
+		"date_created": "2025-02-28T19:33:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 5,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010893483636,
+		"status": "cancelled",
+		"date_created": "2025-02-28T21:00:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3962157449",
+				"category_id": "MLB278289",
+				"quantity": 1,
+				"unit_price": 24.79,
+				"listing_type_id": "",
+				"sale_fee": 10.46
+			}
+		]
+	},
+	{
+		"order_id": 2000010894079662,
+		"status": "paid",
+		"date_created": "2025-02-28T22:30:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010896308904,
+		"status": "paid",
+		"date_created": "2025-03-01T10:27:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010897777948,
+		"status": "paid",
+		"date_created": "2025-03-01T13:46:41.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000010897938314,
+		"status": "paid",
+		"date_created": "2025-03-01T14:06:56.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010898618878,
+		"status": "paid",
+		"date_created": "2025-03-01T15:44:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010898987502,
+		"status": "paid",
+		"date_created": "2025-03-01T16:37:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5276522324",
+				"category_id": "MLB194031",
+				"quantity": 1,
+				"unit_price": 52.8,
+				"listing_type_id": "",
+				"sale_fee": 13.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010899223762,
+		"status": "paid",
+		"date_created": "2025-03-01T17:15:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010899638098,
+		"status": "paid",
+		"date_created": "2025-03-01T18:14:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299172139",
+				"category_id": "MLB252555",
+				"quantity": 1,
+				"unit_price": 38.39,
+				"listing_type_id": "",
+				"sale_fee": 13.41
+			}
+		]
+	},
+	{
+		"order_id": 2000010900437518,
+		"status": "cancelled",
+		"date_created": "2025-03-01T20:19:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010904037008,
+		"status": "paid",
+		"date_created": "2025-03-02T12:54:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010904139274,
+		"status": "paid",
+		"date_created": "2025-03-02T13:10:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010905237962,
+		"status": "paid",
+		"date_created": "2025-03-02T15:44:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010906043046,
+		"status": "paid",
+		"date_created": "2025-03-02T17:39:39.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010906353906,
+		"status": "paid",
+		"date_created": "2025-03-02T18:25:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 4,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010906361086,
+		"status": "paid",
+		"date_created": "2025-03-02T18:25:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 3,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010908427122,
+		"status": "paid",
+		"date_created": "2025-03-02T23:34:28.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010909289778,
+		"status": "paid",
+		"date_created": "2025-03-03T06:59:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010909756812,
+		"status": "paid",
+		"date_created": "2025-03-03T08:53:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010909967148,
+		"status": "paid",
+		"date_created": "2025-03-03T09:26:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010910821536,
+		"status": "paid",
+		"date_created": "2025-03-03T11:14:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010911357248,
+		"status": "paid",
+		"date_created": "2025-03-03T12:12:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010911379138,
+		"status": "paid",
+		"date_created": "2025-03-03T12:16:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010911907850,
+		"status": "paid",
+		"date_created": "2025-03-03T13:17:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010912332378,
+		"status": "paid",
+		"date_created": "2025-03-03T14:03:38.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010912634236,
+		"status": "paid",
+		"date_created": "2025-03-03T14:37:07.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3902873952",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 141.91,
+				"listing_type_id": "",
+				"sale_fee": 23.42
+			}
+		]
+	},
+	{
+		"order_id": 2000010912623222,
+		"status": "paid",
+		"date_created": "2025-03-03T14:37:07.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4456193950",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 114.49,
+				"listing_type_id": "",
+				"sale_fee": 18.89
+			}
+		]
+	},
+	{
+		"order_id": 2000010912632312,
+		"status": "paid",
+		"date_created": "2025-03-03T14:37:07.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010914966068,
+		"status": "paid",
+		"date_created": "2025-03-03T19:09:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010918740164,
+		"status": "paid",
+		"date_created": "2025-03-04T09:45:54.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010919313336,
+		"status": "paid",
+		"date_created": "2025-03-04T10:57:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010919926132,
+		"status": "paid",
+		"date_created": "2025-03-04T12:06:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3546480912",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 26.21,
+				"listing_type_id": "",
+				"sale_fee": 10.57
+			}
+		]
+	},
+	{
+		"order_id": 2000010921041642,
+		"status": "paid",
+		"date_created": "2025-03-04T14:14:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4763003116",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 75.89,
+				"listing_type_id": "",
+				"sale_fee": 16.62
+			}
+		]
+	},
+	{
+		"order_id": 2000010921973726,
+		"status": "paid",
+		"date_created": "2025-03-04T16:02:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010922990316,
+		"status": "paid",
+		"date_created": "2025-03-04T17:57:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010923279520,
+		"status": "paid",
+		"date_created": "2025-03-04T18:32:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010923314120,
+		"status": "paid",
+		"date_created": "2025-03-04T18:34:36.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010923649518,
+		"status": "paid",
+		"date_created": "2025-03-04T19:13:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4762958292",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 75.89,
+				"listing_type_id": "",
+				"sale_fee": 13.87
+			}
+		]
+	},
+	{
+		"order_id": 2000010924378232,
+		"status": "paid",
+		"date_created": "2025-03-04T20:31:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4103742712",
+				"category_id": "MLB261059",
+				"quantity": 1,
+				"unit_price": 77.85,
+				"listing_type_id": "",
+				"sale_fee": 19.6
+			}
+		]
+	},
+	{
+		"order_id": 2000010924410762,
+		"status": "paid",
+		"date_created": "2025-03-04T20:35:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3369863875",
+				"category_id": "MLB193425",
+				"quantity": 1,
+				"unit_price": 100.9,
+				"listing_type_id": "",
+				"sale_fee": 16.65
+			}
+		]
+	},
+	{
+		"order_id": 2000010924495830,
+		"status": "paid",
+		"date_created": "2025-03-04T20:46:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010925012938,
+		"status": "paid",
+		"date_created": "2025-03-04T21:45:51.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010926821156,
+		"status": "paid",
+		"date_created": "2025-03-05T07:17:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010928125100,
+		"status": "paid",
+		"date_created": "2025-03-05T10:14:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3986696791",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 74.6,
+				"listing_type_id": "",
+				"sale_fee": 19.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010928536716,
+		"status": "paid",
+		"date_created": "2025-03-05T10:53:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010928923248,
+		"status": "paid",
+		"date_created": "2025-03-05T11:33:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010929696286,
+		"status": "paid",
+		"date_created": "2025-03-05T12:46:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010931067716,
+		"status": "paid",
+		"date_created": "2025-03-05T14:58:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010931171136,
+		"status": "paid",
+		"date_created": "2025-03-05T15:08:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010932940396,
+		"status": "paid",
+		"date_created": "2025-03-05T18:00:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010933364246,
+		"status": "cancelled",
+		"date_created": "2025-03-05T18:43:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5276522324",
+				"category_id": "MLB194031",
+				"quantity": 1,
+				"unit_price": 52.8,
+				"listing_type_id": "",
+				"sale_fee": 13.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010933497148,
+		"status": "paid",
+		"date_created": "2025-03-05T18:57:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010934078476,
+		"status": "paid",
+		"date_created": "2025-03-05T19:54:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010935498938,
+		"status": "paid",
+		"date_created": "2025-03-05T22:26:19.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010936143276,
+		"status": "paid",
+		"date_created": "2025-03-06T00:10:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5276522324",
+				"category_id": "MLB194031",
+				"quantity": 2,
+				"unit_price": 52.8,
+				"listing_type_id": "",
+				"sale_fee": 13.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010938147074,
+		"status": "paid",
+		"date_created": "2025-03-06T09:29:53.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3159006578",
+				"category_id": "MLB193616",
+				"quantity": 1,
+				"unit_price": 23.2,
+				"listing_type_id": "",
+				"sale_fee": 10.08
+			}
+		]
+	},
+	{
+		"order_id": 2000010941533804,
+		"status": "paid",
+		"date_created": "2025-03-06T14:43:13.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010943041838,
+		"status": "paid",
+		"date_created": "2025-03-06T17:02:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010943281732,
+		"status": "paid",
+		"date_created": "2025-03-06T17:25:47.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010944254068,
+		"status": "paid",
+		"date_created": "2025-03-06T18:59:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010944755760,
+		"status": "paid",
+		"date_created": "2025-03-06T19:49:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3153671984",
+				"category_id": "MLB270415",
+				"quantity": 1,
+				"unit_price": 91,
+				"listing_type_id": "",
+				"sale_fee": 15.02
+			}
+		]
+	},
+	{
+		"order_id": 2000010944868264,
+		"status": "paid",
+		"date_created": "2025-03-06T19:57:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000010945090134,
+		"status": "paid",
+		"date_created": "2025-03-06T20:18:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3153654709",
+				"category_id": "MLB270415",
+				"quantity": 1,
+				"unit_price": 85.95,
+				"listing_type_id": "",
+				"sale_fee": 14.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010945389002,
+		"status": "paid",
+		"date_created": "2025-03-06T20:47:53.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000010945392890,
+		"status": "paid",
+		"date_created": "2025-03-06T20:48:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010945845680,
+		"status": "paid",
+		"date_created": "2025-03-06T21:33:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010946842934,
+		"status": "paid",
+		"date_created": "2025-03-06T23:37:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000010948056444,
+		"status": "paid",
+		"date_created": "2025-03-07T07:22:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010948709924,
+		"status": "paid",
+		"date_created": "2025-03-07T08:58:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4762958292",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 75.89,
+				"listing_type_id": "",
+				"sale_fee": 13.87
+			}
+		]
+	},
+	{
+		"order_id": 2000010949243296,
+		"status": "paid",
+		"date_created": "2025-03-07T09:58:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3322128481",
+				"category_id": "MLB244658",
+				"quantity": 10,
+				"unit_price": 28.72,
+				"listing_type_id": "",
+				"sale_fee": 9.55
+			}
+		]
+	},
+	{
+		"order_id": 2000010949795270,
+		"status": "cancelled",
+		"date_created": "2025-03-07T10:53:00.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3153671984",
+				"category_id": "MLB270415",
+				"quantity": 1,
+				"unit_price": 91,
+				"listing_type_id": "",
+				"sale_fee": 15.02
+			}
+		]
+	},
+	{
+		"order_id": 2000010950436262,
+		"status": "paid",
+		"date_created": "2025-03-07T11:55:49.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5276522324",
+				"category_id": "MLB194031",
+				"quantity": 1,
+				"unit_price": 52.8,
+				"listing_type_id": "",
+				"sale_fee": 13.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010953716472,
+		"status": "paid",
+		"date_created": "2025-03-07T17:34:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010954102132,
+		"status": "paid",
+		"date_created": "2025-03-07T18:17:21.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5301465200",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.92,
+				"listing_type_id": "",
+				"sale_fee": 11.77
+			}
+		]
+	},
+	{
+		"order_id": 2000010955204974,
+		"status": "paid",
+		"date_created": "2025-03-07T20:23:41.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010955211300,
+		"status": "cancelled",
+		"date_created": "2025-03-07T20:25:41.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010955460496,
+		"status": "paid",
+		"date_created": "2025-03-07T20:53:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010955684562,
+		"status": "paid",
+		"date_created": "2025-03-07T21:21:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3670309372",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 55.68,
+				"listing_type_id": "",
+				"sale_fee": 15.94
+			}
+		]
+	},
+	{
+		"order_id": 2000010955868702,
+		"status": "paid",
+		"date_created": "2025-03-07T21:46:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 4,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010957280058,
+		"status": "paid",
+		"date_created": "2025-03-08T05:48:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010957477080,
+		"status": "paid",
+		"date_created": "2025-03-08T07:20:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010957482142,
+		"status": "paid",
+		"date_created": "2025-03-08T07:20:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010957971246,
+		"status": "paid",
+		"date_created": "2025-03-08T09:06:17.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010958312028,
+		"status": "paid",
+		"date_created": "2025-03-08T09:56:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000010958394526,
+		"status": "paid",
+		"date_created": "2025-03-08T10:08:03.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010959257906,
+		"status": "paid",
+		"date_created": "2025-03-08T11:56:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3114670098",
+				"category_id": "MLB271762",
+				"quantity": 2,
+				"unit_price": 77.15,
+				"listing_type_id": "",
+				"sale_fee": 18.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010959332602,
+		"status": "paid",
+		"date_created": "2025-03-08T12:04:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010959659186,
+		"status": "paid",
+		"date_created": "2025-03-08T12:44:35.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010960423364,
+		"status": "paid",
+		"date_created": "2025-03-08T14:18:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010960599024,
+		"status": "paid",
+		"date_created": "2025-03-08T14:39:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010961736352,
+		"status": "paid",
+		"date_created": "2025-03-08T17:03:56.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010962537002,
+		"status": "paid",
+		"date_created": "2025-03-08T18:53:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010962735050,
+		"status": "paid",
+		"date_created": "2025-03-08T19:20:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010963176884,
+		"status": "cancelled",
+		"date_created": "2025-03-08T20:19:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010963853636,
+		"status": "paid",
+		"date_created": "2025-03-08T22:01:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5276522324",
+				"category_id": "MLB194031",
+				"quantity": 1,
+				"unit_price": 52.8,
+				"listing_type_id": "",
+				"sale_fee": 13.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010964734850,
+		"status": "paid",
+		"date_created": "2025-03-09T01:25:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010964953332,
+		"status": "cancelled",
+		"date_created": "2025-03-09T04:18:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010965478880,
+		"status": "paid",
+		"date_created": "2025-03-09T08:45:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010965478884,
+		"status": "paid",
+		"date_created": "2025-03-09T08:45:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010965632620,
+		"status": "paid",
+		"date_created": "2025-03-09T09:15:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000010965623496,
+		"status": "paid",
+		"date_created": "2025-03-09T09:15:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 3,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000010966000078,
+		"status": "paid",
+		"date_created": "2025-03-09T10:13:19.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010965998262,
+		"status": "paid",
+		"date_created": "2025-03-09T10:13:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010967839334,
+		"status": "paid",
+		"date_created": "2025-03-09T14:07:05.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3114670098",
+				"category_id": "MLB271762",
+				"quantity": 1,
+				"unit_price": 77.15,
+				"listing_type_id": "",
+				"sale_fee": 18.66
+			}
+		]
+	},
+	{
+		"order_id": 2000010969333642,
+		"status": "paid",
+		"date_created": "2025-03-09T17:04:00.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3670309372",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 55.68,
+				"listing_type_id": "",
+				"sale_fee": 15.94
+			}
+		]
+	},
+	{
+		"order_id": 2000010970393816,
+		"status": "paid",
+		"date_created": "2025-03-09T19:09:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000010970645938,
+		"status": "paid",
+		"date_created": "2025-03-09T19:36:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010971143104,
+		"status": "paid",
+		"date_created": "2025-03-09T20:23:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010972469188,
+		"status": "paid",
+		"date_created": "2025-03-09T23:00:38.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010972489518,
+		"status": "paid",
+		"date_created": "2025-03-09T23:02:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010972605390,
+		"status": "paid",
+		"date_created": "2025-03-09T23:22:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010973479248,
+		"status": "paid",
+		"date_created": "2025-03-10T05:36:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000010973548804,
+		"status": "paid",
+		"date_created": "2025-03-10T06:09:54.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3986696791",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 74.6,
+				"listing_type_id": "",
+				"sale_fee": 19.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010974151210,
+		"status": "paid",
+		"date_created": "2025-03-10T08:16:01.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010974324360,
+		"status": "paid",
+		"date_created": "2025-03-10T08:37:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000010974835026,
+		"status": "paid",
+		"date_created": "2025-03-10T09:36:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010975248372,
+		"status": "paid",
+		"date_created": "2025-03-10T10:14:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3839298878",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78,
+				"listing_type_id": "",
+				"sale_fee": 19.62
+			}
+		]
+	},
+	{
+		"order_id": 2000010977156446,
+		"status": "paid",
+		"date_created": "2025-03-10T13:05:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651430784",
+				"category_id": "MLB277485",
+				"quantity": 2,
+				"unit_price": 126,
+				"listing_type_id": "",
+				"sale_fee": 22.68
+			}
+		]
+	},
+	{
+		"order_id": 2000010977535846,
+		"status": "cancelled",
+		"date_created": "2025-03-10T13:40:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3839298878",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 78,
+				"listing_type_id": "",
+				"sale_fee": 19.62
+			}
+		]
+	},
+	{
+		"order_id": 2000010977549082,
+		"status": "paid",
+		"date_created": "2025-03-10T13:40:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3839298878",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78,
+				"listing_type_id": "",
+				"sale_fee": 19.62
+			}
+		]
+	},
+	{
+		"order_id": 2000010977687630,
+		"status": "paid",
+		"date_created": "2025-03-10T13:53:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010977887754,
+		"status": "paid",
+		"date_created": "2025-03-10T14:10:25.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010977883898,
+		"status": "cancelled",
+		"date_created": "2025-03-10T14:10:25.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010978560360,
+		"status": "paid",
+		"date_created": "2025-03-10T15:07:51.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010979381186,
+		"status": "paid",
+		"date_created": "2025-03-10T16:23:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010979390416,
+		"status": "paid",
+		"date_created": "2025-03-10T16:23:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010979526202,
+		"status": "paid",
+		"date_created": "2025-03-10T16:36:03.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3159006578",
+				"category_id": "MLB193616",
+				"quantity": 2,
+				"unit_price": 23.2,
+				"listing_type_id": "",
+				"sale_fee": 10.08
+			}
+		]
+	},
+	{
+		"order_id": 2000010980538616,
+		"status": "paid",
+		"date_created": "2025-03-10T18:11:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010980545972,
+		"status": "paid",
+		"date_created": "2025-03-10T18:13:41.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010980869418,
+		"status": "cancelled",
+		"date_created": "2025-03-10T18:42:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010980919346,
+		"status": "paid",
+		"date_created": "2025-03-10T18:47:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010981508046,
+		"status": "paid",
+		"date_created": "2025-03-10T19:37:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010981743396,
+		"status": "paid",
+		"date_created": "2025-03-10T19:59:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000010983136874,
+		"status": "paid",
+		"date_created": "2025-03-10T22:06:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3951239852",
+				"category_id": "MLB277987",
+				"quantity": 1,
+				"unit_price": 37.99,
+				"listing_type_id": "",
+				"sale_fee": 12.77
+			}
+		]
+	},
+	{
+		"order_id": 2000010984912886,
+		"status": "paid",
+		"date_created": "2025-03-11T06:51:03.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010985098720,
+		"status": "cancelled",
+		"date_created": "2025-03-11T07:26:19.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000010985106388,
+		"status": "cancelled",
+		"date_created": "2025-03-11T07:26:19.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3839298878",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78,
+				"listing_type_id": "",
+				"sale_fee": 19.62
+			}
+		]
+	},
+	{
+		"order_id": 2000010985201852,
+		"status": "paid",
+		"date_created": "2025-03-11T07:45:01.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000010986467908,
+		"status": "paid",
+		"date_created": "2025-03-11T10:08:07.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000010986933206,
+		"status": "paid",
+		"date_created": "2025-03-11T10:50:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010987165242,
+		"status": "paid",
+		"date_created": "2025-03-11T11:12:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000010987243664,
+		"status": "paid",
+		"date_created": "2025-03-11T11:19:38.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010987311044,
+		"status": "paid",
+		"date_created": "2025-03-11T11:25:49.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010987336218,
+		"status": "paid",
+		"date_created": "2025-03-11T11:27:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010987433562,
+		"status": "paid",
+		"date_created": "2025-03-11T11:37:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3319765869",
+				"category_id": "MLB278291",
+				"quantity": 3,
+				"unit_price": 29.21,
+				"listing_type_id": "",
+				"sale_fee": 9.86
+			}
+		]
+	},
+	{
+		"order_id": 2000010988376366,
+		"status": "paid",
+		"date_created": "2025-03-11T13:01:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4651365942",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 145.34,
+				"listing_type_id": "",
+				"sale_fee": 32.16
+			}
+		]
+	},
+	{
+		"order_id": 2000010988443410,
+		"status": "paid",
+		"date_created": "2025-03-11T13:07:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010988437826,
+		"status": "paid",
+		"date_created": "2025-03-11T13:07:42.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010989654486,
+		"status": "paid",
+		"date_created": "2025-03-11T14:57:42.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010989810686,
+		"status": "paid",
+		"date_created": "2025-03-11T15:10:55.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010990729448,
+		"status": "cancelled",
+		"date_created": "2025-03-11T16:43:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3153654709",
+				"category_id": "MLB270415",
+				"quantity": 1,
+				"unit_price": 85.95,
+				"listing_type_id": "",
+				"sale_fee": 14.18
+			}
+		]
+	},
+	{
+		"order_id": 2000010991036930,
+		"status": "paid",
+		"date_created": "2025-03-11T17:12:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010991569704,
+		"status": "paid",
+		"date_created": "2025-03-11T18:05:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010992081662,
+		"status": "paid",
+		"date_created": "2025-03-11T18:52:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000010993458882,
+		"status": "paid",
+		"date_created": "2025-03-11T20:56:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 2,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000010993449706,
+		"status": "paid",
+		"date_created": "2025-03-11T20:56:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 2,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000010994173204,
+		"status": "paid",
+		"date_created": "2025-03-11T22:04:53.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 4,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010994611552,
+		"status": "paid",
+		"date_created": "2025-03-11T22:57:47.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000010995152120,
+		"status": "paid",
+		"date_created": "2025-03-12T00:32:42.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3924547668",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 223.59,
+				"listing_type_id": "",
+				"sale_fee": 25.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010995626696,
+		"status": "paid",
+		"date_created": "2025-03-12T04:49:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010995981548,
+		"status": "paid",
+		"date_created": "2025-03-12T06:56:35.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010996161882,
+		"status": "paid",
+		"date_created": "2025-03-12T07:32:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010996949064,
+		"status": "paid",
+		"date_created": "2025-03-12T09:07:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000010996999084,
+		"status": "cancelled",
+		"date_created": "2025-03-12T09:12:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3924547668",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 223.59,
+				"listing_type_id": "",
+				"sale_fee": 25.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010997058496,
+		"status": "paid",
+		"date_created": "2025-03-12T09:18:17.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010997535764,
+		"status": "paid",
+		"date_created": "2025-03-12T10:06:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3393281093",
+				"category_id": "MLB256843",
+				"quantity": 2,
+				"unit_price": 42.4,
+				"listing_type_id": "",
+				"sale_fee": 13.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010997545404,
+		"status": "paid",
+		"date_created": "2025-03-12T10:06:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3393281093",
+				"category_id": "MLB256843",
+				"quantity": 4,
+				"unit_price": 42.4,
+				"listing_type_id": "",
+				"sale_fee": 13.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010997539520,
+		"status": "paid",
+		"date_created": "2025-03-12T10:06:36.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3393281093",
+				"category_id": "MLB256843",
+				"quantity": 4,
+				"unit_price": 42.4,
+				"listing_type_id": "",
+				"sale_fee": 13.71
+			}
+		]
+	},
+	{
+		"order_id": 2000010997700976,
+		"status": "paid",
+		"date_created": "2025-03-12T10:19:49.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 5,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000010998420724,
+		"status": "paid",
+		"date_created": "2025-03-12T11:23:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 1,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000010999030182,
+		"status": "paid",
+		"date_created": "2025-03-12T12:16:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011002094774,
+		"status": "paid",
+		"date_created": "2025-03-12T16:54:42.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011002466190,
+		"status": "paid",
+		"date_created": "2025-03-12T17:32:17.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4099455106",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 106.99,
+				"listing_type_id": "",
+				"sale_fee": 12.3
+			}
+		]
+	},
+	{
+		"order_id": 2000011002792696,
+		"status": "paid",
+		"date_created": "2025-03-12T18:05:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011002808602,
+		"status": "paid",
+		"date_created": "2025-03-12T18:07:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011002808604,
+		"status": "paid",
+		"date_created": "2025-03-12T18:07:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011003100288,
+		"status": "paid",
+		"date_created": "2025-03-12T18:34:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011003284474,
+		"status": "paid",
+		"date_created": "2025-03-12T18:53:56.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011003564988,
+		"status": "paid",
+		"date_created": "2025-03-12T19:21:19.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3223738101",
+				"category_id": "MLB256842",
+				"quantity": 1,
+				"unit_price": 42.2,
+				"listing_type_id": "",
+				"sale_fee": 13.67
+			}
+		]
+	},
+	{
+		"order_id": 2000011004220724,
+		"status": "paid",
+		"date_created": "2025-03-12T20:21:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011005217298,
+		"status": "paid",
+		"date_created": "2025-03-12T21:59:17.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011005311054,
+		"status": "paid",
+		"date_created": "2025-03-12T22:08:53.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000011005579858,
+		"status": "paid",
+		"date_created": "2025-03-12T22:41:49.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4762977312",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 116.31,
+				"listing_type_id": "",
+				"sale_fee": 26.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011006183576,
+		"status": "paid",
+		"date_created": "2025-03-13T00:21:11.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011010028682,
+		"status": "paid",
+		"date_created": "2025-03-13T07:06:21.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011010682074,
+		"status": "paid",
+		"date_created": "2025-03-13T08:38:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3114670098",
+				"category_id": "MLB271762",
+				"quantity": 1,
+				"unit_price": 77.15,
+				"listing_type_id": "",
+				"sale_fee": 18.66
+			}
+		]
+	},
+	{
+		"order_id": 2000011011018256,
+		"status": "paid",
+		"date_created": "2025-03-13T09:16:21.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 4,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011011275148,
+		"status": "paid",
+		"date_created": "2025-03-13T09:44:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011012137836,
+		"status": "paid",
+		"date_created": "2025-03-13T11:04:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011012184358,
+		"status": "paid",
+		"date_created": "2025-03-13T11:08:03.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011014194826,
+		"status": "paid",
+		"date_created": "2025-03-13T14:16:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3670309372",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 55.68,
+				"listing_type_id": "",
+				"sale_fee": 15.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011015054348,
+		"status": "paid",
+		"date_created": "2025-03-13T15:36:39.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011015222088,
+		"status": "paid",
+		"date_created": "2025-03-13T15:52:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 3,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011015326248,
+		"status": "paid",
+		"date_created": "2025-03-13T16:02:55.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000011016038618,
+		"status": "paid",
+		"date_created": "2025-03-13T17:17:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3670309372",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 55.68,
+				"listing_type_id": "",
+				"sale_fee": 15.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011017420160,
+		"status": "paid",
+		"date_created": "2025-03-13T19:38:56.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011018073586,
+		"status": "paid",
+		"date_created": "2025-03-13T20:45:49.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3742325125",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 44.7,
+				"listing_type_id": "",
+				"sale_fee": 13.88
+			}
+		]
+	},
+	{
+		"order_id": 2000011019985184,
+		"status": "paid",
+		"date_created": "2025-03-14T01:04:07.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011021339896,
+		"status": "paid",
+		"date_created": "2025-03-14T08:43:21.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011021907416,
+		"status": "paid",
+		"date_created": "2025-03-14T09:47:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011022096072,
+		"status": "paid",
+		"date_created": "2025-03-14T10:05:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3084449156",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 30.2,
+				"listing_type_id": "",
+				"sale_fee": 11.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011022209800,
+		"status": "paid",
+		"date_created": "2025-03-14T10:18:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011022796216,
+		"status": "paid",
+		"date_created": "2025-03-14T11:15:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3223738101",
+				"category_id": "MLB256842",
+				"quantity": 1,
+				"unit_price": 42.2,
+				"listing_type_id": "",
+				"sale_fee": 13.67
+			}
+		]
+	},
+	{
+		"order_id": 2000011022816214,
+		"status": "paid",
+		"date_created": "2025-03-14T11:17:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011023059712,
+		"status": "paid",
+		"date_created": "2025-03-14T11:44:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011023096046,
+		"status": "paid",
+		"date_created": "2025-03-14T11:44:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4456193950",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 114.49,
+				"listing_type_id": "",
+				"sale_fee": 18.89
+			}
+		]
+	},
+	{
+		"order_id": 2000011024594692,
+		"status": "paid",
+		"date_created": "2025-03-14T14:15:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011025014988,
+		"status": "paid",
+		"date_created": "2025-03-14T15:00:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011027946418,
+		"status": "paid",
+		"date_created": "2025-03-14T20:35:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011028822724,
+		"status": "paid",
+		"date_created": "2025-03-14T22:32:02.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3951239852",
+				"category_id": "MLB277987",
+				"quantity": 1,
+				"unit_price": 37.99,
+				"listing_type_id": "",
+				"sale_fee": 12.77
+			}
+		]
+	},
+	{
+		"order_id": 2000011028940460,
+		"status": "paid",
+		"date_created": "2025-03-14T22:51:54.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011028940450,
+		"status": "paid",
+		"date_created": "2025-03-14T22:51:53.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011029644808,
+		"status": "paid",
+		"date_created": "2025-03-15T02:15:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011029897170,
+		"status": "paid",
+		"date_created": "2025-03-15T06:05:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011029946790,
+		"status": "paid",
+		"date_created": "2025-03-15T06:29:15.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB4115341524",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 59.29,
+				"listing_type_id": "",
+				"sale_fee": 16.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011030030482,
+		"status": "paid",
+		"date_created": "2025-03-15T07:00:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3084449156",
+				"category_id": "MLB277485",
+				"quantity": 1,
+				"unit_price": 30.2,
+				"listing_type_id": "",
+				"sale_fee": 11.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011031927214,
+		"status": "paid",
+		"date_created": "2025-03-15T11:50:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000011032959658,
+		"status": "paid",
+		"date_created": "2025-03-15T13:50:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011033458906,
+		"status": "paid",
+		"date_created": "2025-03-15T14:50:06.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011033820502,
+		"status": "paid",
+		"date_created": "2025-03-15T15:34:28.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 3,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011034137566,
+		"status": "paid",
+		"date_created": "2025-03-15T16:15:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3300502493",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 30.51,
+				"listing_type_id": "",
+				"sale_fee": 11.53
+			}
+		]
+	},
+	{
+		"order_id": 2000011035123056,
+		"status": "paid",
+		"date_created": "2025-03-15T18:19:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 3,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011037684900,
+		"status": "paid",
+		"date_created": "2025-03-16T02:02:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011037679848,
+		"status": "paid",
+		"date_created": "2025-03-16T02:02:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5299520110",
+				"category_id": "MLB277628",
+				"quantity": 3,
+				"unit_price": 28.86,
+				"listing_type_id": "",
+				"sale_fee": 11.01
+			}
+		]
+	},
+	{
+		"order_id": 2000011038216706,
+		"status": "paid",
+		"date_created": "2025-03-16T08:14:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3604030642",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 25.39,
+				"listing_type_id": "",
+				"sale_fee": 10.44
+			}
+		]
+	},
+	{
+		"order_id": 2000011038335582,
+		"status": "paid",
+		"date_created": "2025-03-16T08:45:13.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011038425984,
+		"status": "paid",
+		"date_created": "2025-03-16T09:03:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011039634748,
+		"status": "paid",
+		"date_created": "2025-03-16T11:55:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000011040948036,
+		"status": "paid",
+		"date_created": "2025-03-16T14:35:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011041779200,
+		"status": "paid",
+		"date_created": "2025-03-16T16:16:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011042429040,
+		"status": "paid",
+		"date_created": "2025-03-16T17:34:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3900125554",
+				"category_id": "MLB256847",
+				"quantity": 1,
+				"unit_price": 59.1,
+				"listing_type_id": "",
+				"sale_fee": 13.84
+			}
+		]
+	},
+	{
+		"order_id": 2000011042721422,
+		"status": "paid",
+		"date_created": "2025-03-16T18:10:13.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011042866394,
+		"status": "paid",
+		"date_created": "2025-03-16T18:26:36.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011043824092,
+		"status": "paid",
+		"date_created": "2025-03-16T20:09:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5276522324",
+				"category_id": "MLB194031",
+				"quantity": 1,
+				"unit_price": 52.8,
+				"listing_type_id": "",
+				"sale_fee": 13.66
+			}
+		]
+	},
+	{
+		"order_id": 2000011046245586,
+		"status": "paid",
+		"date_created": "2025-03-17T05:41:36.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011046744792,
+		"status": "paid",
+		"date_created": "2025-03-17T07:50:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011048292632,
+		"status": "paid",
+		"date_created": "2025-03-17T10:41:01.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3902873952",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 141.91,
+				"listing_type_id": "",
+				"sale_fee": 23.42
+			}
+		]
+	},
+	{
+		"order_id": 2000011048685484,
+		"status": "paid",
+		"date_created": "2025-03-17T11:19:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011049093486,
+		"status": "paid",
+		"date_created": "2025-03-17T11:58:36.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011049104932,
+		"status": "paid",
+		"date_created": "2025-03-17T11:57:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011049775590,
+		"status": "paid",
+		"date_created": "2025-03-17T13:01:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011049842086,
+		"status": "paid",
+		"date_created": "2025-03-17T13:05:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011049934524,
+		"status": "paid",
+		"date_created": "2025-03-17T13:13:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011050452428,
+		"status": "paid",
+		"date_created": "2025-03-17T14:00:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011050842212,
+		"status": "paid",
+		"date_created": "2025-03-17T14:35:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3839298878",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78,
+				"listing_type_id": "",
+				"sale_fee": 19.62
+			}
+		]
+	},
+	{
+		"order_id": 2000011050842214,
+		"status": "paid",
+		"date_created": "2025-03-17T14:35:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3839298878",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78,
+				"listing_type_id": "",
+				"sale_fee": 19.62
+			}
+		]
+	},
+	{
+		"order_id": 2000011051033124,
+		"status": "paid",
+		"date_created": "2025-03-17T14:53:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 3,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011051525418,
+		"status": "paid",
+		"date_created": "2025-03-17T15:38:03.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011054512612,
+		"status": "paid",
+		"date_created": "2025-03-17T20:16:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 4,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000011055131314,
+		"status": "paid",
+		"date_created": "2025-03-17T21:14:00.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011057916212,
+		"status": "paid",
+		"date_created": "2025-03-18T08:15:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011057986542,
+		"status": "paid",
+		"date_created": "2025-03-18T08:25:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3986696791",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 74.6,
+				"listing_type_id": "",
+				"sale_fee": 19.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011058237222,
+		"status": "paid",
+		"date_created": "2025-03-18T08:56:36.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3986696791",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 74.6,
+				"listing_type_id": "",
+				"sale_fee": 19.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011058407894,
+		"status": "paid",
+		"date_created": "2025-03-18T09:17:47.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 3,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011058448058,
+		"status": "paid",
+		"date_created": "2025-03-18T09:17:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011058635870,
+		"status": "paid",
+		"date_created": "2025-03-18T09:40:59.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011058799508,
+		"status": "paid",
+		"date_created": "2025-03-18T09:56:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011058797526,
+		"status": "cancelled",
+		"date_created": "2025-03-18T09:56:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011059012282,
+		"status": "paid",
+		"date_created": "2025-03-18T10:14:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011059052028,
+		"status": "paid",
+		"date_created": "2025-03-18T10:18:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011059290160,
+		"status": "paid",
+		"date_created": "2025-03-18T10:41:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011059648978,
+		"status": "paid",
+		"date_created": "2025-03-18T11:17:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB5299520110",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 28.86,
+				"listing_type_id": "",
+				"sale_fee": 11.01
+			}
+		]
+	},
+	{
+		"order_id": 2000011060419194,
+		"status": "paid",
+		"date_created": "2025-03-18T12:29:14.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011061139392,
+		"status": "paid",
+		"date_created": "2025-03-18T13:35:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011061243558,
+		"status": "paid",
+		"date_created": "2025-03-18T13:46:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 3,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011061258644,
+		"status": "paid",
+		"date_created": "2025-03-18T13:46:09.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011061245870,
+		"status": "cancelled",
+		"date_created": "2025-03-18T13:46:33.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3151997217",
+				"category_id": "MLB270415",
+				"quantity": 1,
+				"unit_price": 91,
+				"listing_type_id": "",
+				"sale_fee": 15.02
+			}
+		]
+	},
+	{
+		"order_id": 2000011063460592,
+		"status": "paid",
+		"date_created": "2025-03-18T17:19:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011067186168,
+		"status": "paid",
+		"date_created": "2025-03-19T00:22:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011067824056,
+		"status": "paid",
+		"date_created": "2025-03-19T05:55:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011067834976,
+		"status": "paid",
+		"date_created": "2025-03-19T06:04:30.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011068359076,
+		"status": "paid",
+		"date_created": "2025-03-19T07:57:27.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011068677964,
+		"status": "paid",
+		"date_created": "2025-03-19T08:40:47.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011068926144,
+		"status": "paid",
+		"date_created": "2025-03-19T09:06:53.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011069043320,
+		"status": "paid",
+		"date_created": "2025-03-19T09:21:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011069081358,
+		"status": "paid",
+		"date_created": "2025-03-19T09:26:22.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011069105652,
+		"status": "paid",
+		"date_created": "2025-03-19T09:29:26.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 3,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011069179026,
+		"status": "paid",
+		"date_created": "2025-03-19T09:36:01.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011070084480,
+		"status": "paid",
+		"date_created": "2025-03-19T11:02:50.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 5,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011070357530,
+		"status": "paid",
+		"date_created": "2025-03-19T11:30:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011070387578,
+		"status": "paid",
+		"date_created": "2025-03-19T11:33:04.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011070695274,
+		"status": "paid",
+		"date_created": "2025-03-19T12:02:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011070756016,
+		"status": "paid",
+		"date_created": "2025-03-19T12:06:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 3,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79
+			}
+		]
+	},
+	{
+		"order_id": 2000011071468076,
+		"status": "paid",
+		"date_created": "2025-03-19T13:12:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011071959598,
+		"status": "paid",
+		"date_created": "2025-03-19T14:01:12.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24
+			}
+		]
+	},
+	{
+		"order_id": 2000011072003624,
+		"status": "paid",
+		"date_created": "2025-03-19T14:05:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011072706174,
+		"status": "paid",
+		"date_created": "2025-03-19T15:10:32.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011072964536,
+		"status": "paid",
+		"date_created": "2025-03-19T15:36:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011073758848,
+		"status": "paid",
+		"date_created": "2025-03-19T16:58:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011075423968,
+		"status": "paid",
+		"date_created": "2025-03-19T19:52:01.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011076208194,
+		"status": "paid",
+		"date_created": "2025-03-19T21:08:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3374883717",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 29.67,
+				"listing_type_id": "",
+				"sale_fee": 10.37
+			}
+		]
+	},
+	{
+		"order_id": 2000011076522696,
+		"status": "paid",
+		"date_created": "2025-03-19T21:42:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011076505654,
+		"status": "paid",
+		"date_created": "2025-03-19T21:42:57.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011076514872,
+		"status": "partially_refunded",
+		"date_created": "2025-03-19T21:42:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774709614",
+				"category_id": "MLB277628",
+				"quantity": 4,
+				"unit_price": 48.93,
+				"listing_type_id": "",
+				"sale_fee": 14.57
+			}
+		]
+	},
+	{
+		"order_id": 2000011076798864,
+		"status": "paid",
+		"date_created": "2025-03-19T22:15:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011077926982,
+		"status": "cancelled",
+		"date_created": "2025-03-20T02:45:08.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011078303720,
+		"status": "paid",
+		"date_created": "2025-03-20T06:41:45.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011078377160,
+		"status": "paid",
+		"date_created": "2025-03-20T06:58:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3670309372",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 55.68,
+				"listing_type_id": "",
+				"sale_fee": 15.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011078394220,
+		"status": "paid",
+		"date_created": "2025-03-20T06:58:35.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3670309372",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 55.68,
+				"listing_type_id": "",
+				"sale_fee": 15.94
+			}
+		]
+	},
+	{
+		"order_id": 2000011078886968,
+		"status": "paid",
+		"date_created": "2025-03-20T08:22:31.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011079488762,
+		"status": "paid",
+		"date_created": "2025-03-20T09:32:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011080777146,
+		"status": "paid",
+		"date_created": "2025-03-20T11:43:10.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011081040158,
+		"status": "paid",
+		"date_created": "2025-03-20T12:07:18.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011081620244,
+		"status": "paid",
+		"date_created": "2025-03-20T13:04:24.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011082359278,
+		"status": "paid",
+		"date_created": "2025-03-20T14:18:35.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 3,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011083002212,
+		"status": "paid",
+		"date_created": "2025-03-20T15:20:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 4,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011083366050,
+		"status": "paid",
+		"date_created": "2025-03-20T15:57:25.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000011083364156,
+		"status": "paid",
+		"date_created": "2025-03-20T15:57:25.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3321974069",
+				"category_id": "MLB256846",
+				"quantity": 1,
+				"unit_price": 35.35,
+				"listing_type_id": "",
+				"sale_fee": 10.74
+			}
+		]
+	},
+	{
+		"order_id": 2000011084057070,
+		"status": "paid",
+		"date_created": "2025-03-20T17:13:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3497537185",
+				"category_id": "MLB256842",
+				"quantity": 2,
+				"unit_price": 28.71,
+				"listing_type_id": "",
+				"sale_fee": 9.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011084060766,
+		"status": "paid",
+		"date_created": "2025-03-20T17:13:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3302674985",
+				"category_id": "MLB439179",
+				"quantity": 3,
+				"unit_price": 14.1,
+				"listing_type_id": "",
+				"sale_fee": 7.87
+			}
+		]
+	},
+	{
+		"order_id": 2000011084045386,
+		"status": "paid",
+		"date_created": "2025-03-20T17:13:29.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3925177714",
+				"category_id": "MLB256845",
+				"quantity": 1,
+				"unit_price": 56.99,
+				"listing_type_id": "",
+				"sale_fee": 16.15
+			}
+		]
+	},
+	{
+		"order_id": 2000011084439138,
+		"status": "paid",
+		"date_created": "2025-03-20T17:56:40.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3774652474",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 32.61,
+				"listing_type_id": "",
+				"sale_fee": 10.25
+			}
+		]
+	},
+	{
+		"order_id": 2000011084743090,
+		"status": "paid",
+		"date_created": "2025-03-20T18:30:20.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3114670098",
+				"category_id": "MLB271762",
+				"quantity": 1,
+				"unit_price": 77.15,
+				"listing_type_id": "",
+				"sale_fee": 18.66
+			}
+		]
+	},
+	{
+		"order_id": 2000011086308990,
+		"status": "paid",
+		"date_created": "2025-03-20T21:16:34.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272344641",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 78.5,
+				"listing_type_id": "",
+				"sale_fee": 19.7
+			}
+		]
+	},
+	{
+		"order_id": 2000011087800094,
+		"status": "paid",
+		"date_created": "2025-03-21T01:42:00.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011088749570,
+		"status": "paid",
+		"date_created": "2025-03-21T08:15:44.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011088889532,
+		"status": "paid",
+		"date_created": "2025-03-21T08:35:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011089329712,
+		"status": "paid",
+		"date_created": "2025-03-21T09:31:16.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011089770790,
+		"status": "paid",
+		"date_created": "2025-03-21T10:18:43.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 2,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011090052486,
+		"status": "paid",
+		"date_created": "2025-03-21T10:49:46.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011090475950,
+		"status": "paid",
+		"date_created": "2025-03-21T11:36:48.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 2,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011090920434,
+		"status": "paid",
+		"date_created": "2025-03-21T12:20:04.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011091548470,
+		"status": "paid",
+		"date_created": "2025-03-21T13:27:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3301694259",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 31.99,
+				"listing_type_id": "",
+				"sale_fee": 10.18
+			}
+		]
+	},
+	{
+		"order_id": 2000011092036672,
+		"status": "paid",
+		"date_created": "2025-03-21T14:21:23.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011092503232,
+		"status": "paid",
+		"date_created": "2025-03-21T15:13:52.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011092526202,
+		"status": "paid",
+		"date_created": "2025-03-21T15:15:37.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011093691246,
+		"status": "cancelled",
+		"date_created": "2025-03-21T17:36:21.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 4,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011093708474,
+		"status": "paid",
+		"date_created": "2025-03-21T17:36:21.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3099260228",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06
+			}
+		]
+	},
+	{
+		"order_id": 2000011093785358,
+		"status": "cancelled",
+		"date_created": "2025-03-21T17:46:58.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3272367927",
+				"category_id": "MLB244658",
+				"quantity": 1,
+				"unit_price": 35.3,
+				"listing_type_id": "",
+				"sale_fee": 12.32
+			}
+		]
+	},
+	{
+		"order_id": 2000011094473788,
+		"status": "paid",
+		"date_created": "2025-03-21T19:14:56.000-04:00",
+		"shipping_cost": 0,
+		"items": [
+			{
+				"item_id": "MLB3986696791",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 74.6,
+				"listing_type_id": "",
+				"sale_fee": 19.06
+			}
+		]
 	}
 ]

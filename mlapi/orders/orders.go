@@ -15,13 +15,16 @@ type OrderItem struct {
 	UnitPrice     float64 `json:"unit_price"`
 	ListingTypeID string  `json:"listing_type_id"`
 	SaleFee       float64 `json:"sale_fee"`
+	SKU           string  `json:"seller_sku"`
 }
 
 type Order struct {
 	OrderID      int64       `json:"order_id"`
+	PaidAmount   float64     `json:"paid_amount"`
 	Status       string      `json:"status"`
 	DateCreated  string      `json:"date_created"`
 	ShippingCost float64     `json:"shipping_cost"`
+	ShippingID   string      `json:"shipping_id"`
 	Items        []OrderItem `json:"items"`
 }
 
@@ -98,11 +101,16 @@ func extract(data []byte) ([]Order, error) {
 			Status       string   `json:"status"`
 			DateCreated  string   `json:"date_created"`
 			ShippingCost *float64 `json:"shipping_cost"` // pode ser nulo
-			OrderItems   []struct {
+			PaidAmount   float64  `json:"paid_amount"`
+			Shipping     struct {
+				ID string `json:"id"`
+			} `json:"shipping"`
+			OrderItems []struct {
 				Item struct {
 					ID            string `json:"id"`
 					CategoryID    string `json:"category_id"`
 					ListingTypeID string `json:"listing_type_id"`
+					SKU           string `json:"seller_sku"`
 				} `json:"item"`
 				Quantity  int     `json:"quantity"`
 				UnitPrice float64 `json:"unit_price"`
@@ -122,7 +130,8 @@ func extract(data []byte) ([]Order, error) {
 			OrderID:      r.ID,
 			Status:       r.Status,
 			DateCreated:  r.DateCreated,
-			ShippingCost: 0,
+			ShippingCost: *r.ShippingCost,
+			ShippingID:   r.Shipping.ID,
 		}
 
 		if r.ShippingCost != nil {
@@ -137,6 +146,7 @@ func extract(data []byte) ([]Order, error) {
 				UnitPrice:     oi.UnitPrice,
 				ListingTypeID: oi.Item.ListingTypeID,
 				SaleFee:       oi.SaleFee,
+				SKU:           oi.Item.SKU,
 			}
 			order.Items = append(order.Items, item)
 		}
@@ -189,6 +199,19 @@ func Fetch() error {
 	Total(ords)
 
 	fmt.Println("pedidos:", ords)
+
+	return nil
+}
+
+func FetchShipping(shipmentID string) error {
+	url := fmt.Sprintf("https://api.mercadolibre.com/shipments/%s", shipmentID)
+
+	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
+	if err != nil {
+		return fmt.Errorf("erro ao fazer requisição: %s", err)
+	}
+
+	fmt.Println("BODY:", string(body))
 
 	return nil
 }
