@@ -1,9 +1,11 @@
 [
 	{
 		"order_id": 2000010820070246,
+		"paid_amount": 116.19,
 		"status": "paid",
 		"date_created": "2025-02-20T20:32:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44515967448,
 		"items": [
 			{
 				"item_id": "MLB3900213984",
@@ -11,15 +13,18 @@
 				"quantity": 1,
 				"unit_price": 116.19,
 				"listing_type_id": "",
-				"sale_fee": 13.36
+				"sale_fee": 13.36,
+				"seller_sku": "654"
 			}
 		]
 	},
 	{
 		"order_id": 2000010821544300,
+		"paid_amount": 42.4,
 		"status": "paid",
 		"date_created": "2025-02-20T23:38:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44516583178,
 		"items": [
 			{
 				"item_id": "MLB3393281093",
@@ -27,15 +32,18 @@
 				"quantity": 1,
 				"unit_price": 42.4,
 				"listing_type_id": "",
-				"sale_fee": 13.71
+				"sale_fee": 13.71,
+				"seller_sku": "628"
 			}
 		]
 	},
 	{
 		"order_id": 2000010821543448,
+		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-02-20T23:38:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44516583160,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -43,15 +51,18 @@
 				"quantity": 1,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000010823331276,
+		"paid_amount": 92.6,
 		"status": "paid",
 		"date_created": "2025-02-21T09:04:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44517437494,
 		"items": [
 			{
 				"item_id": "MLB3757295039",
@@ -59,15 +70,18 @@
 				"quantity": 1,
 				"unit_price": 67.99,
 				"listing_type_id": "",
-				"sale_fee": 17.97
+				"sale_fee": 17.97,
+				"seller_sku": "655"
 			}
 		]
 	},
 	{
 		"order_id": 2000010824107700,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-21T10:32:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44517592339,
 		"items": [
 			{
 				"item_id": "MLB4102097558",
@@ -75,15 +89,18 @@
 				"quantity": 1,
 				"unit_price": 55.39,
 				"listing_type_id": "",
-				"sale_fee": 15.89
+				"sale_fee": 15.89,
+				"seller_sku": "275"
 			}
 		]
 	},
 	{
 		"order_id": 2000010826591956,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-21T14:53:35.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44518940998,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -91,15 +108,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010827646000,
+		"paid_amount": 176.8,
 		"status": "paid",
 		"date_created": "2025-02-21T16:54:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44519218529,
 		"items": [
 			{
 				"item_id": "MLB3329666959",
@@ -107,15 +127,18 @@
 				"quantity": 8,
 				"unit_price": 22.1,
 				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 8.79,
+				"seller_sku": "B166"
 			}
 		]
 	},
 	{
 		"order_id": 2000010827646010,
+		"paid_amount": 44.2,
 		"status": "paid",
 		"date_created": "2025-02-21T16:54:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44519424298,
 		"items": [
 			{
 				"item_id": "MLB3329666959",
@@ -123,15 +146,18 @@
 				"quantity": 2,
 				"unit_price": 22.1,
 				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 8.79,
+				"seller_sku": "B166"
 			}
 		]
 	},
 	{
 		"order_id": 2000010827991408,
+		"paid_amount": 126,
 		"status": "paid",
 		"date_created": "2025-02-21T17:36:39.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44519372193,
 		"items": [
 			{
 				"item_id": "MLB4651430784",
@@ -139,15 +165,18 @@
 				"quantity": 1,
 				"unit_price": 126,
 				"listing_type_id": "",
-				"sale_fee": 22.68
+				"sale_fee": 22.68,
+				"seller_sku": "604"
 			}
 		]
 	},
 	{
 		"order_id": 2000010828602290,
+		"paid_amount": 37.71,
 		"status": "paid",
 		"date_created": "2025-02-21T18:52:55.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44519637237,
 		"items": [
 			{
 				"item_id": "MLB3321974089",
@@ -155,15 +184,18 @@
 				"quantity": 1,
 				"unit_price": 37.71,
 				"listing_type_id": "",
-				"sale_fee": 12.91
+				"sale_fee": 12.91,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010829389950,
+		"paid_amount": 14.45,
 		"status": "paid",
 		"date_created": "2025-02-21T20:33:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44519983453,
 		"items": [
 			{
 				"item_id": "MLB3075297329",
@@ -171,15 +203,18 @@
 				"quantity": 1,
 				"unit_price": 14.45,
 				"listing_type_id": "",
-				"sale_fee": 2.91
+				"sale_fee": 2.91,
+				"seller_sku": "554"
 			}
 		]
 	},
 	{
 		"order_id": 2000010829463630,
+		"paid_amount": 106.05,
 		"status": "paid",
 		"date_created": "2025-02-21T20:43:05.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44520013799,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -187,15 +222,18 @@
 				"quantity": 3,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010831654104,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-22T08:24:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44521180786,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -203,15 +241,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010831824626,
+		"paid_amount": 245.95,
 		"status": "paid",
 		"date_created": "2025-02-22T08:59:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44521059783,
 		"items": [
 			{
 				"item_id": "MLB3924547668",
@@ -219,15 +260,18 @@
 				"quantity": 1,
 				"unit_price": 223.59,
 				"listing_type_id": "",
-				"sale_fee": 25.71
+				"sale_fee": 25.71,
+				"seller_sku": "667"
 			}
 		]
 	},
 	{
 		"order_id": 2000010832278776,
+		"paid_amount": 93.05,
 		"status": "paid",
 		"date_created": "2025-02-22T10:11:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44521473766,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -235,15 +279,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010832441266,
+		"paid_amount": 177.3,
 		"status": "paid",
 		"date_created": "2025-02-22T10:33:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44521544452,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -251,15 +298,18 @@
 				"quantity": 3,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010832862786,
+		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-02-22T11:30:39.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44521730840,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -267,15 +317,18 @@
 				"quantity": 2,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010834686980,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-02-22T15:35:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44522329289,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -283,15 +336,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000010835038168,
+		"paid_amount": 49.85,
 		"status": "paid",
 		"date_created": "2025-02-22T16:23:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44522683386,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -299,15 +355,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010835477674,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-22T17:26:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44522669035,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -315,15 +374,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010836341782,
+		"paid_amount": 252,
 		"status": "paid",
 		"date_created": "2025-02-22T19:33:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44523032383,
 		"items": [
 			{
 				"item_id": "MLB4651430784",
@@ -331,15 +393,18 @@
 				"quantity": 2,
 				"unit_price": 126,
 				"listing_type_id": "",
-				"sale_fee": 22.68
+				"sale_fee": 22.68,
+				"seller_sku": "604"
 			}
 		]
 	},
 	{
 		"order_id": 2000010838554564,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-23T07:52:54.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44523941067,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -347,15 +412,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010838650998,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-23T08:22:54.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44523984363,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -363,15 +431,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010838649592,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-23T08:22:54.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44523984363,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -379,15 +450,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010841951324,
+		"paid_amount": 131.16,
 		"status": "paid",
 		"date_created": "2025-02-23T16:18:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44525374519,
 		"items": [
 			{
 				"item_id": "MLB3114670098",
@@ -395,15 +469,18 @@
 				"quantity": 2,
 				"unit_price": 65.58,
 				"listing_type_id": "",
-				"sale_fee": 14.15
+				"sale_fee": 14.15,
+				"seller_sku": "600"
 			}
 		]
 	},
 	{
 		"order_id": 2000010842332044,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-23T17:05:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44525731534,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -411,15 +488,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010843483608,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-23T19:31:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44526001131,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -427,15 +507,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010844021974,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-23T20:37:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44526231761,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -443,15 +526,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010844857468,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-23T22:13:28.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44526552733,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -459,15 +545,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010844958832,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-23T22:26:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44526797102,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -475,15 +564,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010846257728,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T06:35:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44527355476,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -491,15 +583,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010847165558,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T09:06:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44527804040,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -507,15 +602,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010847576498,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-24T09:49:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44527998876,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -523,15 +621,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010847712492,
+		"paid_amount": 45.45,
 		"status": "paid",
 		"date_created": "2025-02-24T10:02:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44528062240,
 		"items": [
 			{
 				"item_id": "MLB3532112380",
@@ -539,15 +640,18 @@
 				"quantity": 1,
 				"unit_price": 24.65,
 				"listing_type_id": "",
-				"sale_fee": 9.08
+				"sale_fee": 9.08,
+				"seller_sku": "620"
 			}
 		]
 	},
 	{
 		"order_id": 2000010848787938,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-24T11:45:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44528568288,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -555,15 +659,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010848914292,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-24T11:54:51.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44528618818,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -571,15 +678,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010848993200,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-24T12:03:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44528458231,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -587,15 +697,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010849912518,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-24T13:26:56.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44529084008,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -603,15 +716,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010850934812,
+		"paid_amount": 145.34,
 		"status": "paid",
 		"date_created": "2025-02-24T14:59:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44529565078,
 		"items": [
 			{
 				"item_id": "MLB4651365942",
@@ -619,15 +735,18 @@
 				"quantity": 1,
 				"unit_price": 145.34,
 				"listing_type_id": "",
-				"sale_fee": 32.16
+				"sale_fee": 32.16,
+				"seller_sku": "603"
 			}
 		]
 	},
 	{
 		"order_id": 2000010850934820,
+		"paid_amount": 145.34,
 		"status": "paid",
 		"date_created": "2025-02-24T14:59:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44529359535,
 		"items": [
 			{
 				"item_id": "MLB4651365942",
@@ -635,15 +754,18 @@
 				"quantity": 1,
 				"unit_price": 145.34,
 				"listing_type_id": "",
-				"sale_fee": 32.16
+				"sale_fee": 32.16,
+				"seller_sku": "603"
 			}
 		]
 	},
 	{
 		"order_id": 2000010851544832,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-24T15:55:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44529655057,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -651,15 +773,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010852300530,
+		"paid_amount": 227.67,
 		"status": "paid",
 		"date_created": "2025-02-24T17:08:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44530212306,
 		"items": [
 			{
 				"item_id": "MLB4762958292",
@@ -667,15 +792,18 @@
 				"quantity": 3,
 				"unit_price": 75.89,
 				"listing_type_id": "",
-				"sale_fee": 13.87
+				"sale_fee": 13.87,
+				"seller_sku": "3941"
 			}
 		]
 	},
 	{
 		"order_id": 2000010852289008,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T17:07:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44530001213,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -683,15 +811,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010852726814,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T17:51:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44530404036,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -699,15 +830,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010853738542,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T19:31:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44530849816,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -715,15 +849,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010855552656,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-02-24T22:36:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44531414109,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -731,15 +868,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010856371020,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-25T01:20:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44531749235,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -747,15 +887,18 @@
 				"quantity": 1,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010856980728,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-25T06:46:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44532239980,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -763,15 +906,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010856975062,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-25T06:46:38.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44532035401,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -779,15 +925,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010857845354,
+		"paid_amount": 23,
 		"status": "paid",
 		"date_created": "2025-02-25T08:59:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44532467695,
 		"items": [
 			{
 				"item_id": "MLB3120363163",
@@ -795,15 +944,18 @@
 				"quantity": 1,
 				"unit_price": 23,
 				"listing_type_id": "",
-				"sale_fee": 10.04
+				"sale_fee": 10.04,
+				"seller_sku": "B67"
 			}
 		]
 	},
 	{
 		"order_id": 2000010858111742,
+		"paid_amount": 55.58,
 		"status": "paid",
 		"date_created": "2025-02-25T09:28:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44532595949,
 		"items": [
 			{
 				"item_id": "MLB3467672449",
@@ -811,15 +963,18 @@
 				"quantity": 2,
 				"unit_price": 27.79,
 				"listing_type_id": "",
-				"sale_fee": 10.97
+				"sale_fee": 10.97,
+				"seller_sku": "685"
 			}
 		]
 	},
 	{
 		"order_id": 2000010859168710,
+		"paid_amount": 90.21,
 		"status": "paid",
 		"date_created": "2025-02-25T11:10:00.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44533290020,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -827,15 +982,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010859953994,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-25T12:26:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44533656860,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -843,15 +1001,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010860227726,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-25T12:51:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44536524584,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -859,15 +1020,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010860666082,
+		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-02-25T13:30:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44533772991,
 		"items": [
 			{
 				"item_id": "MLB4762958292",
@@ -875,15 +1039,18 @@
 				"quantity": 1,
 				"unit_price": 75.89,
 				"listing_type_id": "",
-				"sale_fee": 13.87
+				"sale_fee": 13.87,
+				"seller_sku": "3941"
 			}
 		]
 	},
 	{
 		"order_id": 2000010860768728,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-25T13:40:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44534029650,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -891,15 +1058,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010861330740,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-25T14:33:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44534088155,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -907,15 +1077,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010861335336,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-25T14:34:55.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44534093331,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -923,15 +1096,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010861376832,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-25T14:38:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44534316526,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -939,15 +1115,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010862839948,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-25T17:08:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44534811117,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -955,15 +1134,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010864130508,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-25T19:26:03.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44535585090,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -971,15 +1153,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000010865346272,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-25T21:31:55.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44535911051,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -987,15 +1172,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010865838998,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-25T22:31:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44536324666,
 		"items": [
 			{
 				"item_id": "MLB3120363163",
@@ -1003,15 +1191,18 @@
 				"quantity": 1,
 				"unit_price": 23,
 				"listing_type_id": "",
-				"sale_fee": 10.04
+				"sale_fee": 10.04,
+				"seller_sku": "B67"
 			}
 		]
 	},
 	{
 		"order_id": 2000010867253194,
+		"paid_amount": 126,
 		"status": "paid",
 		"date_created": "2025-02-26T06:37:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44536749167,
 		"items": [
 			{
 				"item_id": "MLB4651430784",
@@ -1019,15 +1210,18 @@
 				"quantity": 1,
 				"unit_price": 126,
 				"listing_type_id": "",
-				"sale_fee": 22.68
+				"sale_fee": 22.68,
+				"seller_sku": "604"
 			}
 		]
 	},
 	{
 		"order_id": 2000010867316340,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-26T06:50:38.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44536981268,
 		"items": [
 			{
 				"item_id": "MLB3120363163",
@@ -1035,15 +1229,18 @@
 				"quantity": 1,
 				"unit_price": 23,
 				"listing_type_id": "",
-				"sale_fee": 10.04
+				"sale_fee": 10.04,
+				"seller_sku": "B67"
 			}
 		]
 	},
 	{
 		"order_id": 2000010868117494,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-26T08:56:28.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44537189861,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1051,15 +1248,18 @@
 				"quantity": 6,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010868526936,
+		"paid_amount": 37.71,
 		"status": "paid",
 		"date_created": "2025-02-26T09:39:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44537585858,
 		"items": [
 			{
 				"item_id": "MLB3321974089",
@@ -1067,15 +1267,18 @@
 				"quantity": 1,
 				"unit_price": 37.71,
 				"listing_type_id": "",
-				"sale_fee": 12.91
+				"sale_fee": 12.91,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010869269000,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-26T10:52:42.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44537935410,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1083,15 +1286,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010871848930,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-26T15:02:55.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44539145340,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1099,15 +1305,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010871860938,
+		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-02-26T15:03:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44539149200,
 		"items": [
 			{
 				"item_id": "MLB3299416749",
@@ -1115,15 +1324,18 @@
 				"quantity": 4,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000010872239146,
+		"paid_amount": 65.1,
 		"status": "paid",
 		"date_created": "2025-02-26T15:41:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44539132753,
 		"items": [
 			{
 				"item_id": "MLB3305461897",
@@ -1131,15 +1343,18 @@
 				"quantity": 3,
 				"unit_price": 21.7,
 				"listing_type_id": "",
-				"sale_fee": 9.83
+				"sale_fee": 9.83,
+				"seller_sku": "B140"
 			}
 		]
 	},
 	{
 		"order_id": 2000010872240774,
+		"paid_amount": 42.3,
 		"status": "paid",
 		"date_created": "2025-02-26T15:41:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44539132753,
 		"items": [
 			{
 				"item_id": "MLB3302674985",
@@ -1147,15 +1362,18 @@
 				"quantity": 3,
 				"unit_price": 14.1,
 				"listing_type_id": "",
-				"sale_fee": 7.87
+				"sale_fee": 7.87,
+				"seller_sku": "B138"
 			}
 		]
 	},
 	{
 		"order_id": 2000010873173368,
+		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-02-26T17:18:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44539574865,
 		"items": [
 			{
 				"item_id": "MLB4762958292",
@@ -1163,15 +1381,18 @@
 				"quantity": 1,
 				"unit_price": 75.89,
 				"listing_type_id": "",
-				"sale_fee": 13.87
+				"sale_fee": 13.87,
+				"seller_sku": "3941"
 			}
 		]
 	},
 	{
 		"order_id": 2000010873181376,
+		"paid_amount": 141.91,
 		"status": "paid",
 		"date_created": "2025-02-26T17:20:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44539582285,
 		"items": [
 			{
 				"item_id": "MLB3902873952",
@@ -1179,15 +1400,18 @@
 				"quantity": 1,
 				"unit_price": 141.91,
 				"listing_type_id": "",
-				"sale_fee": 23.42
+				"sale_fee": 23.42,
+				"seller_sku": "657"
 			}
 		]
 	},
 	{
 		"order_id": 2000010873842736,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-26T18:31:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44540073748,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1195,15 +1419,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010874933602,
+		"paid_amount": 223.59,
 		"status": "paid",
 		"date_created": "2025-02-26T20:26:47.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44540346293,
 		"items": [
 			{
 				"item_id": "MLB3924547668",
@@ -1211,15 +1438,18 @@
 				"quantity": 1,
 				"unit_price": 223.59,
 				"listing_type_id": "",
-				"sale_fee": 25.71
+				"sale_fee": 25.71,
+				"seller_sku": "667"
 			}
 		]
 	},
 	{
 		"order_id": 2000010875515876,
+		"paid_amount": 23,
 		"status": "paid",
 		"date_created": "2025-02-26T21:29:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44540800522,
 		"items": [
 			{
 				"item_id": "MLB3120363163",
@@ -1227,15 +1457,18 @@
 				"quantity": 1,
 				"unit_price": 23,
 				"listing_type_id": "",
-				"sale_fee": 10.04
+				"sale_fee": 10.04,
+				"seller_sku": "B67"
 			}
 		]
 	},
 	{
 		"order_id": 2000010876085454,
+		"paid_amount": 45.66,
 		"status": "paid",
 		"date_created": "2025-02-26T22:41:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44541038356,
 		"items": [
 			{
 				"item_id": "MLB3084449156",
@@ -1243,15 +1476,18 @@
 				"quantity": 1,
 				"unit_price": 30.2,
 				"listing_type_id": "",
-				"sale_fee": 11.94
+				"sale_fee": 11.94,
+				"seller_sku": "552"
 			}
 		]
 	},
 	{
 		"order_id": 2000010877276640,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-27T05:47:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44541534930,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1259,15 +1495,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010877927894,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-02-27T08:16:51.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44541868634,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -1275,15 +1514,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010880203152,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-27T12:26:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44542722891,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1291,15 +1533,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010881440118,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-27T14:34:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44543505330,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1307,15 +1552,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010882582448,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-27T16:40:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44544048078,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -1323,15 +1571,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010882784254,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-27T17:03:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44544142882,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1339,15 +1590,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010884144030,
+		"paid_amount": 43.72,
 		"status": "paid",
 		"date_created": "2025-02-27T19:43:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44544544325,
 		"items": [
 			{
 				"item_id": "MLB3084449156",
@@ -1355,15 +1609,18 @@
 				"quantity": 1,
 				"unit_price": 30.2,
 				"listing_type_id": "",
-				"sale_fee": 11.94
+				"sale_fee": 11.94,
+				"seller_sku": "552"
 			}
 		]
 	},
 	{
 		"order_id": 2000010884558238,
+		"paid_amount": 46.54,
 		"status": "paid",
 		"date_created": "2025-02-27T20:32:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44544725571,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1371,15 +1628,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010884992274,
+		"paid_amount": 86.55,
 		"status": "paid",
 		"date_created": "2025-02-27T21:23:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44545116710,
 		"items": [
 			{
 				"item_id": "MLB3299416749",
@@ -1387,15 +1647,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000010885709638,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-27T23:03:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44545218567,
 		"items": [
 			{
 				"item_id": "MLB3728966695",
@@ -1403,15 +1666,18 @@
 				"quantity": 1,
 				"unit_price": 29.05,
 				"listing_type_id": "",
-				"sale_fee": 10.28
+				"sale_fee": 10.28,
+				"seller_sku": "3940"
 			}
 		]
 	},
 	{
 		"order_id": 2000010887310830,
+		"paid_amount": 47,
 		"status": "paid",
 		"date_created": "2025-02-28T08:15:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44545947947,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1419,15 +1685,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010889775118,
+		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-02-28T13:09:42.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44547088767,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -1435,15 +1704,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010890687270,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-28T14:55:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44547534307,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1451,15 +1723,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010891895974,
+		"paid_amount": 55.49,
 		"status": "paid",
 		"date_created": "2025-02-28T17:29:28.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44548308336,
 		"items": [
 			{
 				"item_id": "MLB3497529109",
@@ -1467,15 +1742,18 @@
 				"quantity": 1,
 				"unit_price": 27.59,
 				"listing_type_id": "",
-				"sale_fee": 10.33
+				"sale_fee": 10.33,
+				"seller_sku": "3117"
 			}
 		]
 	},
 	{
 		"order_id": 2000010892851230,
+		"paid_amount": 296.45,
 		"status": "paid",
 		"date_created": "2025-02-28T19:33:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44548511747,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -1483,15 +1761,18 @@
 				"quantity": 5,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010893483636,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-02-28T21:00:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44548994292,
 		"items": [
 			{
 				"item_id": "MLB3962157449",
@@ -1499,15 +1780,18 @@
 				"quantity": 1,
 				"unit_price": 24.79,
 				"listing_type_id": "",
-				"sale_fee": 10.46
+				"sale_fee": 10.46,
+				"seller_sku": "B4299"
 			}
 		]
 	},
 	{
 		"order_id": 2000010894079662,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-28T22:30:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44549030611,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1515,15 +1799,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010896308904,
+		"paid_amount": 69.97,
 		"status": "paid",
 		"date_created": "2025-03-01T10:27:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44550015295,
 		"items": [
 			{
 				"item_id": "MLB3299416749",
@@ -1531,15 +1818,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000010897777948,
+		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-01T13:46:41.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44550651805,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -1547,15 +1837,18 @@
 				"quantity": 1,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000010897938314,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-01T14:06:56.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44550921516,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1563,15 +1856,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010898618878,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-01T15:44:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44551012837,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1579,15 +1875,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010898987502,
+		"paid_amount": 52.8,
 		"status": "paid",
 		"date_created": "2025-03-01T16:37:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44551171083,
 		"items": [
 			{
 				"item_id": "MLB5276522324",
@@ -1595,15 +1894,18 @@
 				"quantity": 1,
 				"unit_price": 52.8,
 				"listing_type_id": "",
-				"sale_fee": 13.66
+				"sale_fee": 13.66,
+				"seller_sku": "B568"
 			}
 		]
 	},
 	{
 		"order_id": 2000010899223762,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-01T17:15:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44551484504,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -1611,15 +1913,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010899638098,
+		"paid_amount": 60.81,
 		"status": "paid",
 		"date_created": "2025-03-01T18:14:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44551441099,
 		"items": [
 			{
 				"item_id": "MLB3299172139",
@@ -1627,15 +1932,18 @@
 				"quantity": 1,
 				"unit_price": 38.39,
 				"listing_type_id": "",
-				"sale_fee": 13.41
+				"sale_fee": 13.41,
+				"seller_sku": "614"
 			}
 		]
 	},
 	{
 		"order_id": 2000010900437518,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-01T20:19:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44551991404,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1643,15 +1951,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010904037008,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-02T12:54:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44553458212,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1659,15 +1970,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010904139274,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-02T13:10:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44553503838,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1675,15 +1989,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010905237962,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-02T15:44:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44553735027,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -1691,15 +2008,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010906043046,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-02T17:39:39.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44554058031,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1707,15 +2027,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010906353906,
+		"paid_amount": 127.96,
 		"status": "paid",
 		"date_created": "2025-03-02T18:25:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44554391552,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1723,15 +2046,18 @@
 				"quantity": 4,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010906361086,
+		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-02T18:25:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44554391550,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1739,15 +2065,18 @@
 				"quantity": 3,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010908427122,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-02T23:34:28.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44555220968,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1755,15 +2084,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010909289778,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-03T06:59:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44555399915,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -1771,15 +2103,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010909756812,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T08:53:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44555832828,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1787,15 +2122,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010909967148,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-03T09:26:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44555725455,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1803,15 +2141,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010910821536,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T11:14:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44556321304,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1819,15 +2160,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010911357248,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T12:12:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44556551998,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1835,15 +2179,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010911379138,
+		"paid_amount": 58.36,
 		"status": "paid",
 		"date_created": "2025-03-03T12:16:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44556358283,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1851,15 +2198,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010911907850,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-03T13:17:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44556809196,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -1867,15 +2217,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010912332378,
+		"paid_amount": 53.87,
 		"status": "paid",
 		"date_created": "2025-03-03T14:03:38.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44556985562,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1883,15 +2236,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010912634236,
+		"paid_amount": 141.91,
 		"status": "paid",
 		"date_created": "2025-03-03T14:37:07.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44557118982,
 		"items": [
 			{
 				"item_id": "MLB3902873952",
@@ -1899,15 +2255,18 @@
 				"quantity": 1,
 				"unit_price": 141.91,
 				"listing_type_id": "",
-				"sale_fee": 23.42
+				"sale_fee": 23.42,
+				"seller_sku": "657"
 			}
 		]
 	},
 	{
 		"order_id": 2000010912623222,
+		"paid_amount": 114.49,
 		"status": "paid",
 		"date_created": "2025-03-03T14:37:07.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44557118982,
 		"items": [
 			{
 				"item_id": "MLB4456193950",
@@ -1915,15 +2274,18 @@
 				"quantity": 1,
 				"unit_price": 114.49,
 				"listing_type_id": "",
-				"sale_fee": 18.89
+				"sale_fee": 18.89,
+				"seller_sku": "656"
 			}
 		]
 	},
 	{
 		"order_id": 2000010912632312,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-03T14:37:07.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44557118982,
 		"items": [
 			{
 				"item_id": "MLB3299416749",
@@ -1931,15 +2293,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000010914966068,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T19:09:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44557932191,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -1947,15 +2312,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010918740164,
+		"paid_amount": 64.4,
 		"status": "paid",
 		"date_created": "2025-03-04T09:45:54.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44559767994,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -1963,15 +2331,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010919313336,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-04T10:57:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44559816285,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -1979,15 +2350,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010919926132,
+		"paid_amount": 76.61,
 		"status": "paid",
 		"date_created": "2025-03-04T12:06:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44560081897,
 		"items": [
 			{
 				"item_id": "MLB3546480912",
@@ -1995,15 +2369,18 @@
 				"quantity": 1,
 				"unit_price": 26.21,
 				"listing_type_id": "",
-				"sale_fee": 10.57
+				"sale_fee": 10.57,
+				"seller_sku": "577"
 			}
 		]
 	},
 	{
 		"order_id": 2000010921041642,
+		"paid_amount": 109.93,
 		"status": "paid",
 		"date_created": "2025-03-04T14:14:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44560781658,
 		"items": [
 			{
 				"item_id": "MLB4763003116",
@@ -2011,15 +2388,18 @@
 				"quantity": 1,
 				"unit_price": 75.89,
 				"listing_type_id": "",
-				"sale_fee": 16.62
+				"sale_fee": 16.62,
+				"seller_sku": "3943"
 			}
 		]
 	},
 	{
 		"order_id": 2000010921973726,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-04T16:02:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44560984141,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -2027,15 +2407,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010922990316,
+		"paid_amount": 57.63,
 		"status": "paid",
 		"date_created": "2025-03-04T17:57:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44561413835,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2043,15 +2426,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010923279520,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-04T18:32:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44561543031,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -2059,15 +2445,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010923314120,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-04T18:34:36.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44561757220,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2075,15 +2464,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010923649518,
+		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-03-04T19:13:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44561905236,
 		"items": [
 			{
 				"item_id": "MLB4762958292",
@@ -2091,15 +2483,18 @@
 				"quantity": 1,
 				"unit_price": 75.89,
 				"listing_type_id": "",
-				"sale_fee": 13.87
+				"sale_fee": 13.87,
+				"seller_sku": "3941"
 			}
 		]
 	},
 	{
 		"order_id": 2000010924378232,
+		"paid_amount": 91.48,
 		"status": "paid",
 		"date_created": "2025-03-04T20:31:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44562213766,
 		"items": [
 			{
 				"item_id": "MLB4103742712",
@@ -2107,15 +2502,18 @@
 				"quantity": 1,
 				"unit_price": 77.85,
 				"listing_type_id": "",
-				"sale_fee": 19.6
+				"sale_fee": 19.6,
+				"seller_sku": "692"
 			}
 		]
 	},
 	{
 		"order_id": 2000010924410762,
+		"paid_amount": 117.88,
 		"status": "paid",
 		"date_created": "2025-03-04T20:35:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44562229112,
 		"items": [
 			{
 				"item_id": "MLB3369863875",
@@ -2123,15 +2521,18 @@
 				"quantity": 1,
 				"unit_price": 100.9,
 				"listing_type_id": "",
-				"sale_fee": 16.65
+				"sale_fee": 16.65,
+				"seller_sku": "602"
 			}
 		]
 	},
 	{
 		"order_id": 2000010924495830,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-04T20:46:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44562063269,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -2139,15 +2540,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010925012938,
+		"paid_amount": 118.58,
 		"status": "paid",
 		"date_created": "2025-03-04T21:45:51.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44562484306,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -2155,15 +2559,18 @@
 				"quantity": 2,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010926821156,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-05T07:17:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44563038729,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2171,15 +2578,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010928125100,
+		"paid_amount": 103.51,
 		"status": "paid",
 		"date_created": "2025-03-05T10:14:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44563874932,
 		"items": [
 			{
 				"item_id": "MLB3986696791",
@@ -2187,15 +2597,18 @@
 				"quantity": 1,
 				"unit_price": 74.6,
 				"listing_type_id": "",
-				"sale_fee": 19.06
+				"sale_fee": 19.06,
+				"seller_sku": "B4399"
 			}
 		]
 	},
 	{
 		"order_id": 2000010928536716,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-05T10:53:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44564060308,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -2203,15 +2616,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010928923248,
+		"paid_amount": 79.33,
 		"status": "paid",
 		"date_created": "2025-03-05T11:33:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44564036467,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -2219,15 +2635,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010929696286,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-05T12:46:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44564383955,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2235,15 +2654,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010931067716,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-05T14:58:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44565230952,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -2251,15 +2673,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000010931171136,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-05T15:08:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44565277624,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2267,15 +2692,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010932940396,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-05T18:00:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44566086444,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2283,15 +2711,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010933364246,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-05T18:43:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44566274270,
 		"items": [
 			{
 				"item_id": "MLB5276522324",
@@ -2299,15 +2730,18 @@
 				"quantity": 1,
 				"unit_price": 52.8,
 				"listing_type_id": "",
-				"sale_fee": 13.66
+				"sale_fee": 13.66,
+				"seller_sku": "B568"
 			}
 		]
 	},
 	{
 		"order_id": 2000010933497148,
+		"paid_amount": 48.62,
 		"status": "paid",
 		"date_created": "2025-03-05T18:57:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44566131367,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2315,15 +2749,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010934078476,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-05T19:54:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44566585908,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -2331,15 +2768,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010935498938,
+		"paid_amount": 71,
 		"status": "paid",
 		"date_created": "2025-03-05T22:26:19.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44567194618,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2347,15 +2787,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010936143276,
+		"paid_amount": 105.6,
 		"status": "paid",
 		"date_created": "2025-03-06T00:10:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44567245359,
 		"items": [
 			{
 				"item_id": "MLB5276522324",
@@ -2363,15 +2806,18 @@
 				"quantity": 2,
 				"unit_price": 52.8,
 				"listing_type_id": "",
-				"sale_fee": 13.66
+				"sale_fee": 13.66,
+				"seller_sku": "B568"
 			}
 		]
 	},
 	{
 		"order_id": 2000010938147074,
+		"paid_amount": 23.2,
 		"status": "paid",
 		"date_created": "2025-03-06T09:29:53.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44568186849,
 		"items": [
 			{
 				"item_id": "MLB3159006578",
@@ -2379,15 +2825,18 @@
 				"quantity": 1,
 				"unit_price": 23.2,
 				"listing_type_id": "",
-				"sale_fee": 10.08
+				"sale_fee": 10.08,
+				"seller_sku": "B90"
 			}
 		]
 	},
 	{
 		"order_id": 2000010941533804,
+		"paid_amount": 73.84,
 		"status": "paid",
 		"date_created": "2025-03-06T14:43:13.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44569740071,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -2395,15 +2844,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010943041838,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-06T17:02:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44570434891,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -2411,15 +2863,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010943281732,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-06T17:25:47.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44570747708,
 		"items": [
 			{
 				"item_id": "MLB3299416749",
@@ -2427,15 +2882,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000010944254068,
+		"paid_amount": 73.84,
 		"status": "paid",
 		"date_created": "2025-03-06T18:59:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44571167384,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -2443,15 +2901,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010944755760,
+		"paid_amount": 106.81,
 		"status": "paid",
 		"date_created": "2025-03-06T19:49:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 0,
 		"items": [
 			{
 				"item_id": "MLB3153671984",
@@ -2459,15 +2920,18 @@
 				"quantity": 1,
 				"unit_price": 91,
 				"listing_type_id": "",
-				"sale_fee": 15.02
+				"sale_fee": 15.02,
+				"seller_sku": "603"
 			}
 		]
 	},
 	{
 		"order_id": 2000010944868264,
+		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-06T19:57:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44571432556,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -2475,15 +2939,18 @@
 				"quantity": 1,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000010945090134,
+		"paid_amount": 115.84,
 		"status": "paid",
 		"date_created": "2025-03-06T20:18:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 0,
 		"items": [
 			{
 				"item_id": "MLB3153654709",
@@ -2491,15 +2958,18 @@
 				"quantity": 1,
 				"unit_price": 85.95,
 				"listing_type_id": "",
-				"sale_fee": 14.18
+				"sale_fee": 14.18,
+				"seller_sku": "604"
 			}
 		]
 	},
 	{
 		"order_id": 2000010945389002,
+		"paid_amount": 48.87,
 		"status": "paid",
 		"date_created": "2025-03-06T20:47:53.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44571452977,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -2507,15 +2977,18 @@
 				"quantity": 1,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010945392890,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-06T20:48:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44571454725,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2523,15 +2996,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "590"
 			}
 		]
 	},
 	{
 		"order_id": 2000010945845680,
+		"paid_amount": 70.6,
 		"status": "paid",
 		"date_created": "2025-03-06T21:33:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44571647697,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2539,15 +3015,18 @@
 				"quantity": 2,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010946842934,
+		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-06T23:37:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44572049809,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -2555,15 +3034,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000010948056444,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-07T07:22:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44572586833,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2571,15 +3053,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "590"
 			}
 		]
 	},
 	{
 		"order_id": 2000010948709924,
+		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-03-07T08:58:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44572916055,
 		"items": [
 			{
 				"item_id": "MLB4762958292",
@@ -2587,15 +3072,18 @@
 				"quantity": 1,
 				"unit_price": 75.89,
 				"listing_type_id": "",
-				"sale_fee": 13.87
+				"sale_fee": 13.87,
+				"seller_sku": "3941"
 			}
 		]
 	},
 	{
 		"order_id": 2000010949243296,
+		"paid_amount": 287.2,
 		"status": "paid",
 		"date_created": "2025-03-07T09:58:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44573166465,
 		"items": [
 			{
 				"item_id": "MLB3322128481",
@@ -2603,15 +3091,18 @@
 				"quantity": 10,
 				"unit_price": 28.72,
 				"listing_type_id": "",
-				"sale_fee": 9.55
+				"sale_fee": 9.55,
+				"seller_sku": "B160"
 			}
 		]
 	},
 	{
 		"order_id": 2000010949795270,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-07T10:53:00.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 0,
 		"items": [
 			{
 				"item_id": "MLB3153671984",
@@ -2619,15 +3110,18 @@
 				"quantity": 1,
 				"unit_price": 91,
 				"listing_type_id": "",
-				"sale_fee": 15.02
+				"sale_fee": 15.02,
+				"seller_sku": "603"
 			}
 		]
 	},
 	{
 		"order_id": 2000010950436262,
+		"paid_amount": 72.84,
 		"status": "paid",
 		"date_created": "2025-03-07T11:55:49.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44573905872,
 		"items": [
 			{
 				"item_id": "MLB5276522324",
@@ -2635,15 +3129,18 @@
 				"quantity": 1,
 				"unit_price": 52.8,
 				"listing_type_id": "",
-				"sale_fee": 13.66
+				"sale_fee": 13.66,
+				"seller_sku": "B568"
 			}
 		]
 	},
 	{
 		"order_id": 2000010953716472,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-07T17:34:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44575229511,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2651,15 +3148,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000010954102132,
+		"paid_amount": 55.53,
 		"status": "paid",
 		"date_created": "2025-03-07T18:17:21.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44575602566,
 		"items": [
 			{
 				"item_id": "MLB5301465200",
@@ -2667,15 +3167,18 @@
 				"quantity": 1,
 				"unit_price": 31.92,
 				"listing_type_id": "",
-				"sale_fee": 11.77
+				"sale_fee": 11.77,
+				"seller_sku": "B4497"
 			}
 		]
 	},
 	{
 		"order_id": 2000010955204974,
+		"paid_amount": 108.6,
 		"status": "paid",
 		"date_created": "2025-03-07T20:23:41.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44575881045,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -2683,15 +3186,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010955211300,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-07T20:25:41.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44575888445,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -2699,15 +3205,18 @@
 				"quantity": 2,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010955460496,
+		"paid_amount": 101.47,
 		"status": "paid",
 		"date_created": "2025-03-07T20:53:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44576194984,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -2715,15 +3224,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010955684562,
+		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-07T21:21:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44576084215,
 		"items": [
 			{
 				"item_id": "MLB3670309372",
@@ -2731,15 +3243,18 @@
 				"quantity": 1,
 				"unit_price": 55.68,
 				"listing_type_id": "",
-				"sale_fee": 15.94
+				"sale_fee": 15.94,
+				"seller_sku": "557"
 			}
 		]
 	},
 	{
 		"order_id": 2000010955868702,
+		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-03-07T21:46:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44576368826,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2747,15 +3262,18 @@
 				"quantity": 4,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "590"
 			}
 		]
 	},
 	{
 		"order_id": 2000010957280058,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T05:48:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44576749399,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2763,15 +3281,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010957477080,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T07:20:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44576853661,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2779,15 +3300,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000010957482142,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T07:20:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44576853399,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2795,15 +3319,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010957971246,
+		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-08T09:06:17.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44577290442,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -2811,15 +3338,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010958312028,
+		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-08T09:56:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44577438740,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -2827,15 +3357,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000010958394526,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-08T10:08:03.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44577476058,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -2843,15 +3376,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010959257906,
+		"paid_amount": 154.3,
 		"status": "paid",
 		"date_created": "2025-03-08T11:56:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44577857348,
 		"items": [
 			{
 				"item_id": "MLB3114670098",
@@ -2859,15 +3395,18 @@
 				"quantity": 2,
 				"unit_price": 77.15,
 				"listing_type_id": "",
-				"sale_fee": 18.66
+				"sale_fee": 18.66,
+				"seller_sku": "600"
 			}
 		]
 	},
 	{
 		"order_id": 2000010959332602,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-08T12:04:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44577884794,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -2875,15 +3414,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010959659186,
+		"paid_amount": 88.57,
 		"status": "paid",
 		"date_created": "2025-03-08T12:44:35.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44577825219,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2891,15 +3433,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000010960423364,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T14:18:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44578363860,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2907,15 +3452,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010960599024,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T14:39:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44578435986,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2923,15 +3471,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000010961736352,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T17:03:56.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44578920720,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2939,15 +3490,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010962537002,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T18:53:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44579054599,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -2955,15 +3509,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000010962735050,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T19:20:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44579345432,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2971,15 +3528,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010963176884,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-08T20:19:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44579326415,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -2987,15 +3547,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010963853636,
+		"paid_amount": 75.03,
 		"status": "paid",
 		"date_created": "2025-03-08T22:01:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44579813138,
 		"items": [
 			{
 				"item_id": "MLB5276522324",
@@ -3003,15 +3566,18 @@
 				"quantity": 1,
 				"unit_price": 52.8,
 				"listing_type_id": "",
-				"sale_fee": 13.66
+				"sale_fee": 13.66,
+				"seller_sku": "B568"
 			}
 		]
 	},
 	{
 		"order_id": 2000010964734850,
+		"paid_amount": 70.6,
 		"status": "paid",
 		"date_created": "2025-03-09T01:25:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44579938191,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3019,15 +3585,18 @@
 				"quantity": 2,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010964953332,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-09T04:18:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580024893,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3035,15 +3604,18 @@
 				"quantity": 2,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010965478880,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T08:45:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580254409,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3051,15 +3623,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010965478884,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T08:45:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580460884,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3067,15 +3642,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010965632620,
+		"paid_amount": 89.4,
 		"status": "paid",
 		"date_created": "2025-03-09T09:15:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580317713,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -3083,15 +3661,18 @@
 				"quantity": 2,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000010965623496,
+		"paid_amount": 134.1,
 		"status": "paid",
 		"date_created": "2025-03-09T09:15:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580317723,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -3099,15 +3680,18 @@
 				"quantity": 3,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000010966000078,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T10:13:19.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580676694,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3115,15 +3699,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010965998262,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T10:13:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44580676848,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3131,15 +3718,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010967839334,
+		"paid_amount": 77.15,
 		"status": "paid",
 		"date_created": "2025-03-09T14:07:05.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44581441988,
 		"items": [
 			{
 				"item_id": "MLB3114670098",
@@ -3147,15 +3737,18 @@
 				"quantity": 1,
 				"unit_price": 77.15,
 				"listing_type_id": "",
-				"sale_fee": 18.66
+				"sale_fee": 18.66,
+				"seller_sku": "600"
 			}
 		]
 	},
 	{
 		"order_id": 2000010969333642,
+		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-09T17:04:00.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44581844619,
 		"items": [
 			{
 				"item_id": "MLB3670309372",
@@ -3163,15 +3756,18 @@
 				"quantity": 1,
 				"unit_price": 55.68,
 				"listing_type_id": "",
-				"sale_fee": 15.94
+				"sale_fee": 15.94,
+				"seller_sku": "557"
 			}
 		]
 	},
 	{
 		"order_id": 2000010970393816,
+		"paid_amount": 53.57,
 		"status": "paid",
 		"date_created": "2025-03-09T19:09:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44582292005,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -3179,15 +3775,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000010970645938,
+		"paid_amount": 78.87,
 		"status": "paid",
 		"date_created": "2025-03-09T19:36:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44582393651,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3195,15 +3794,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000010971143104,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-09T20:23:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44582574043,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -3211,15 +3813,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010972469188,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T23:00:38.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583321160,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3227,15 +3832,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010972489518,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-09T23:02:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583119627,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3243,15 +3851,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010972605390,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-09T23:22:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583168045,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3259,15 +3870,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010973479248,
+		"paid_amount": 75.65,
 		"status": "paid",
 		"date_created": "2025-03-10T05:36:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583521611,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -3275,15 +3889,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000010973548804,
+		"paid_amount": 97.66,
 		"status": "paid",
 		"date_created": "2025-03-10T06:09:54.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583555751,
 		"items": [
 			{
 				"item_id": "MLB3986696791",
@@ -3291,15 +3908,18 @@
 				"quantity": 1,
 				"unit_price": 74.6,
 				"listing_type_id": "",
-				"sale_fee": 19.06
+				"sale_fee": 19.06,
+				"seller_sku": "B4399"
 			}
 		]
 	},
 	{
 		"order_id": 2000010974151210,
+		"paid_amount": 84.17,
 		"status": "paid",
 		"date_created": "2025-03-10T08:16:01.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583855073,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3307,15 +3927,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010974324360,
+		"paid_amount": 58.41,
 		"status": "paid",
 		"date_created": "2025-03-10T08:37:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44583934595,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -3323,15 +3946,18 @@
 				"quantity": 1,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010974835026,
+		"paid_amount": 88.75,
 		"status": "paid",
 		"date_created": "2025-03-10T09:36:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44584388738,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3339,15 +3965,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010975248372,
+		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-10T10:14:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44584572490,
 		"items": [
 			{
 				"item_id": "MLB3839298878",
@@ -3355,15 +3984,18 @@
 				"quantity": 1,
 				"unit_price": 78,
 				"listing_type_id": "",
-				"sale_fee": 19.62
+				"sale_fee": 19.62,
+				"seller_sku": "556"
 			}
 		]
 	},
 	{
 		"order_id": 2000010977156446,
+		"paid_amount": 252,
 		"status": "paid",
 		"date_created": "2025-03-10T13:05:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44585454930,
 		"items": [
 			{
 				"item_id": "MLB4651430784",
@@ -3371,15 +4003,18 @@
 				"quantity": 2,
 				"unit_price": 126,
 				"listing_type_id": "",
-				"sale_fee": 22.68
+				"sale_fee": 22.68,
+				"seller_sku": "604"
 			}
 		]
 	},
 	{
 		"order_id": 2000010977535846,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-10T13:40:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44585636036,
 		"items": [
 			{
 				"item_id": "MLB3839298878",
@@ -3387,15 +4022,18 @@
 				"quantity": 2,
 				"unit_price": 78,
 				"listing_type_id": "",
-				"sale_fee": 19.62
+				"sale_fee": 19.62,
+				"seller_sku": "556"
 			}
 		]
 	},
 	{
 		"order_id": 2000010977549082,
+		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-10T13:40:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44585429119,
 		"items": [
 			{
 				"item_id": "MLB3839298878",
@@ -3403,15 +4041,18 @@
 				"quantity": 1,
 				"unit_price": 78,
 				"listing_type_id": "",
-				"sale_fee": 19.62
+				"sale_fee": 19.62,
+				"seller_sku": "556"
 			}
 		]
 	},
 	{
 		"order_id": 2000010977687630,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-10T13:53:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44585704096,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3419,15 +4060,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010977887754,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T14:10:25.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44585797726,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3435,15 +4079,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000010977883898,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-10T14:10:25.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44585797710,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3451,15 +4098,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000010978560360,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-10T15:07:51.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44586106864,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3467,15 +4117,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010979381186,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T16:23:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44586496718,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3483,15 +4136,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000010979390416,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T16:23:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44586290051,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3499,15 +4155,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010979526202,
+		"paid_amount": 46.4,
 		"status": "paid",
 		"date_created": "2025-03-10T16:36:03.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44586557824,
 		"items": [
 			{
 				"item_id": "MLB3159006578",
@@ -3515,15 +4174,18 @@
 				"quantity": 2,
 				"unit_price": 23.2,
 				"listing_type_id": "",
-				"sale_fee": 10.08
+				"sale_fee": 10.08,
+				"seller_sku": "B90"
 			}
 		]
 	},
 	{
 		"order_id": 2000010980538616,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T18:11:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44587015258,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3531,15 +4193,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000010980545972,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-10T18:13:41.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44587026158,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -3547,15 +4212,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010980869418,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-10T18:42:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44586959545,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3563,15 +4231,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010980919346,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T18:47:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44586979723,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3579,15 +4250,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010981508046,
+		"paid_amount": 81.89,
 		"status": "paid",
 		"date_created": "2025-03-10T19:37:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44587440490,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3595,15 +4269,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010981743396,
+		"paid_amount": 35.35,
 		"status": "paid",
 		"date_created": "2025-03-10T19:59:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44587344383,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -3611,15 +4288,18 @@
 				"quantity": 1,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000010983136874,
+		"paid_amount": 37.99,
 		"status": "paid",
 		"date_created": "2025-03-10T22:06:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44587932993,
 		"items": [
 			{
 				"item_id": "MLB3951239852",
@@ -3627,15 +4307,18 @@
 				"quantity": 1,
 				"unit_price": 37.99,
 				"listing_type_id": "",
-				"sale_fee": 12.77
+				"sale_fee": 12.77,
+				"seller_sku": "675"
 			}
 		]
 	},
 	{
 		"order_id": 2000010984912886,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-11T06:51:03.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44588694069,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3643,31 +4326,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
-			}
-		]
-	},
-	{
-		"order_id": 2000010985098720,
-		"status": "cancelled",
-		"date_created": "2025-03-11T07:26:19.000-04:00",
-		"shipping_cost": 0,
-		"items": [
-			{
-				"item_id": "MLB3774697980",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 34.81,
-				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010985106388,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-11T07:26:19.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44588991280,
 		"items": [
 			{
 				"item_id": "MLB3839298878",
@@ -3675,15 +4345,37 @@
 				"quantity": 1,
 				"unit_price": 78,
 				"listing_type_id": "",
-				"sale_fee": 19.62
+				"sale_fee": 19.62,
+				"seller_sku": "556"
+			}
+		]
+	},
+	{
+		"order_id": 2000010985098720,
+		"paid_amount": 0,
+		"status": "cancelled",
+		"date_created": "2025-03-11T07:26:19.000-04:00",
+		"shipping_cost": 0,
+		"shipping_id": 44588991280,
+		"items": [
+			{
+				"item_id": "MLB3774697980",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 34.81,
+				"listing_type_id": "",
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000010985201852,
+		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-11T07:45:01.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44589048542,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -3691,15 +4383,18 @@
 				"quantity": 1,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000010986467908,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-11T10:08:07.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44589659524,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -3707,15 +4402,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000010986933206,
+		"paid_amount": 73.84,
 		"status": "paid",
 		"date_created": "2025-03-11T10:50:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44589870748,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -3723,15 +4421,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000010987165242,
+		"paid_amount": 97.86,
 		"status": "paid",
 		"date_created": "2025-03-11T11:12:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44589981204,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -3739,15 +4440,18 @@
 				"quantity": 2,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000010987243664,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-11T11:19:38.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44589808833,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3755,15 +4459,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010987311044,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T11:25:49.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44589839407,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3771,15 +4478,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000010987336218,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T11:27:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44590054484,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3787,15 +4497,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010987433562,
+		"paid_amount": 87.63,
 		"status": "paid",
 		"date_created": "2025-03-11T11:37:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44590104050,
 		"items": [
 			{
 				"item_id": "MLB3319765869",
@@ -3803,15 +4516,18 @@
 				"quantity": 3,
 				"unit_price": 29.21,
 				"listing_type_id": "",
-				"sale_fee": 9.86
+				"sale_fee": 9.86,
+				"seller_sku": "B12"
 			}
 		]
 	},
 	{
 		"order_id": 2000010988376366,
+		"paid_amount": 145.34,
 		"status": "paid",
 		"date_created": "2025-03-11T13:01:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44590326497,
 		"items": [
 			{
 				"item_id": "MLB4651365942",
@@ -3819,15 +4535,18 @@
 				"quantity": 1,
 				"unit_price": 145.34,
 				"listing_type_id": "",
-				"sale_fee": 32.16
+				"sale_fee": 32.16,
+				"seller_sku": "603"
 			}
 		]
 	},
 	{
 		"order_id": 2000010988443410,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T13:07:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44590568164,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3835,15 +4554,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000010988437826,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T13:07:42.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44590567944,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3851,15 +4573,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010989654486,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T14:57:42.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44590938515,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3867,15 +4592,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "592"
 			}
 		]
 	},
 	{
 		"order_id": 2000010989810686,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-11T15:10:55.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44591006113,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3883,15 +4611,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010990729448,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-11T16:43:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 0,
 		"items": [
 			{
 				"item_id": "MLB3153654709",
@@ -3899,15 +4630,18 @@
 				"quantity": 1,
 				"unit_price": 85.95,
 				"listing_type_id": "",
-				"sale_fee": 14.18
+				"sale_fee": 14.18,
+				"seller_sku": "604"
 			}
 		]
 	},
 	{
 		"order_id": 2000010991036930,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T17:12:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44591793252,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -3915,15 +4649,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000010991569704,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-11T18:05:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44591829871,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3931,15 +4668,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010992081662,
+		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-11T18:52:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44592050681,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -3947,31 +4687,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
-			}
-		]
-	},
-	{
-		"order_id": 2000010993458882,
-		"status": "paid",
-		"date_created": "2025-03-11T20:56:15.000-04:00",
-		"shipping_cost": 0,
-		"items": [
-			{
-				"item_id": "MLB3329666959",
-				"category_id": "MLB270415",
-				"quantity": 2,
-				"unit_price": 22.1,
-				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000010993449706,
+		"paid_amount": 44.2,
 		"status": "paid",
 		"date_created": "2025-03-11T20:56:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44592652625,
 		"items": [
 			{
 				"item_id": "MLB3329666959",
@@ -3979,15 +4706,37 @@
 				"quantity": 2,
 				"unit_price": 22.1,
 				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 8.79,
+				"seller_sku": "B166"
+			}
+		]
+	},
+	{
+		"order_id": 2000010993458882,
+		"paid_amount": 44.2,
+		"status": "paid",
+		"date_created": "2025-03-11T20:56:15.000-04:00",
+		"shipping_cost": 0,
+		"shipping_id": 44592652625,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 2,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79,
+				"seller_sku": "B168"
 			}
 		]
 	},
 	{
 		"order_id": 2000010994173204,
+		"paid_amount": 122.04,
 		"status": "paid",
 		"date_created": "2025-03-11T22:04:53.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44593158098,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -3995,15 +4744,18 @@
 				"quantity": 4,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010994611552,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-11T22:57:47.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44593130529,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4011,15 +4763,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000010995152120,
+		"paid_amount": 257.25,
 		"status": "paid",
 		"date_created": "2025-03-12T00:32:42.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44593554264,
 		"items": [
 			{
 				"item_id": "MLB3924547668",
@@ -4027,15 +4782,18 @@
 				"quantity": 1,
 				"unit_price": 223.59,
 				"listing_type_id": "",
-				"sale_fee": 25.71
+				"sale_fee": 25.71,
+				"seller_sku": "667"
 			}
 		]
 	},
 	{
 		"order_id": 2000010995626696,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-12T04:49:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44593760732,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4043,15 +4801,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010995981548,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T06:56:35.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44593726495,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4059,15 +4820,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000010996161882,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-12T07:32:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594032390,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4075,15 +4839,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010996949064,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-12T09:07:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594193653,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4091,15 +4858,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000010996999084,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-12T09:12:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594222583,
 		"items": [
 			{
 				"item_id": "MLB3924547668",
@@ -4107,15 +4877,18 @@
 				"quantity": 1,
 				"unit_price": 223.59,
 				"listing_type_id": "",
-				"sale_fee": 25.71
+				"sale_fee": 25.71,
+				"seller_sku": "667"
 			}
 		]
 	},
 	{
 		"order_id": 2000010997058496,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T09:18:17.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594458792,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4123,15 +4896,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010997535764,
+		"paid_amount": 84.8,
 		"status": "paid",
 		"date_created": "2025-03-12T10:06:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594694968,
 		"items": [
 			{
 				"item_id": "MLB3393281093",
@@ -4139,15 +4915,18 @@
 				"quantity": 2,
 				"unit_price": 42.4,
 				"listing_type_id": "",
-				"sale_fee": 13.71
+				"sale_fee": 13.71,
+				"seller_sku": "628"
 			}
 		]
 	},
 	{
 		"order_id": 2000010997545404,
+		"paid_amount": 169.6,
 		"status": "paid",
 		"date_created": "2025-03-12T10:06:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594486361,
 		"items": [
 			{
 				"item_id": "MLB3393281093",
@@ -4155,15 +4934,18 @@
 				"quantity": 4,
 				"unit_price": 42.4,
 				"listing_type_id": "",
-				"sale_fee": 13.71
+				"sale_fee": 13.71,
+				"seller_sku": "628"
 			}
 		]
 	},
 	{
 		"order_id": 2000010997539520,
+		"paid_amount": 169.6,
 		"status": "paid",
 		"date_created": "2025-03-12T10:06:36.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594485591,
 		"items": [
 			{
 				"item_id": "MLB3393281093",
@@ -4171,15 +4953,18 @@
 				"quantity": 4,
 				"unit_price": 42.4,
 				"listing_type_id": "",
-				"sale_fee": 13.71
+				"sale_fee": 13.71,
+				"seller_sku": "628"
 			}
 		]
 	},
 	{
 		"order_id": 2000010997700976,
+		"paid_amount": 282.25,
 		"status": "paid",
 		"date_created": "2025-03-12T10:19:49.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44594552971,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4187,15 +4972,18 @@
 				"quantity": 5,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "588"
 			}
 		]
 	},
 	{
 		"order_id": 2000010998420724,
+		"paid_amount": 36.55,
 		"status": "paid",
 		"date_created": "2025-03-12T11:23:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 0,
 		"items": [
 			{
 				"item_id": "MLB3329666959",
@@ -4203,15 +4991,18 @@
 				"quantity": 1,
 				"unit_price": 22.1,
 				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 8.79,
+				"seller_sku": "B168"
 			}
 		]
 	},
 	{
 		"order_id": 2000010999030182,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T12:16:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44595358814,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4219,15 +5010,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "591"
 			}
 		]
 	},
 	{
 		"order_id": 2000011002094774,
+		"paid_amount": 48.62,
 		"status": "paid",
 		"date_created": "2025-03-12T16:54:42.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44596584111,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4235,15 +5029,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011002466190,
+		"paid_amount": 106.99,
 		"status": "paid",
 		"date_created": "2025-03-12T17:32:17.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44596753293,
 		"items": [
 			{
 				"item_id": "MLB4099455106",
@@ -4251,15 +5048,18 @@
 				"quantity": 1,
 				"unit_price": 106.99,
 				"listing_type_id": "",
-				"sale_fee": 12.3
+				"sale_fee": 12.3,
+				"seller_sku": "514"
 			}
 		]
 	},
 	{
 		"order_id": 2000011002792696,
+		"paid_amount": 61.02,
 		"status": "paid",
 		"date_created": "2025-03-12T18:05:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597108186,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4267,15 +5067,18 @@
 				"quantity": 2,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000011002808602,
+		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-12T18:07:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597118204,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -4283,15 +5086,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000011002808604,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-12T18:07:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597118204,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4299,15 +5105,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011003100288,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-12T18:34:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597240366,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4315,15 +5124,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011003284474,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-12T18:53:56.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597118377,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -4331,15 +5143,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011003564988,
+		"paid_amount": 42.2,
 		"status": "paid",
 		"date_created": "2025-03-12T19:21:19.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597246433,
 		"items": [
 			{
 				"item_id": "MLB3223738101",
@@ -4347,15 +5162,18 @@
 				"quantity": 1,
 				"unit_price": 42.2,
 				"listing_type_id": "",
-				"sale_fee": 13.67
+				"sale_fee": 13.67,
+				"seller_sku": "354"
 			}
 		]
 	},
 	{
 		"order_id": 2000011004220724,
+		"paid_amount": 112.45,
 		"status": "paid",
 		"date_created": "2025-03-12T20:21:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44597740806,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -4363,15 +5181,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011005217298,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T21:59:17.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44598168594,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4379,15 +5200,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011005311054,
+		"paid_amount": 63.91,
 		"status": "paid",
 		"date_created": "2025-03-12T22:08:53.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44598206030,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -4395,15 +5219,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000011005579858,
+		"paid_amount": 116.31,
 		"status": "paid",
 		"date_created": "2025-03-12T22:41:49.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44598110291,
 		"items": [
 			{
 				"item_id": "MLB4762977312",
@@ -4411,15 +5238,18 @@
 				"quantity": 1,
 				"unit_price": 116.31,
 				"listing_type_id": "",
-				"sale_fee": 26.94
+				"sale_fee": 26.94,
+				"seller_sku": "3943"
 			}
 		]
 	},
 	{
 		"order_id": 2000011006183576,
+		"paid_amount": 69.97,
 		"status": "paid",
 		"date_created": "2025-03-13T00:21:11.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44598353087,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4427,15 +5257,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "592"
 			}
 		]
 	},
 	{
 		"order_id": 2000011010028682,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-13T07:06:21.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44598901923,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4443,15 +5276,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011010682074,
+		"paid_amount": 77.15,
 		"status": "paid",
 		"date_created": "2025-03-13T08:38:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44599215667,
 		"items": [
 			{
 				"item_id": "MLB3114670098",
@@ -4459,15 +5295,18 @@
 				"quantity": 1,
 				"unit_price": 77.15,
 				"listing_type_id": "",
-				"sale_fee": 18.66
+				"sale_fee": 18.66,
+				"seller_sku": "600"
 			}
 		]
 	},
 	{
 		"order_id": 2000011011018256,
+		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-03-13T09:16:21.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44599587184,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4475,15 +5314,18 @@
 				"quantity": 4,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011011275148,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-13T09:44:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44599718384,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4491,15 +5333,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011012137836,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-13T11:04:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44600114816,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -4507,15 +5352,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011012184358,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-13T11:08:03.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44600129744,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4523,15 +5371,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011014194826,
+		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-13T14:16:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44600858133,
 		"items": [
 			{
 				"item_id": "MLB3670309372",
@@ -4539,15 +5390,18 @@
 				"quantity": 1,
 				"unit_price": 55.68,
 				"listing_type_id": "",
-				"sale_fee": 15.94
+				"sale_fee": 15.94,
+				"seller_sku": "557"
 			}
 		]
 	},
 	{
 		"order_id": 2000011015054348,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-13T15:36:39.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44601253327,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4555,15 +5409,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011015222088,
+		"paid_amount": 177.87,
 		"status": "paid",
 		"date_created": "2025-03-13T15:52:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44601331111,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -4571,15 +5428,18 @@
 				"quantity": 3,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000011015326248,
+		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-13T16:02:55.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44601381939,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -4587,15 +5447,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000011016038618,
+		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-13T17:17:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44601926614,
 		"items": [
 			{
 				"item_id": "MLB3670309372",
@@ -4603,15 +5466,18 @@
 				"quantity": 1,
 				"unit_price": 55.68,
 				"listing_type_id": "",
-				"sale_fee": 15.94
+				"sale_fee": 15.94,
+				"seller_sku": "557"
 			}
 		]
 	},
 	{
 		"order_id": 2000011017420160,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-13T19:38:56.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44602534450,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -4619,15 +5485,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011018073586,
+		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-13T20:45:49.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44602828286,
 		"items": [
 			{
 				"item_id": "MLB3742325125",
@@ -4635,15 +5504,18 @@
 				"quantity": 1,
 				"unit_price": 44.7,
 				"listing_type_id": "",
-				"sale_fee": 13.88
+				"sale_fee": 13.88,
+				"seller_sku": "B69"
 			}
 		]
 	},
 	{
 		"order_id": 2000011019985184,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-14T01:04:07.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44603400973,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4651,15 +5523,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011021339896,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-14T08:43:21.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44604268636,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4667,15 +5542,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011021907416,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-14T09:47:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44604530922,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4683,15 +5561,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011022096072,
+		"paid_amount": 45.66,
 		"status": "paid",
 		"date_created": "2025-03-14T10:05:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44604401437,
 		"items": [
 			{
 				"item_id": "MLB3084449156",
@@ -4699,15 +5580,18 @@
 				"quantity": 1,
 				"unit_price": 30.2,
 				"listing_type_id": "",
-				"sale_fee": 11.94
+				"sale_fee": 11.94,
+				"seller_sku": "552"
 			}
 		]
 	},
 	{
 		"order_id": 2000011022209800,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-14T10:18:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44604670430,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4715,15 +5599,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000011022796216,
+		"paid_amount": 42.2,
 		"status": "paid",
 		"date_created": "2025-03-14T11:15:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44604931302,
 		"items": [
 			{
 				"item_id": "MLB3223738101",
@@ -4731,15 +5618,18 @@
 				"quantity": 1,
 				"unit_price": 42.2,
 				"listing_type_id": "",
-				"sale_fee": 13.67
+				"sale_fee": 13.67,
+				"seller_sku": "354"
 			}
 		]
 	},
 	{
 		"order_id": 2000011022816214,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-14T11:17:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44604939062,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4747,15 +5637,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011023059712,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-14T11:44:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44605065084,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4763,15 +5656,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011023096046,
+		"paid_amount": 114.49,
 		"status": "paid",
 		"date_created": "2025-03-14T11:44:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44605065074,
 		"items": [
 			{
 				"item_id": "MLB4456193950",
@@ -4779,15 +5675,18 @@
 				"quantity": 1,
 				"unit_price": 114.49,
 				"listing_type_id": "",
-				"sale_fee": 18.89
+				"sale_fee": 18.89,
+				"seller_sku": "656"
 			}
 		]
 	},
 	{
 		"order_id": 2000011024594692,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-14T14:15:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44605536893,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -4795,15 +5694,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011025014988,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-14T15:00:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44605739821,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4811,15 +5713,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011027946418,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-14T20:35:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44607248266,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4827,15 +5732,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000011028822724,
+		"paid_amount": 37.99,
 		"status": "paid",
 		"date_created": "2025-03-14T22:32:02.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44607400911,
 		"items": [
 			{
 				"item_id": "MLB3951239852",
@@ -4843,15 +5751,18 @@
 				"quantity": 1,
 				"unit_price": 37.99,
 				"listing_type_id": "",
-				"sale_fee": 12.77
+				"sale_fee": 12.77,
+				"seller_sku": "675"
 			}
 		]
 	},
 	{
 		"order_id": 2000011028940460,
+		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-14T22:51:54.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44607450869,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -4859,15 +5770,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000011028940450,
+		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-14T22:51:53.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44607451067,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -4875,15 +5789,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000011029644808,
+		"paid_amount": 45.06,
 		"status": "paid",
 		"date_created": "2025-03-15T02:15:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44607740867,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -4891,15 +5808,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000011029897170,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-15T06:05:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44608074362,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4907,15 +5827,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011029946790,
+		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-15T06:29:15.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44608099048,
 		"items": [
 			{
 				"item_id": "MLB4115341524",
@@ -4923,15 +5846,18 @@
 				"quantity": 1,
 				"unit_price": 59.29,
 				"listing_type_id": "",
-				"sale_fee": 16.53
+				"sale_fee": 16.53,
+				"seller_sku": "3048"
 			}
 		]
 	},
 	{
 		"order_id": 2000011030030482,
+		"paid_amount": 49.32,
 		"status": "paid",
 		"date_created": "2025-03-15T07:00:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44608138500,
 		"items": [
 			{
 				"item_id": "MLB3084449156",
@@ -4939,15 +5865,18 @@
 				"quantity": 1,
 				"unit_price": 30.2,
 				"listing_type_id": "",
-				"sale_fee": 11.94
+				"sale_fee": 11.94,
+				"seller_sku": "552"
 			}
 		]
 	},
 	{
 		"order_id": 2000011031927214,
+		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-15T11:50:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44608784095,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -4955,15 +5884,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000011032959658,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-15T13:50:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44609448990,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -4971,15 +5903,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011033458906,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-15T14:50:06.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44609663638,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -4987,15 +5922,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011033820502,
+		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-15T15:34:28.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44609609903,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5003,15 +5941,18 @@
 				"quantity": 3,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011034137566,
+		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-15T16:15:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44609962996,
 		"items": [
 			{
 				"item_id": "MLB3300502493",
@@ -5019,15 +5960,18 @@
 				"quantity": 1,
 				"unit_price": 30.51,
 				"listing_type_id": "",
-				"sale_fee": 11.53
+				"sale_fee": 11.53,
+				"seller_sku": "B146"
 			}
 		]
 	},
 	{
 		"order_id": 2000011035123056,
+		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-15T18:19:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44610375670,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5035,31 +5979,18 @@
 				"quantity": 3,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
-			}
-		]
-	},
-	{
-		"order_id": 2000011037684900,
-		"status": "paid",
-		"date_created": "2025-03-16T02:02:48.000-04:00",
-		"shipping_cost": 0,
-		"items": [
-			{
-				"item_id": "MLB3299416749",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011037679848,
+		"paid_amount": 86.58,
 		"status": "paid",
 		"date_created": "2025-03-16T02:02:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44611410094,
 		"items": [
 			{
 				"item_id": "MLB5299520110",
@@ -5067,15 +5998,37 @@
 				"quantity": 3,
 				"unit_price": 28.86,
 				"listing_type_id": "",
-				"sale_fee": 11.01
+				"sale_fee": 11.01,
+				"seller_sku": "4496"
+			}
+		]
+	},
+	{
+		"order_id": 2000011037684900,
+		"paid_amount": 56.45,
+		"status": "paid",
+		"date_created": "2025-03-16T02:02:48.000-04:00",
+		"shipping_cost": 0,
+		"shipping_id": 44611410094,
+		"items": [
+			{
+				"item_id": "MLB3299416749",
+				"category_id": "MLB277628",
+				"quantity": 1,
+				"unit_price": 56.45,
+				"listing_type_id": "",
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000011038216706,
+		"paid_amount": 50.78,
 		"status": "paid",
 		"date_created": "2025-03-16T08:14:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44611430507,
 		"items": [
 			{
 				"item_id": "MLB3604030642",
@@ -5083,15 +6036,18 @@
 				"quantity": 2,
 				"unit_price": 25.39,
 				"listing_type_id": "",
-				"sale_fee": 10.44
+				"sale_fee": 10.44,
+				"seller_sku": "B107"
 			}
 		]
 	},
 	{
 		"order_id": 2000011038335582,
+		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-16T08:45:13.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44611695516,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5099,15 +6055,18 @@
 				"quantity": 2,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011038425984,
+		"paid_amount": 75.37,
 		"status": "paid",
 		"date_created": "2025-03-16T09:03:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44611525265,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -5115,15 +6074,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011039634748,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-03-16T11:55:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44612025683,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -5131,15 +6093,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000011040948036,
+		"paid_amount": 54.88,
 		"status": "paid",
 		"date_created": "2025-03-16T14:35:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44612561635,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5147,15 +6112,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011041779200,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-16T16:16:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44612905099,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5163,15 +6131,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011042429040,
+		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-03-16T17:34:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44613165311,
 		"items": [
 			{
 				"item_id": "MLB3900125554",
@@ -5179,15 +6150,18 @@
 				"quantity": 1,
 				"unit_price": 59.1,
 				"listing_type_id": "",
-				"sale_fee": 13.84
+				"sale_fee": 13.84,
+				"seller_sku": "652"
 			}
 		]
 	},
 	{
 		"order_id": 2000011042721422,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-16T18:10:13.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44613497004,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5195,15 +6169,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011042866394,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-16T18:26:36.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44613344973,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5211,15 +6188,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011043824092,
+		"paid_amount": 92.14,
 		"status": "paid",
 		"date_created": "2025-03-16T20:09:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44613934102,
 		"items": [
 			{
 				"item_id": "MLB5276522324",
@@ -5227,15 +6207,18 @@
 				"quantity": 1,
 				"unit_price": 52.8,
 				"listing_type_id": "",
-				"sale_fee": 13.66
+				"sale_fee": 13.66,
+				"seller_sku": "B568"
 			}
 		]
 	},
 	{
 		"order_id": 2000011046245586,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T05:41:36.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44614919278,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5243,15 +6226,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011046744792,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T07:50:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44615166456,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5259,15 +6245,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011048292632,
+		"paid_amount": 141.91,
 		"status": "paid",
 		"date_created": "2025-03-17T10:41:01.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44615892856,
 		"items": [
 			{
 				"item_id": "MLB3902873952",
@@ -5275,15 +6264,18 @@
 				"quantity": 1,
 				"unit_price": 141.91,
 				"listing_type_id": "",
-				"sale_fee": 23.42
+				"sale_fee": 23.42,
+				"seller_sku": "657"
 			}
 		]
 	},
 	{
 		"order_id": 2000011048685484,
+		"paid_amount": 108.97,
 		"status": "paid",
 		"date_created": "2025-03-17T11:19:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616079690,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -5291,15 +6283,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011049093486,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-17T11:58:36.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616269654,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5307,15 +6302,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011049104932,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T11:57:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616054897,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5323,15 +6321,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011049775590,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T13:01:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616577480,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5339,15 +6340,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011049842086,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T13:05:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616596706,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5355,15 +6359,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011049934524,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-17T13:13:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616427771,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5371,15 +6378,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011050452428,
+		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-17T14:00:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616873536,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -5387,15 +6397,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011050842212,
+		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-17T14:35:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44617050398,
 		"items": [
 			{
 				"item_id": "MLB3839298878",
@@ -5403,15 +6416,18 @@
 				"quantity": 1,
 				"unit_price": 78,
 				"listing_type_id": "",
-				"sale_fee": 19.62
+				"sale_fee": 19.62,
+				"seller_sku": "556"
 			}
 		]
 	},
 	{
 		"order_id": 2000011050842214,
+		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-17T14:35:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44616841611,
 		"items": [
 			{
 				"item_id": "MLB3839298878",
@@ -5419,15 +6435,18 @@
 				"quantity": 1,
 				"unit_price": 78,
 				"listing_type_id": "",
-				"sale_fee": 19.62
+				"sale_fee": 19.62,
+				"seller_sku": "556"
 			}
 		]
 	},
 	{
 		"order_id": 2000011051033124,
+		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-17T14:53:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44617148200,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5435,15 +6454,18 @@
 				"quantity": 3,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011051525418,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T15:38:03.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44617381210,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5451,15 +6473,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011054512612,
+		"paid_amount": 88.4,
 		"status": "paid",
 		"date_created": "2025-03-17T20:16:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44618685522,
 		"items": [
 			{
 				"item_id": "MLB3329666959",
@@ -5467,15 +6492,18 @@
 				"quantity": 4,
 				"unit_price": 22.1,
 				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 8.79,
+				"seller_sku": "B167"
 			}
 		]
 	},
 	{
 		"order_id": 2000011055131314,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-17T21:14:00.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44618740947,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5483,15 +6511,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011057916212,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T08:15:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620144068,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5499,15 +6530,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011057986542,
+		"paid_amount": 149.2,
 		"status": "paid",
 		"date_created": "2025-03-18T08:25:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620182038,
 		"items": [
 			{
 				"item_id": "MLB3986696791",
@@ -5515,15 +6549,18 @@
 				"quantity": 2,
 				"unit_price": 74.6,
 				"listing_type_id": "",
-				"sale_fee": 19.06
+				"sale_fee": 19.06,
+				"seller_sku": "B4399"
 			}
 		]
 	},
 	{
 		"order_id": 2000011058237222,
+		"paid_amount": 149.2,
 		"status": "paid",
 		"date_created": "2025-03-18T08:56:36.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620306132,
 		"items": [
 			{
 				"item_id": "MLB3986696791",
@@ -5531,15 +6568,18 @@
 				"quantity": 2,
 				"unit_price": 74.6,
 				"listing_type_id": "",
-				"sale_fee": 19.06
+				"sale_fee": 19.06,
+				"seller_sku": "B4399"
 			}
 		]
 	},
 	{
 		"order_id": 2000011058407894,
+		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-18T09:17:47.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620398030,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5547,15 +6587,18 @@
 				"quantity": 3,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011058448058,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-18T09:17:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620188319,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5563,15 +6606,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011058635870,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T09:40:59.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620504444,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5579,15 +6625,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011058799508,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T09:56:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620580830,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5595,15 +6644,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "592"
 			}
 		]
 	},
 	{
 		"order_id": 2000011058797526,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-18T09:56:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620580834,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5611,15 +6663,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "592"
 			}
 		]
 	},
 	{
 		"order_id": 2000011059012282,
+		"paid_amount": 69.06,
 		"status": "paid",
 		"date_created": "2025-03-18T10:14:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620456365,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -5627,15 +6682,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011059052028,
+		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-18T10:18:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620686348,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -5643,15 +6701,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011059290160,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-18T10:41:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620589857,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -5659,15 +6720,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011059648978,
+		"paid_amount": 28.86,
 		"status": "paid",
 		"date_created": "2025-03-18T11:17:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44620765337,
 		"items": [
 			{
 				"item_id": "MLB5299520110",
@@ -5675,15 +6739,18 @@
 				"quantity": 1,
 				"unit_price": 28.86,
 				"listing_type_id": "",
-				"sale_fee": 11.01
+				"sale_fee": 11.01,
+				"seller_sku": "4496"
 			}
 		]
 	},
 	{
 		"order_id": 2000011060419194,
+		"paid_amount": 126.72,
 		"status": "paid",
 		"date_created": "2025-03-18T12:29:14.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44621115517,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -5691,15 +6758,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011061139392,
+		"paid_amount": 85.18,
 		"status": "paid",
 		"date_created": "2025-03-18T13:35:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44621451455,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5707,15 +6777,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011061243558,
+		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-18T13:46:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44621503697,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5723,15 +6796,18 @@
 				"quantity": 3,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011061258644,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T13:46:09.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44621504287,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5739,15 +6815,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011061245870,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-18T13:46:33.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 0,
 		"items": [
 			{
 				"item_id": "MLB3151997217",
@@ -5755,15 +6834,18 @@
 				"quantity": 1,
 				"unit_price": 91,
 				"listing_type_id": "",
-				"sale_fee": 15.02
+				"sale_fee": 15.02,
+				"seller_sku": "601"
 			}
 		]
 	},
 	{
 		"order_id": 2000011063460592,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T17:19:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44622744826,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5771,15 +6853,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011067186168,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-19T00:22:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44624149521,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5787,15 +6872,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011067824056,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T05:55:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44624638834,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5803,15 +6891,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011067834976,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T06:04:30.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44624439537,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5819,15 +6910,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011068359076,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T07:57:27.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44624915726,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5835,15 +6929,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011068677964,
+		"paid_amount": 85.18,
 		"status": "paid",
 		"date_created": "2025-03-19T08:40:47.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625072388,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5851,15 +6948,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "587"
 			}
 		]
 	},
 	{
 		"order_id": 2000011068926144,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-19T09:06:53.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625177892,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5867,15 +6967,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011069043320,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T09:21:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625241450,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5883,15 +6986,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011069081358,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-19T09:26:22.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44627131407,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5899,15 +7005,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011069105652,
+		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-19T09:29:26.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625066523,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -5915,15 +7024,18 @@
 				"quantity": 3,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011069179026,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-19T09:36:01.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625095779,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5931,15 +7043,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011070084480,
+		"paid_amount": 282.25,
 		"status": "paid",
 		"date_created": "2025-03-19T11:02:50.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625714982,
 		"items": [
 			{
 				"item_id": "MLB3299416749",
@@ -5947,15 +7062,18 @@
 				"quantity": 5,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "B545"
 			}
 		]
 	},
 	{
 		"order_id": 2000011070357530,
+		"paid_amount": 54.06,
 		"status": "paid",
 		"date_created": "2025-03-19T11:30:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625632001,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5963,15 +7081,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011070387578,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T11:33:04.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625644933,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -5979,15 +7100,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011070695274,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T12:02:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44625786047,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -5995,15 +7119,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011070756016,
+		"paid_amount": 66.3,
 		"status": "paid",
 		"date_created": "2025-03-19T12:06:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44626016114,
 		"items": [
 			{
 				"item_id": "MLB3329666959",
@@ -6011,15 +7138,18 @@
 				"quantity": 3,
 				"unit_price": 22.1,
 				"listing_type_id": "",
-				"sale_fee": 8.79
+				"sale_fee": 8.79,
+				"seller_sku": "B168"
 			}
 		]
 	},
 	{
 		"order_id": 2000011071468076,
+		"paid_amount": 49.65,
 		"status": "paid",
 		"date_created": "2025-03-19T13:12:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44626340238,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6027,15 +7157,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011071959598,
+		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-19T14:01:12.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44626579932,
 		"items": [
 			{
 				"item_id": "MLB3774697980",
@@ -6043,15 +7176,18 @@
 				"quantity": 1,
 				"unit_price": 34.81,
 				"listing_type_id": "",
-				"sale_fee": 12.24
+				"sale_fee": 12.24,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000011072003624,
+		"paid_amount": 52.76,
 		"status": "paid",
 		"date_created": "2025-03-19T14:05:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44626598444,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6059,15 +7195,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011072706174,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-19T15:10:32.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44626921034,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -6075,15 +7214,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011072964536,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T15:36:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44627049782,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6091,15 +7233,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011073758848,
+		"paid_amount": 46.54,
 		"status": "paid",
 		"date_created": "2025-03-19T16:58:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44627215399,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6107,15 +7252,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011075423968,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T19:52:01.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44628170872,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6123,15 +7271,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011076208194,
+		"paid_amount": 52.73,
 		"status": "paid",
 		"date_created": "2025-03-19T21:08:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44628290407,
 		"items": [
 			{
 				"item_id": "MLB3374883717",
@@ -6139,15 +7290,18 @@
 				"quantity": 1,
 				"unit_price": 29.67,
 				"listing_type_id": "",
-				"sale_fee": 10.37
+				"sale_fee": 10.37,
+				"seller_sku": "B646"
 			}
 		]
 	},
 	{
 		"order_id": 2000011076522696,
+		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-19T21:42:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44628633906,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -6155,15 +7309,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011076505654,
+		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-19T21:42:57.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44628633764,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -6171,15 +7328,18 @@
 				"quantity": 1,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011076514872,
+		"paid_amount": 146.79,
 		"status": "partially_refunded",
 		"date_created": "2025-03-19T21:42:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44640852069,
 		"items": [
 			{
 				"item_id": "MLB3774709614",
@@ -6187,15 +7347,18 @@
 				"quantity": 4,
 				"unit_price": 48.93,
 				"listing_type_id": "",
-				"sale_fee": 14.57
+				"sale_fee": 14.57,
+				"seller_sku": "B62"
 			}
 		]
 	},
 	{
 		"order_id": 2000011076798864,
+		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-19T22:15:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44628748928,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6203,15 +7366,18 @@
 				"quantity": 2,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011077926982,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-20T02:45:08.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44629214316,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6219,15 +7385,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011078303720,
+		"paid_amount": 71,
 		"status": "paid",
 		"date_created": "2025-03-20T06:41:45.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44629412886,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6235,15 +7404,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011078377160,
+		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-20T06:58:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44629237069,
 		"items": [
 			{
 				"item_id": "MLB3670309372",
@@ -6251,15 +7423,18 @@
 				"quantity": 1,
 				"unit_price": 55.68,
 				"listing_type_id": "",
-				"sale_fee": 15.94
+				"sale_fee": 15.94,
+				"seller_sku": "557"
 			}
 		]
 	},
 	{
 		"order_id": 2000011078394220,
+		"paid_amount": 111.36,
 		"status": "paid",
 		"date_created": "2025-03-20T06:58:35.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44629237077,
 		"items": [
 			{
 				"item_id": "MLB3670309372",
@@ -6267,15 +7442,18 @@
 				"quantity": 2,
 				"unit_price": 55.68,
 				"listing_type_id": "",
-				"sale_fee": 15.94
+				"sale_fee": 15.94,
+				"seller_sku": "557"
 			}
 		]
 	},
 	{
 		"order_id": 2000011078886968,
+		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-20T08:22:31.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44629486285,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6283,15 +7461,18 @@
 				"quantity": 2,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011079488762,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-20T09:32:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44629980460,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6299,15 +7480,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "589"
 			}
 		]
 	},
 	{
 		"order_id": 2000011080777146,
+		"paid_amount": 57.99,
 		"status": "paid",
 		"date_created": "2025-03-20T11:43:10.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44630576270,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6315,15 +7499,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011081040158,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-20T12:07:18.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44630691286,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6331,15 +7518,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011081620244,
+		"paid_amount": 62.83,
 		"status": "paid",
 		"date_created": "2025-03-20T13:04:24.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44630958916,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6347,15 +7537,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011082359278,
+		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-20T14:18:35.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631312298,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6363,15 +7556,18 @@
 				"quantity": 3,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011083002212,
+		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-03-20T15:20:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631605170,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6379,15 +7575,18 @@
 				"quantity": 4,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011083366050,
+		"paid_amount": 35.35,
 		"status": "paid",
 		"date_created": "2025-03-20T15:57:25.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631775342,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -6395,15 +7594,18 @@
 				"quantity": 1,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000011083364156,
+		"paid_amount": 35.35,
 		"status": "paid",
 		"date_created": "2025-03-20T15:57:25.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631564661,
 		"items": [
 			{
 				"item_id": "MLB3321974069",
@@ -6411,15 +7613,18 @@
 				"quantity": 1,
 				"unit_price": 35.35,
 				"listing_type_id": "",
-				"sale_fee": 10.74
+				"sale_fee": 10.74,
+				"seller_sku": "B289"
 			}
 		]
 	},
 	{
 		"order_id": 2000011084057070,
+		"paid_amount": 57.42,
 		"status": "paid",
 		"date_created": "2025-03-20T17:13:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631891747,
 		"items": [
 			{
 				"item_id": "MLB3497537185",
@@ -6427,15 +7632,18 @@
 				"quantity": 2,
 				"unit_price": 28.71,
 				"listing_type_id": "",
-				"sale_fee": 9.7
+				"sale_fee": 9.7,
+				"seller_sku": "3117"
 			}
 		]
 	},
 	{
 		"order_id": 2000011084060766,
+		"paid_amount": 42.3,
 		"status": "paid",
 		"date_created": "2025-03-20T17:13:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631891747,
 		"items": [
 			{
 				"item_id": "MLB3302674985",
@@ -6443,15 +7651,18 @@
 				"quantity": 3,
 				"unit_price": 14.1,
 				"listing_type_id": "",
-				"sale_fee": 7.87
+				"sale_fee": 7.87,
+				"seller_sku": "B138"
 			}
 		]
 	},
 	{
 		"order_id": 2000011084045386,
+		"paid_amount": 56.99,
 		"status": "paid",
 		"date_created": "2025-03-20T17:13:29.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44631891747,
 		"items": [
 			{
 				"item_id": "MLB3925177714",
@@ -6459,15 +7670,18 @@
 				"quantity": 1,
 				"unit_price": 56.99,
 				"listing_type_id": "",
-				"sale_fee": 16.15
+				"sale_fee": 16.15,
+				"seller_sku": "668"
 			}
 		]
 	},
 	{
 		"order_id": 2000011084439138,
+		"paid_amount": 65.22,
 		"status": "paid",
 		"date_created": "2025-03-20T17:56:40.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44632067231,
 		"items": [
 			{
 				"item_id": "MLB3774652474",
@@ -6475,15 +7689,18 @@
 				"quantity": 2,
 				"unit_price": 32.61,
 				"listing_type_id": "",
-				"sale_fee": 10.25
+				"sale_fee": 10.25,
+				"seller_sku": "B28"
 			}
 		]
 	},
 	{
 		"order_id": 2000011084743090,
+		"paid_amount": 77.15,
 		"status": "paid",
 		"date_created": "2025-03-20T18:30:20.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44632203049,
 		"items": [
 			{
 				"item_id": "MLB3114670098",
@@ -6491,15 +7708,18 @@
 				"quantity": 1,
 				"unit_price": 77.15,
 				"listing_type_id": "",
-				"sale_fee": 18.66
+				"sale_fee": 18.66,
+				"seller_sku": "600"
 			}
 		]
 	},
 	{
 		"order_id": 2000011086308990,
+		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-20T21:16:34.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44632883209,
 		"items": [
 			{
 				"item_id": "MLB3272344641",
@@ -6507,15 +7727,18 @@
 				"quantity": 1,
 				"unit_price": 78.5,
 				"listing_type_id": "",
-				"sale_fee": 19.7
+				"sale_fee": 19.7,
+				"seller_sku": "543"
 			}
 		]
 	},
 	{
 		"order_id": 2000011087800094,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-21T01:42:00.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44633488071,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6523,15 +7746,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011088749570,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-21T08:15:44.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44634185930,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6539,15 +7765,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011088889532,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-21T08:35:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44634044163,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6555,15 +7784,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011089329712,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-21T09:31:16.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44634257211,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6571,15 +7803,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011089770790,
+		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-21T10:18:43.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44634453955,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6587,15 +7822,18 @@
 				"quantity": 2,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011090052486,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T10:49:46.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44634590939,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6603,15 +7841,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011090475950,
+		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-21T11:36:48.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44635000890,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6619,15 +7860,18 @@
 				"quantity": 2,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011090920434,
+		"paid_amount": 50.75,
 		"status": "paid",
 		"date_created": "2025-03-21T12:20:04.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44635189432,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6635,15 +7879,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011091548470,
+		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-21T13:27:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44635268583,
 		"items": [
 			{
 				"item_id": "MLB3301694259",
@@ -6651,15 +7898,18 @@
 				"quantity": 1,
 				"unit_price": 31.99,
 				"listing_type_id": "",
-				"sale_fee": 10.18
+				"sale_fee": 10.18,
+				"seller_sku": "B513"
 			}
 		]
 	},
 	{
 		"order_id": 2000011092036672,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T14:21:23.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44635496145,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6667,15 +7917,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011092503232,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T15:13:52.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44635723175,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6683,15 +7936,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011092526202,
+		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T15:15:37.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44635940586,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6699,15 +7955,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011093691246,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-21T17:36:21.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44636274377,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6715,15 +7974,18 @@
 				"quantity": 4,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011093708474,
+		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-21T17:36:21.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44636274367,
 		"items": [
 			{
 				"item_id": "MLB3099260228",
@@ -6731,15 +7993,18 @@
 				"quantity": 1,
 				"unit_price": 56.45,
 				"listing_type_id": "",
-				"sale_fee": 16.06
+				"sale_fee": 16.06,
+				"seller_sku": "586"
 			}
 		]
 	},
 	{
 		"order_id": 2000011093785358,
+		"paid_amount": 0,
 		"status": "cancelled",
 		"date_created": "2025-03-21T17:46:58.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44636522862,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -6747,15 +8012,18 @@
 				"quantity": 1,
 				"unit_price": 35.3,
 				"listing_type_id": "",
-				"sale_fee": 12.32
+				"sale_fee": 12.32,
+				"seller_sku": "290"
 			}
 		]
 	},
 	{
 		"order_id": 2000011094473788,
+		"paid_amount": 88.12,
 		"status": "paid",
 		"date_created": "2025-03-21T19:14:56.000-04:00",
 		"shipping_cost": 0,
+		"shipping_id": 44636621027,
 		"items": [
 			{
 				"item_id": "MLB3986696791",
@@ -6763,7 +8031,8 @@
 				"quantity": 1,
 				"unit_price": 74.6,
 				"listing_type_id": "",
-				"sale_fee": 19.06
+				"sale_fee": 19.06,
+				"seller_sku": "B4399"
 			}
 		]
 	}

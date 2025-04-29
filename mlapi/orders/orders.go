@@ -24,7 +24,7 @@ type Order struct {
 	Status       string      `json:"status"`
 	DateCreated  string      `json:"date_created"`
 	ShippingCost float64     `json:"shipping_cost"`
-	ShippingID   string      `json:"shipping_id"`
+	ShippingID   int         `json:"shipping_id"`
 	Items        []OrderItem `json:"items"`
 }
 
@@ -103,7 +103,7 @@ func extract(data []byte) ([]Order, error) {
 			ShippingCost *float64 `json:"shipping_cost"` // pode ser nulo
 			PaidAmount   float64  `json:"paid_amount"`
 			Shipping     struct {
-				ID string `json:"id"`
+				ID int `json:"id"`
 			} `json:"shipping"`
 			OrderItems []struct {
 				Item struct {
@@ -127,11 +127,12 @@ func extract(data []byte) ([]Order, error) {
 	var orders []Order
 	for _, r := range raw.Results {
 		order := Order{
-			OrderID:      r.ID,
-			Status:       r.Status,
-			DateCreated:  r.DateCreated,
-			ShippingCost: *r.ShippingCost,
-			ShippingID:   r.Shipping.ID,
+			OrderID:     r.ID,
+			Status:      r.Status,
+			DateCreated: r.DateCreated,
+			//ShippingCost: *r.ShippingCost,
+			ShippingID: r.Shipping.ID,
+			PaidAmount: r.PaidAmount,
 		}
 
 		if r.ShippingCost != nil {
@@ -180,7 +181,20 @@ func Total(orders []Order) float64 {
 	return total
 }
 
-func Fetch() error {
+func Get(orderId string) {
+	url := fmt.Sprintf("https://api.mercadolibre.com/orders/%s", orderId)
+
+	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
+	if err != nil {
+		return
+	}
+
+	fmt.Println("BODY:", string(body))
+
+	return
+}
+
+func Fetch() ([]Order, error) {
 	//url := fmt.Sprintf("https://api.mercadolibre.com/items?ids=%s&attributes=id,title,price,base_price,original_price", temp)
 	//url := fmt.Sprintf("https://api.mercadolibre.com/items/%s/prices", itemsId[0])
 	url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s", requests.USER_ID)
@@ -188,30 +202,26 @@ func Fetch() error {
 
 	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 	if err != nil {
-		return fmt.Errorf("erro ao fazer requisição: %s", err)
+		return nil, fmt.Errorf("erro ao fazer requisição: %s", err)
 	}
 
 	ords, err := extract(body)
 	if err != nil {
-		return fmt.Errorf("erro ao extrair pedidos: %s", err)
+		return nil, fmt.Errorf("erro ao extrair pedidos: %s", err)
 	}
+
+	f, err := os.Create("fetch_orders.json")
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+
+	as_json, _ := json.MarshalIndent(ords, "", "\t")
+	f.Write(as_json)
 
 	Total(ords)
 
 	fmt.Println("pedidos:", ords)
 
-	return nil
-}
-
-func FetchShipping(shipmentID string) error {
-	url := fmt.Sprintf("https://api.mercadolibre.com/shipments/%s", shipmentID)
-
-	body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
-	if err != nil {
-		return fmt.Errorf("erro ao fazer requisição: %s", err)
-	}
-
-	fmt.Println("BODY:", string(body))
-
-	return nil
+	return ords, nil
 }

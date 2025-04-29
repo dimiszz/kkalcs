@@ -6,8 +6,8 @@ import (
 
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/mlapi/auth"
-	"dimi/kkalcs/mlapi/orders"
 	"dimi/kkalcs/mlapi/requests"
+	"dimi/kkalcs/mlapi/shipments"
 )
 
 type Paging struct {
@@ -40,10 +40,19 @@ func run() error {
 	//Test()
 	//orders.FetchAll()
 
-	err := orders.FetchAll()
-	fmt.Println("Erro:", err)
+	// _, err := orders.Fetch()
+	// if err != nil {
+	// 	fmt.Println("Erro:", err)
+	// }
 
-	orders.FetchShipping("44636621027")
+	//orders.Get("2000011094473788")
+
+	s, err := shipments.FetchCosts("44631564661")
+	if err != nil {
+		fmt.Println("Erro:", err)
+		return err
+	}
+	fmt.Println("Shipment: ", s)
 
 	return nil
 

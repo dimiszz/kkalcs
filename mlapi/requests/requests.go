@@ -56,40 +56,6 @@ func MakeRequest(method Method, url string, body *bytes.Buffer) (*http.Response,
 	return resp, nil
 }
 
-func MakeTestRequest(method Method, url string, body *bytes.Buffer, userID string) (*http.Response, error) {
-
-	var bodyReader io.Reader
-	if body != nil {
-		bodyReader = body
-	} else {
-		bodyReader = nil
-	}
-
-	access_token := auth.GetAcessToken()
-	access_token = access_token[:len(access_token)-9] + userID
-	var bearer = "Bearer " + access_token
-
-	req, err := http.NewRequest(string(method), url, bodyReader)
-	if err != nil {
-		panic(err)
-	}
-
-	req.Header.Add("Authorization", bearer)
-	req.Header.Add("Content-Type", "application/json")
-
-	client := &http.Client{}
-	resp, err := client.Do(req)
-
-	if err != nil {
-		return nil, err
-	}
-	if resp.StatusCode != 200 && resp.StatusCode != 201 {
-		return nil, fmt.Errorf("error: status code %d", resp.StatusCode)
-	}
-
-	return resp, nil
-}
-
 func MakeSimpleRequest(method Method, url string, body *bytes.Buffer) ([]byte, error) {
 
 	resp, err := MakeRequest(method, url, body)

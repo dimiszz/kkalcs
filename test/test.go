@@ -83,7 +83,7 @@ func createListingForSeller(userID string) error {
 	// Endpoint para criar a publicação
 
 	// Faz a requisição para criar a publicação
-	resp, err := requests.MakeTestRequest("POST", request_url, bytes.NewBuffer(product_json), userID)
+	resp, err := requests.MakeRequest(requests.POST, request_url, bytes.NewBuffer(product_json))
 	if err != nil {
 		fmt.Println("Erro ao criar publicação:", err)
 		return err
