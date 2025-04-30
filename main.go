@@ -3,11 +3,16 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log/slog"
+	"os"
+	"time"
 
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/mlapi/auth"
 	"dimi/kkalcs/mlapi/orders"
 	"dimi/kkalcs/mlapi/requests"
+
+	"github.com/lmittmann/tint"
 )
 
 type Paging struct {
@@ -22,20 +27,25 @@ type SearchResult struct {
 func main() {
 	dotenv.Load()
 	LoadUserId()
+	setupLogger()
 
 	err := run()
 	if err != nil {
-		fmt.Println("Erro:", err)
+		slog.Error("Error in code execution", "error", err)
 	}
 }
 
 func run() error {
 
-	//err := CalculateProfit()
+	err := CalculateProfit()
 
-	orders.Get("2000010876085454")
+	//orders.Get("2000010876085454")
 
-	return nil
+	// t := time.Now().Format("2006-01-02T00:00:00Z")
+	// fmt.Println(t)
+	// fmt.Println("2025-02-21T00:00:00Z")
+
+	return err
 }
 
 func getAllItemsIds() ([]string, error) {
@@ -140,4 +150,21 @@ func CalculateProfit() error {
 	orders.Total(ords)
 
 	return nil
+}
+
+func setupLogger() {
+
+	w := os.Stderr
+
+	logger := slog.New(tint.NewHandler(w, &tint.Options{
+		Level:      slog.LevelDebug,
+		TimeFormat: time.Kitchen,
+	}))
+
+	slog.SetDefault(logger)
+
+	slog.Debug("isso é debug") // não será exibido
+	slog.Info("isso é info")   // será exibido
+	slog.Warn("isso é warn")   // será exibido
+	slog.Error("isso é error") // será exibido
 }

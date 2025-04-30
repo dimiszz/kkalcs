@@ -47,9 +47,6 @@ func FetchAll() ([]Order, error) {
 			requests.USER_ID, limit, offset, dateFrom, dateTo, validStatuses,
 		)
 
-		//url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s&limit=%d&offset=%d&date_from=%s&date_to=%s", USER_ID, limit, offset, dateFrom, dateTo)
-		fmt.Println("URL:", url)
-
 		body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 
 		if err != nil {

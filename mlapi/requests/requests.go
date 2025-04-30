@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log/slog"
 	"net/http"
 	"net/url"
 )
@@ -22,7 +23,7 @@ const (
 )
 
 func MakeRequest(method Method, url string, body *bytes.Buffer) (*http.Response, error) {
-
+	slog.Debug("Making request", "method", method, "url", url)
 	var bodyReader io.Reader
 	if body != nil {
 		bodyReader = body
@@ -49,7 +50,7 @@ func MakeRequest(method Method, url string, body *bytes.Buffer) (*http.Response,
 	}
 	if resp.StatusCode != 200 && resp.StatusCode != 201 {
 		body, _ := io.ReadAll(resp.Body)
-		fmt.Println("Response Body:", string(body))
+		slog.Debug("Request failed ", "Response Body:", string(body))
 		return nil, fmt.Errorf("error: status code %d", resp.StatusCode)
 	}
 
