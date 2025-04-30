@@ -1,3 +1,18 @@
 {2408860744 TESTUSER640809062 kL474Karcm }
 
+seller:
+{
+    "id": 2415714736,
+    "email": "test_user_861782116@testuser.com",
+    "nickname": "TESTUSER861782116",
+    "site_status": "active",
+    "password": "FNHMAtGTf0"
+}
 
+{
+    "id": 2415714744,
+    "email": "test_user_2093366637@testuser.com",
+    "nickname": "TESTUSER2093366637",
+    "site_status": "active",
+    "password": "4dhcM3QDok"
+}
