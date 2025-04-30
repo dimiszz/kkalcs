@@ -4,7 +4,6 @@
 		"paid_amount": 116.19,
 		"status": "paid",
 		"date_created": "2025-02-20T20:32:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44515967448,
 		"items": [
 			{
@@ -23,7 +22,6 @@
 		"paid_amount": 42.4,
 		"status": "paid",
 		"date_created": "2025-02-20T23:38:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44516583178,
 		"items": [
 			{
@@ -42,7 +40,6 @@
 		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-02-20T23:38:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44516583160,
 		"items": [
 			{
@@ -61,7 +58,6 @@
 		"paid_amount": 92.6,
 		"status": "paid",
 		"date_created": "2025-02-21T09:04:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44517437494,
 		"items": [
 			{
@@ -76,30 +72,10 @@
 		]
 	},
 	{
-		"order_id": 2000010824107700,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-21T10:32:02.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44517592339,
-		"items": [
-			{
-				"item_id": "MLB4102097558",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 55.39,
-				"listing_type_id": "",
-				"sale_fee": 15.89,
-				"seller_sku": "275"
-			}
-		]
-	},
-	{
 		"order_id": 2000010826591956,
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-21T14:53:35.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44518940998,
 		"items": [
 			{
@@ -118,7 +94,6 @@
 		"paid_amount": 176.8,
 		"status": "paid",
 		"date_created": "2025-02-21T16:54:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44519218529,
 		"items": [
 			{
@@ -137,7 +112,6 @@
 		"paid_amount": 44.2,
 		"status": "paid",
 		"date_created": "2025-02-21T16:54:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44519424298,
 		"items": [
 			{
@@ -156,7 +130,6 @@
 		"paid_amount": 126,
 		"status": "paid",
 		"date_created": "2025-02-21T17:36:39.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44519372193,
 		"items": [
 			{
@@ -175,7 +148,6 @@
 		"paid_amount": 37.71,
 		"status": "paid",
 		"date_created": "2025-02-21T18:52:55.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44519637237,
 		"items": [
 			{
@@ -194,7 +166,6 @@
 		"paid_amount": 14.45,
 		"status": "paid",
 		"date_created": "2025-02-21T20:33:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44519983453,
 		"items": [
 			{
@@ -213,7 +184,6 @@
 		"paid_amount": 106.05,
 		"status": "paid",
 		"date_created": "2025-02-21T20:43:05.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44520013799,
 		"items": [
 			{
@@ -232,7 +202,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-22T08:24:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44521180786,
 		"items": [
 			{
@@ -251,7 +220,6 @@
 		"paid_amount": 245.95,
 		"status": "paid",
 		"date_created": "2025-02-22T08:59:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44521059783,
 		"items": [
 			{
@@ -270,7 +238,6 @@
 		"paid_amount": 93.05,
 		"status": "paid",
 		"date_created": "2025-02-22T10:11:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44521473766,
 		"items": [
 			{
@@ -289,7 +256,6 @@
 		"paid_amount": 177.3,
 		"status": "paid",
 		"date_created": "2025-02-22T10:33:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44521544452,
 		"items": [
 			{
@@ -308,7 +274,6 @@
 		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-02-22T11:30:39.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44521730840,
 		"items": [
 			{
@@ -327,7 +292,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-02-22T15:35:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44522329289,
 		"items": [
 			{
@@ -346,7 +310,6 @@
 		"paid_amount": 49.85,
 		"status": "paid",
 		"date_created": "2025-02-22T16:23:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44522683386,
 		"items": [
 			{
@@ -365,7 +328,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-22T17:26:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44522669035,
 		"items": [
 			{
@@ -384,7 +346,6 @@
 		"paid_amount": 252,
 		"status": "paid",
 		"date_created": "2025-02-22T19:33:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44523032383,
 		"items": [
 			{
@@ -403,7 +364,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-23T07:52:54.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44523941067,
 		"items": [
 			{
@@ -422,7 +382,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-23T08:22:54.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44523984363,
 		"items": [
 			{
@@ -441,7 +400,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-23T08:22:54.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44523984363,
 		"items": [
 			{
@@ -460,7 +418,6 @@
 		"paid_amount": 131.16,
 		"status": "paid",
 		"date_created": "2025-02-23T16:18:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44525374519,
 		"items": [
 			{
@@ -475,30 +432,10 @@
 		]
 	},
 	{
-		"order_id": 2000010842332044,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-23T17:05:58.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44525731534,
-		"items": [
-			{
-				"item_id": "MLB3272367927",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 35.3,
-				"listing_type_id": "",
-				"sale_fee": 12.32,
-				"seller_sku": "290"
-			}
-		]
-	},
-	{
 		"order_id": 2000010843483608,
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-23T19:31:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44526001131,
 		"items": [
 			{
@@ -517,7 +454,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-23T20:37:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44526231761,
 		"items": [
 			{
@@ -536,7 +472,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-23T22:13:28.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44526552733,
 		"items": [
 			{
@@ -555,7 +490,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-23T22:26:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44526797102,
 		"items": [
 			{
@@ -574,7 +508,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T06:35:59.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44527355476,
 		"items": [
 			{
@@ -593,7 +526,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T09:06:24.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44527804040,
 		"items": [
 			{
@@ -612,7 +544,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-24T09:49:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44527998876,
 		"items": [
 			{
@@ -631,7 +562,6 @@
 		"paid_amount": 45.45,
 		"status": "paid",
 		"date_created": "2025-02-24T10:02:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44528062240,
 		"items": [
 			{
@@ -646,30 +576,10 @@
 		]
 	},
 	{
-		"order_id": 2000010848787938,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-24T11:45:26.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44528568288,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "591"
-			}
-		]
-	},
-	{
 		"order_id": 2000010848914292,
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-24T11:54:51.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44528618818,
 		"items": [
 			{
@@ -688,7 +598,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-24T12:03:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44528458231,
 		"items": [
 			{
@@ -703,30 +612,10 @@
 		]
 	},
 	{
-		"order_id": 2000010849912518,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-24T13:26:56.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44529084008,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "591"
-			}
-		]
-	},
-	{
 		"order_id": 2000010850934812,
 		"paid_amount": 145.34,
 		"status": "paid",
 		"date_created": "2025-02-24T14:59:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44529565078,
 		"items": [
 			{
@@ -745,7 +634,6 @@
 		"paid_amount": 145.34,
 		"status": "paid",
 		"date_created": "2025-02-24T14:59:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44529359535,
 		"items": [
 			{
@@ -764,7 +652,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-24T15:55:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44529655057,
 		"items": [
 			{
@@ -783,7 +670,6 @@
 		"paid_amount": 227.67,
 		"status": "paid",
 		"date_created": "2025-02-24T17:08:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44530212306,
 		"items": [
 			{
@@ -802,7 +688,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T17:07:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44530001213,
 		"items": [
 			{
@@ -821,7 +706,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T17:51:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44530404036,
 		"items": [
 			{
@@ -840,7 +724,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-24T19:31:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44530849816,
 		"items": [
 			{
@@ -859,7 +742,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-02-24T22:36:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44531414109,
 		"items": [
 			{
@@ -874,30 +756,10 @@
 		]
 	},
 	{
-		"order_id": 2000010856371020,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-25T01:20:43.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44531749235,
-		"items": [
-			{
-				"item_id": "MLB3321974069",
-				"category_id": "MLB256846",
-				"quantity": 1,
-				"unit_price": 35.35,
-				"listing_type_id": "",
-				"sale_fee": 10.74,
-				"seller_sku": "B289"
-			}
-		]
-	},
-	{
 		"order_id": 2000010856980728,
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-25T06:46:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44532239980,
 		"items": [
 			{
@@ -916,7 +778,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-25T06:46:38.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44532035401,
 		"items": [
 			{
@@ -935,7 +796,6 @@
 		"paid_amount": 23,
 		"status": "paid",
 		"date_created": "2025-02-25T08:59:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44532467695,
 		"items": [
 			{
@@ -954,7 +814,6 @@
 		"paid_amount": 55.58,
 		"status": "paid",
 		"date_created": "2025-02-25T09:28:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44532595949,
 		"items": [
 			{
@@ -973,7 +832,6 @@
 		"paid_amount": 90.21,
 		"status": "paid",
 		"date_created": "2025-02-25T11:10:00.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44533290020,
 		"items": [
 			{
@@ -992,7 +850,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-25T12:26:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44533656860,
 		"items": [
 			{
@@ -1011,7 +868,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-25T12:51:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44536524584,
 		"items": [
 			{
@@ -1030,7 +886,6 @@
 		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-02-25T13:30:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44533772991,
 		"items": [
 			{
@@ -1049,7 +904,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-25T13:40:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44534029650,
 		"items": [
 			{
@@ -1068,7 +922,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-25T14:33:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44534088155,
 		"items": [
 			{
@@ -1083,49 +936,10 @@
 		]
 	},
 	{
-		"order_id": 2000010861335336,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-25T14:34:55.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44534093331,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "591"
-			}
-		]
-	},
-	{
-		"order_id": 2000010861376832,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-25T14:38:24.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44534316526,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "591"
-			}
-		]
-	},
-	{
 		"order_id": 2000010862839948,
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-25T17:08:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44534811117,
 		"items": [
 			{
@@ -1144,7 +958,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-02-25T19:26:03.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44535585090,
 		"items": [
 			{
@@ -1163,7 +976,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-25T21:31:55.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44535911051,
 		"items": [
 			{
@@ -1178,30 +990,10 @@
 		]
 	},
 	{
-		"order_id": 2000010865838998,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-25T22:31:18.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44536324666,
-		"items": [
-			{
-				"item_id": "MLB3120363163",
-				"category_id": "MLB193616",
-				"quantity": 1,
-				"unit_price": 23,
-				"listing_type_id": "",
-				"sale_fee": 10.04,
-				"seller_sku": "B67"
-			}
-		]
-	},
-	{
 		"order_id": 2000010867253194,
 		"paid_amount": 126,
 		"status": "paid",
 		"date_created": "2025-02-26T06:37:59.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44536749167,
 		"items": [
 			{
@@ -1216,49 +1008,10 @@
 		]
 	},
 	{
-		"order_id": 2000010867316340,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-26T06:50:38.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44536981268,
-		"items": [
-			{
-				"item_id": "MLB3120363163",
-				"category_id": "MLB193616",
-				"quantity": 1,
-				"unit_price": 23,
-				"listing_type_id": "",
-				"sale_fee": 10.04,
-				"seller_sku": "B67"
-			}
-		]
-	},
-	{
-		"order_id": 2000010868117494,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-26T08:56:28.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44537189861,
-		"items": [
-			{
-				"item_id": "MLB3301694259",
-				"category_id": "MLB244658",
-				"quantity": 6,
-				"unit_price": 31.99,
-				"listing_type_id": "",
-				"sale_fee": 10.18,
-				"seller_sku": "B513"
-			}
-		]
-	},
-	{
 		"order_id": 2000010868526936,
 		"paid_amount": 37.71,
 		"status": "paid",
 		"date_created": "2025-02-26T09:39:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44537585858,
 		"items": [
 			{
@@ -1277,7 +1030,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-26T10:52:42.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44537935410,
 		"items": [
 			{
@@ -1296,7 +1048,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-26T15:02:55.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44539145340,
 		"items": [
 			{
@@ -1315,7 +1066,6 @@
 		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-02-26T15:03:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44539149200,
 		"items": [
 			{
@@ -1334,7 +1084,6 @@
 		"paid_amount": 65.1,
 		"status": "paid",
 		"date_created": "2025-02-26T15:41:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44539132753,
 		"items": [
 			{
@@ -1353,7 +1102,6 @@
 		"paid_amount": 42.3,
 		"status": "paid",
 		"date_created": "2025-02-26T15:41:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44539132753,
 		"items": [
 			{
@@ -1372,7 +1120,6 @@
 		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-02-26T17:18:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44539574865,
 		"items": [
 			{
@@ -1391,7 +1138,6 @@
 		"paid_amount": 141.91,
 		"status": "paid",
 		"date_created": "2025-02-26T17:20:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44539582285,
 		"items": [
 			{
@@ -1410,7 +1156,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-26T18:31:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44540073748,
 		"items": [
 			{
@@ -1429,7 +1174,6 @@
 		"paid_amount": 223.59,
 		"status": "paid",
 		"date_created": "2025-02-26T20:26:47.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44540346293,
 		"items": [
 			{
@@ -1448,7 +1192,6 @@
 		"paid_amount": 23,
 		"status": "paid",
 		"date_created": "2025-02-26T21:29:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44540800522,
 		"items": [
 			{
@@ -1467,7 +1210,6 @@
 		"paid_amount": 45.66,
 		"status": "paid",
 		"date_created": "2025-02-26T22:41:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44541038356,
 		"items": [
 			{
@@ -1486,7 +1228,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-27T05:47:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44541534930,
 		"items": [
 			{
@@ -1505,7 +1246,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-02-27T08:16:51.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44541868634,
 		"items": [
 			{
@@ -1524,7 +1264,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-02-27T12:26:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44542722891,
 		"items": [
 			{
@@ -1543,7 +1282,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-27T14:34:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44543505330,
 		"items": [
 			{
@@ -1562,7 +1300,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-02-27T16:40:24.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44544048078,
 		"items": [
 			{
@@ -1581,7 +1318,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-27T17:03:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44544142882,
 		"items": [
 			{
@@ -1600,7 +1336,6 @@
 		"paid_amount": 43.72,
 		"status": "paid",
 		"date_created": "2025-02-27T19:43:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44544544325,
 		"items": [
 			{
@@ -1619,7 +1354,6 @@
 		"paid_amount": 46.54,
 		"status": "paid",
 		"date_created": "2025-02-27T20:32:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44544725571,
 		"items": [
 			{
@@ -1638,7 +1372,6 @@
 		"paid_amount": 86.55,
 		"status": "paid",
 		"date_created": "2025-02-27T21:23:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44545116710,
 		"items": [
 			{
@@ -1653,30 +1386,10 @@
 		]
 	},
 	{
-		"order_id": 2000010885709638,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-27T23:03:44.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44545218567,
-		"items": [
-			{
-				"item_id": "MLB3728966695",
-				"category_id": "MLB277485",
-				"quantity": 1,
-				"unit_price": 29.05,
-				"listing_type_id": "",
-				"sale_fee": 10.28,
-				"seller_sku": "3940"
-			}
-		]
-	},
-	{
 		"order_id": 2000010887310830,
 		"paid_amount": 47,
 		"status": "paid",
 		"date_created": "2025-02-28T08:15:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44545947947,
 		"items": [
 			{
@@ -1695,7 +1408,6 @@
 		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-02-28T13:09:42.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44547088767,
 		"items": [
 			{
@@ -1714,7 +1426,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-28T14:55:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44547534307,
 		"items": [
 			{
@@ -1733,7 +1444,6 @@
 		"paid_amount": 55.49,
 		"status": "paid",
 		"date_created": "2025-02-28T17:29:28.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44548308336,
 		"items": [
 			{
@@ -1752,7 +1462,6 @@
 		"paid_amount": 296.45,
 		"status": "paid",
 		"date_created": "2025-02-28T19:33:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44548511747,
 		"items": [
 			{
@@ -1767,30 +1476,10 @@
 		]
 	},
 	{
-		"order_id": 2000010893483636,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-02-28T21:00:59.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44548994292,
-		"items": [
-			{
-				"item_id": "MLB3962157449",
-				"category_id": "MLB278289",
-				"quantity": 1,
-				"unit_price": 24.79,
-				"listing_type_id": "",
-				"sale_fee": 10.46,
-				"seller_sku": "B4299"
-			}
-		]
-	},
-	{
 		"order_id": 2000010894079662,
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-02-28T22:30:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44549030611,
 		"items": [
 			{
@@ -1809,7 +1498,6 @@
 		"paid_amount": 69.97,
 		"status": "paid",
 		"date_created": "2025-03-01T10:27:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44550015295,
 		"items": [
 			{
@@ -1828,7 +1516,6 @@
 		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-01T13:46:41.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44550651805,
 		"items": [
 			{
@@ -1847,7 +1534,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-01T14:06:56.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44550921516,
 		"items": [
 			{
@@ -1866,7 +1552,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-01T15:44:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44551012837,
 		"items": [
 			{
@@ -1885,7 +1570,6 @@
 		"paid_amount": 52.8,
 		"status": "paid",
 		"date_created": "2025-03-01T16:37:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44551171083,
 		"items": [
 			{
@@ -1904,7 +1588,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-01T17:15:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44551484504,
 		"items": [
 			{
@@ -1923,7 +1606,6 @@
 		"paid_amount": 60.81,
 		"status": "paid",
 		"date_created": "2025-03-01T18:14:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44551441099,
 		"items": [
 			{
@@ -1938,30 +1620,10 @@
 		]
 	},
 	{
-		"order_id": 2000010900437518,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-01T20:19:50.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44551991404,
-		"items": [
-			{
-				"item_id": "MLB3272367927",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 35.3,
-				"listing_type_id": "",
-				"sale_fee": 12.32,
-				"seller_sku": "290"
-			}
-		]
-	},
-	{
 		"order_id": 2000010904037008,
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-02T12:54:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44553458212,
 		"items": [
 			{
@@ -1980,7 +1642,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-02T13:10:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44553503838,
 		"items": [
 			{
@@ -1999,7 +1660,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-02T15:44:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44553735027,
 		"items": [
 			{
@@ -2018,7 +1678,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-02T17:39:39.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44554058031,
 		"items": [
 			{
@@ -2037,7 +1696,6 @@
 		"paid_amount": 127.96,
 		"status": "paid",
 		"date_created": "2025-03-02T18:25:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44554391552,
 		"items": [
 			{
@@ -2056,7 +1714,6 @@
 		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-02T18:25:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44554391550,
 		"items": [
 			{
@@ -2075,7 +1732,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-02T23:34:28.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44555220968,
 		"items": [
 			{
@@ -2094,7 +1750,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-03T06:59:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44555399915,
 		"items": [
 			{
@@ -2113,7 +1768,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T08:53:08.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44555832828,
 		"items": [
 			{
@@ -2132,7 +1786,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-03T09:26:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44555725455,
 		"items": [
 			{
@@ -2151,7 +1804,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T11:14:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44556321304,
 		"items": [
 			{
@@ -2170,7 +1822,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T12:12:58.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44556551998,
 		"items": [
 			{
@@ -2189,7 +1840,6 @@
 		"paid_amount": 58.36,
 		"status": "paid",
 		"date_created": "2025-03-03T12:16:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44556358283,
 		"items": [
 			{
@@ -2208,7 +1858,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-03T13:17:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44556809196,
 		"items": [
 			{
@@ -2227,7 +1876,6 @@
 		"paid_amount": 53.87,
 		"status": "paid",
 		"date_created": "2025-03-03T14:03:38.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44556985562,
 		"items": [
 			{
@@ -2246,7 +1894,6 @@
 		"paid_amount": 141.91,
 		"status": "paid",
 		"date_created": "2025-03-03T14:37:07.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44557118982,
 		"items": [
 			{
@@ -2265,7 +1912,6 @@
 		"paid_amount": 114.49,
 		"status": "paid",
 		"date_created": "2025-03-03T14:37:07.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44557118982,
 		"items": [
 			{
@@ -2284,7 +1930,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-03T14:37:07.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44557118982,
 		"items": [
 			{
@@ -2303,7 +1948,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-03T19:09:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44557932191,
 		"items": [
 			{
@@ -2322,7 +1966,6 @@
 		"paid_amount": 64.4,
 		"status": "paid",
 		"date_created": "2025-03-04T09:45:54.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44559767994,
 		"items": [
 			{
@@ -2341,7 +1984,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-04T10:57:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44559816285,
 		"items": [
 			{
@@ -2360,7 +2002,6 @@
 		"paid_amount": 76.61,
 		"status": "paid",
 		"date_created": "2025-03-04T12:06:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44560081897,
 		"items": [
 			{
@@ -2379,7 +2020,6 @@
 		"paid_amount": 109.93,
 		"status": "paid",
 		"date_created": "2025-03-04T14:14:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44560781658,
 		"items": [
 			{
@@ -2398,7 +2038,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-04T16:02:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44560984141,
 		"items": [
 			{
@@ -2417,7 +2056,6 @@
 		"paid_amount": 57.63,
 		"status": "paid",
 		"date_created": "2025-03-04T17:57:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44561413835,
 		"items": [
 			{
@@ -2436,7 +2074,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-04T18:32:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44561543031,
 		"items": [
 			{
@@ -2455,7 +2092,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-04T18:34:36.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44561757220,
 		"items": [
 			{
@@ -2474,7 +2110,6 @@
 		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-03-04T19:13:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44561905236,
 		"items": [
 			{
@@ -2493,7 +2128,6 @@
 		"paid_amount": 91.48,
 		"status": "paid",
 		"date_created": "2025-03-04T20:31:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44562213766,
 		"items": [
 			{
@@ -2512,7 +2146,6 @@
 		"paid_amount": 117.88,
 		"status": "paid",
 		"date_created": "2025-03-04T20:35:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44562229112,
 		"items": [
 			{
@@ -2531,7 +2164,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-04T20:46:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44562063269,
 		"items": [
 			{
@@ -2550,7 +2182,6 @@
 		"paid_amount": 118.58,
 		"status": "paid",
 		"date_created": "2025-03-04T21:45:51.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44562484306,
 		"items": [
 			{
@@ -2569,7 +2200,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-05T07:17:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44563038729,
 		"items": [
 			{
@@ -2588,7 +2218,6 @@
 		"paid_amount": 103.51,
 		"status": "paid",
 		"date_created": "2025-03-05T10:14:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44563874932,
 		"items": [
 			{
@@ -2607,7 +2236,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-05T10:53:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44564060308,
 		"items": [
 			{
@@ -2626,7 +2254,6 @@
 		"paid_amount": 79.33,
 		"status": "paid",
 		"date_created": "2025-03-05T11:33:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44564036467,
 		"items": [
 			{
@@ -2645,7 +2272,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-05T12:46:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44564383955,
 		"items": [
 			{
@@ -2664,7 +2290,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-05T14:58:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44565230952,
 		"items": [
 			{
@@ -2683,7 +2308,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-05T15:08:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44565277624,
 		"items": [
 			{
@@ -2702,7 +2326,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-05T18:00:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44566086444,
 		"items": [
 			{
@@ -2717,30 +2340,10 @@
 		]
 	},
 	{
-		"order_id": 2000010933364246,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-05T18:43:08.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44566274270,
-		"items": [
-			{
-				"item_id": "MLB5276522324",
-				"category_id": "MLB194031",
-				"quantity": 1,
-				"unit_price": 52.8,
-				"listing_type_id": "",
-				"sale_fee": 13.66,
-				"seller_sku": "B568"
-			}
-		]
-	},
-	{
 		"order_id": 2000010933497148,
 		"paid_amount": 48.62,
 		"status": "paid",
 		"date_created": "2025-03-05T18:57:50.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44566131367,
 		"items": [
 			{
@@ -2759,7 +2362,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-05T19:54:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44566585908,
 		"items": [
 			{
@@ -2778,7 +2380,6 @@
 		"paid_amount": 71,
 		"status": "paid",
 		"date_created": "2025-03-05T22:26:19.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44567194618,
 		"items": [
 			{
@@ -2797,7 +2398,6 @@
 		"paid_amount": 105.6,
 		"status": "paid",
 		"date_created": "2025-03-06T00:10:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44567245359,
 		"items": [
 			{
@@ -2816,7 +2416,6 @@
 		"paid_amount": 23.2,
 		"status": "paid",
 		"date_created": "2025-03-06T09:29:53.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44568186849,
 		"items": [
 			{
@@ -2835,7 +2434,6 @@
 		"paid_amount": 73.84,
 		"status": "paid",
 		"date_created": "2025-03-06T14:43:13.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44569740071,
 		"items": [
 			{
@@ -2854,7 +2452,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-06T17:02:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44570434891,
 		"items": [
 			{
@@ -2873,7 +2470,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-06T17:25:47.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44570747708,
 		"items": [
 			{
@@ -2892,7 +2488,6 @@
 		"paid_amount": 73.84,
 		"status": "paid",
 		"date_created": "2025-03-06T18:59:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44571167384,
 		"items": [
 			{
@@ -2911,7 +2506,6 @@
 		"paid_amount": 106.81,
 		"status": "paid",
 		"date_created": "2025-03-06T19:49:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 0,
 		"items": [
 			{
@@ -2930,7 +2524,6 @@
 		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-06T19:57:59.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44571432556,
 		"items": [
 			{
@@ -2949,7 +2542,6 @@
 		"paid_amount": 115.84,
 		"status": "paid",
 		"date_created": "2025-03-06T20:18:59.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 0,
 		"items": [
 			{
@@ -2968,7 +2560,6 @@
 		"paid_amount": 48.87,
 		"status": "paid",
 		"date_created": "2025-03-06T20:47:53.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44571452977,
 		"items": [
 			{
@@ -2987,7 +2578,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-06T20:48:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44571454725,
 		"items": [
 			{
@@ -3006,7 +2596,6 @@
 		"paid_amount": 70.6,
 		"status": "paid",
 		"date_created": "2025-03-06T21:33:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44571647697,
 		"items": [
 			{
@@ -3025,7 +2614,6 @@
 		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-06T23:37:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44572049809,
 		"items": [
 			{
@@ -3044,7 +2632,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-07T07:22:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44572586833,
 		"items": [
 			{
@@ -3063,7 +2650,6 @@
 		"paid_amount": 75.89,
 		"status": "paid",
 		"date_created": "2025-03-07T08:58:50.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44572916055,
 		"items": [
 			{
@@ -3082,7 +2668,6 @@
 		"paid_amount": 287.2,
 		"status": "paid",
 		"date_created": "2025-03-07T09:58:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44573166465,
 		"items": [
 			{
@@ -3097,30 +2682,10 @@
 		]
 	},
 	{
-		"order_id": 2000010949795270,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-07T10:53:00.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 0,
-		"items": [
-			{
-				"item_id": "MLB3153671984",
-				"category_id": "MLB270415",
-				"quantity": 1,
-				"unit_price": 91,
-				"listing_type_id": "",
-				"sale_fee": 15.02,
-				"seller_sku": "603"
-			}
-		]
-	},
-	{
 		"order_id": 2000010950436262,
 		"paid_amount": 72.84,
 		"status": "paid",
 		"date_created": "2025-03-07T11:55:49.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44573905872,
 		"items": [
 			{
@@ -3139,7 +2704,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-07T17:34:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44575229511,
 		"items": [
 			{
@@ -3158,7 +2722,6 @@
 		"paid_amount": 55.53,
 		"status": "paid",
 		"date_created": "2025-03-07T18:17:21.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44575602566,
 		"items": [
 			{
@@ -3177,7 +2740,6 @@
 		"paid_amount": 108.6,
 		"status": "paid",
 		"date_created": "2025-03-07T20:23:41.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44575881045,
 		"items": [
 			{
@@ -3192,30 +2754,10 @@
 		]
 	},
 	{
-		"order_id": 2000010955211300,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-07T20:25:41.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44575888445,
-		"items": [
-			{
-				"item_id": "MLB3272344641",
-				"category_id": "MLB244658",
-				"quantity": 2,
-				"unit_price": 78.5,
-				"listing_type_id": "",
-				"sale_fee": 19.7,
-				"seller_sku": "543"
-			}
-		]
-	},
-	{
 		"order_id": 2000010955460496,
 		"paid_amount": 101.47,
 		"status": "paid",
 		"date_created": "2025-03-07T20:53:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44576194984,
 		"items": [
 			{
@@ -3234,7 +2776,6 @@
 		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-07T21:21:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44576084215,
 		"items": [
 			{
@@ -3253,7 +2794,6 @@
 		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-03-07T21:46:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44576368826,
 		"items": [
 			{
@@ -3272,7 +2812,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T05:48:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44576749399,
 		"items": [
 			{
@@ -3291,7 +2830,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T07:20:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44576853661,
 		"items": [
 			{
@@ -3310,7 +2848,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T07:20:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44576853399,
 		"items": [
 			{
@@ -3329,7 +2866,6 @@
 		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-08T09:06:17.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44577290442,
 		"items": [
 			{
@@ -3348,7 +2884,6 @@
 		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-08T09:56:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44577438740,
 		"items": [
 			{
@@ -3367,7 +2902,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-08T10:08:03.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44577476058,
 		"items": [
 			{
@@ -3386,7 +2920,6 @@
 		"paid_amount": 154.3,
 		"status": "paid",
 		"date_created": "2025-03-08T11:56:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44577857348,
 		"items": [
 			{
@@ -3405,7 +2938,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-08T12:04:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44577884794,
 		"items": [
 			{
@@ -3424,7 +2956,6 @@
 		"paid_amount": 88.57,
 		"status": "paid",
 		"date_created": "2025-03-08T12:44:35.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44577825219,
 		"items": [
 			{
@@ -3443,7 +2974,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T14:18:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44578363860,
 		"items": [
 			{
@@ -3462,7 +2992,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T14:39:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44578435986,
 		"items": [
 			{
@@ -3481,7 +3010,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T17:03:56.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44578920720,
 		"items": [
 			{
@@ -3500,7 +3028,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-08T18:53:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44579054599,
 		"items": [
 			{
@@ -3519,27 +3046,7 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-08T19:20:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44579345432,
-		"items": [
-			{
-				"item_id": "MLB3272367927",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 35.3,
-				"listing_type_id": "",
-				"sale_fee": 12.32,
-				"seller_sku": "290"
-			}
-		]
-	},
-	{
-		"order_id": 2000010963176884,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-08T20:19:59.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44579326415,
 		"items": [
 			{
 				"item_id": "MLB3272367927",
@@ -3557,7 +3064,6 @@
 		"paid_amount": 75.03,
 		"status": "paid",
 		"date_created": "2025-03-08T22:01:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44579813138,
 		"items": [
 			{
@@ -3576,7 +3082,6 @@
 		"paid_amount": 70.6,
 		"status": "paid",
 		"date_created": "2025-03-09T01:25:50.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44579938191,
 		"items": [
 			{
@@ -3591,30 +3096,10 @@
 		]
 	},
 	{
-		"order_id": 2000010964953332,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-09T04:18:06.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44580024893,
-		"items": [
-			{
-				"item_id": "MLB3272344641",
-				"category_id": "MLB244658",
-				"quantity": 2,
-				"unit_price": 78.5,
-				"listing_type_id": "",
-				"sale_fee": 19.7,
-				"seller_sku": "543"
-			}
-		]
-	},
-	{
 		"order_id": 2000010965478880,
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T08:45:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44580254409,
 		"items": [
 			{
@@ -3633,7 +3118,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T08:45:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44580460884,
 		"items": [
 			{
@@ -3652,7 +3136,6 @@
 		"paid_amount": 89.4,
 		"status": "paid",
 		"date_created": "2025-03-09T09:15:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44580317713,
 		"items": [
 			{
@@ -3671,7 +3154,6 @@
 		"paid_amount": 134.1,
 		"status": "paid",
 		"date_created": "2025-03-09T09:15:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44580317723,
 		"items": [
 			{
@@ -3690,7 +3172,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T10:13:19.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44580676694,
 		"items": [
 			{
@@ -3709,7 +3190,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T10:13:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44580676848,
 		"items": [
 			{
@@ -3728,7 +3208,6 @@
 		"paid_amount": 77.15,
 		"status": "paid",
 		"date_created": "2025-03-09T14:07:05.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44581441988,
 		"items": [
 			{
@@ -3747,7 +3226,6 @@
 		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-09T17:04:00.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44581844619,
 		"items": [
 			{
@@ -3766,7 +3244,6 @@
 		"paid_amount": 53.57,
 		"status": "paid",
 		"date_created": "2025-03-09T19:09:24.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44582292005,
 		"items": [
 			{
@@ -3785,7 +3262,6 @@
 		"paid_amount": 78.87,
 		"status": "paid",
 		"date_created": "2025-03-09T19:36:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44582393651,
 		"items": [
 			{
@@ -3804,7 +3280,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-09T20:23:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44582574043,
 		"items": [
 			{
@@ -3823,7 +3298,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-09T23:00:38.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583321160,
 		"items": [
 			{
@@ -3842,7 +3316,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-09T23:02:24.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583119627,
 		"items": [
 			{
@@ -3861,7 +3334,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-09T23:22:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583168045,
 		"items": [
 			{
@@ -3880,7 +3352,6 @@
 		"paid_amount": 75.65,
 		"status": "paid",
 		"date_created": "2025-03-10T05:36:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583521611,
 		"items": [
 			{
@@ -3899,7 +3370,6 @@
 		"paid_amount": 97.66,
 		"status": "paid",
 		"date_created": "2025-03-10T06:09:54.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583555751,
 		"items": [
 			{
@@ -3918,7 +3388,6 @@
 		"paid_amount": 84.17,
 		"status": "paid",
 		"date_created": "2025-03-10T08:16:01.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583855073,
 		"items": [
 			{
@@ -3937,7 +3406,6 @@
 		"paid_amount": 58.41,
 		"status": "paid",
 		"date_created": "2025-03-10T08:37:50.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44583934595,
 		"items": [
 			{
@@ -3956,7 +3424,6 @@
 		"paid_amount": 88.75,
 		"status": "paid",
 		"date_created": "2025-03-10T09:36:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44584388738,
 		"items": [
 			{
@@ -3975,7 +3442,6 @@
 		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-10T10:14:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44584572490,
 		"items": [
 			{
@@ -3994,7 +3460,6 @@
 		"paid_amount": 252,
 		"status": "paid",
 		"date_created": "2025-03-10T13:05:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44585454930,
 		"items": [
 			{
@@ -4009,30 +3474,10 @@
 		]
 	},
 	{
-		"order_id": 2000010977535846,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-10T13:40:32.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44585636036,
-		"items": [
-			{
-				"item_id": "MLB3839298878",
-				"category_id": "MLB244658",
-				"quantity": 2,
-				"unit_price": 78,
-				"listing_type_id": "",
-				"sale_fee": 19.62,
-				"seller_sku": "556"
-			}
-		]
-	},
-	{
 		"order_id": 2000010977549082,
 		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-10T13:40:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44585429119,
 		"items": [
 			{
@@ -4051,7 +3496,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-10T13:53:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44585704096,
 		"items": [
 			{
@@ -4070,7 +3514,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T14:10:25.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44585797726,
 		"items": [
 			{
@@ -4085,30 +3528,10 @@
 		]
 	},
 	{
-		"order_id": 2000010977883898,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-10T14:10:25.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44585797710,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "587"
-			}
-		]
-	},
-	{
 		"order_id": 2000010978560360,
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-10T15:07:51.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44586106864,
 		"items": [
 			{
@@ -4127,7 +3550,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T16:23:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44586496718,
 		"items": [
 			{
@@ -4146,7 +3568,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T16:23:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44586290051,
 		"items": [
 			{
@@ -4165,7 +3586,6 @@
 		"paid_amount": 46.4,
 		"status": "paid",
 		"date_created": "2025-03-10T16:36:03.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44586557824,
 		"items": [
 			{
@@ -4184,7 +3604,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T18:11:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44587015258,
 		"items": [
 			{
@@ -4203,7 +3622,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-10T18:13:41.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44587026158,
 		"items": [
 			{
@@ -4218,30 +3636,10 @@
 		]
 	},
 	{
-		"order_id": 2000010980869418,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-10T18:42:57.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44586959545,
-		"items": [
-			{
-				"item_id": "MLB3272367927",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 35.3,
-				"listing_type_id": "",
-				"sale_fee": 12.32,
-				"seller_sku": "290"
-			}
-		]
-	},
-	{
 		"order_id": 2000010980919346,
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-10T18:47:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44586979723,
 		"items": [
 			{
@@ -4260,7 +3658,6 @@
 		"paid_amount": 81.89,
 		"status": "paid",
 		"date_created": "2025-03-10T19:37:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44587440490,
 		"items": [
 			{
@@ -4279,7 +3676,6 @@
 		"paid_amount": 35.35,
 		"status": "paid",
 		"date_created": "2025-03-10T19:59:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44587344383,
 		"items": [
 			{
@@ -4298,7 +3694,6 @@
 		"paid_amount": 37.99,
 		"status": "paid",
 		"date_created": "2025-03-10T22:06:08.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44587932993,
 		"items": [
 			{
@@ -4317,7 +3712,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-11T06:51:03.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44588694069,
 		"items": [
 			{
@@ -4332,49 +3726,10 @@
 		]
 	},
 	{
-		"order_id": 2000010985106388,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-11T07:26:19.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44588991280,
-		"items": [
-			{
-				"item_id": "MLB3839298878",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 78,
-				"listing_type_id": "",
-				"sale_fee": 19.62,
-				"seller_sku": "556"
-			}
-		]
-	},
-	{
-		"order_id": 2000010985098720,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-11T07:26:19.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44588991280,
-		"items": [
-			{
-				"item_id": "MLB3774697980",
-				"category_id": "MLB277628",
-				"quantity": 1,
-				"unit_price": 34.81,
-				"listing_type_id": "",
-				"sale_fee": 12.24,
-				"seller_sku": "B28"
-			}
-		]
-	},
-	{
 		"order_id": 2000010985201852,
 		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-11T07:45:01.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44589048542,
 		"items": [
 			{
@@ -4393,7 +3748,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-11T10:08:07.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44589659524,
 		"items": [
 			{
@@ -4412,7 +3766,6 @@
 		"paid_amount": 73.84,
 		"status": "paid",
 		"date_created": "2025-03-11T10:50:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44589870748,
 		"items": [
 			{
@@ -4431,7 +3784,6 @@
 		"paid_amount": 97.86,
 		"status": "paid",
 		"date_created": "2025-03-11T11:12:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44589981204,
 		"items": [
 			{
@@ -4450,7 +3802,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-11T11:19:38.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44589808833,
 		"items": [
 			{
@@ -4469,7 +3820,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T11:25:49.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44589839407,
 		"items": [
 			{
@@ -4488,7 +3838,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T11:27:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44590054484,
 		"items": [
 			{
@@ -4507,7 +3856,6 @@
 		"paid_amount": 87.63,
 		"status": "paid",
 		"date_created": "2025-03-11T11:37:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44590104050,
 		"items": [
 			{
@@ -4526,7 +3874,6 @@
 		"paid_amount": 145.34,
 		"status": "paid",
 		"date_created": "2025-03-11T13:01:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44590326497,
 		"items": [
 			{
@@ -4545,7 +3892,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T13:07:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44590568164,
 		"items": [
 			{
@@ -4564,7 +3910,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T13:07:42.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44590567944,
 		"items": [
 			{
@@ -4583,7 +3928,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T14:57:42.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44590938515,
 		"items": [
 			{
@@ -4602,7 +3946,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-11T15:10:55.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44591006113,
 		"items": [
 			{
@@ -4617,30 +3960,10 @@
 		]
 	},
 	{
-		"order_id": 2000010990729448,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-11T16:43:34.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 0,
-		"items": [
-			{
-				"item_id": "MLB3153654709",
-				"category_id": "MLB270415",
-				"quantity": 1,
-				"unit_price": 85.95,
-				"listing_type_id": "",
-				"sale_fee": 14.18,
-				"seller_sku": "604"
-			}
-		]
-	},
-	{
 		"order_id": 2000010991036930,
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-11T17:12:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44591793252,
 		"items": [
 			{
@@ -4659,7 +3982,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-11T18:05:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44591829871,
 		"items": [
 			{
@@ -4678,7 +4000,6 @@
 		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-11T18:52:50.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44592050681,
 		"items": [
 			{
@@ -4693,30 +4014,10 @@
 		]
 	},
 	{
-		"order_id": 2000010993449706,
-		"paid_amount": 44.2,
-		"status": "paid",
-		"date_created": "2025-03-11T20:56:15.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44592652625,
-		"items": [
-			{
-				"item_id": "MLB3329666959",
-				"category_id": "MLB270415",
-				"quantity": 2,
-				"unit_price": 22.1,
-				"listing_type_id": "",
-				"sale_fee": 8.79,
-				"seller_sku": "B166"
-			}
-		]
-	},
-	{
 		"order_id": 2000010993458882,
 		"paid_amount": 44.2,
 		"status": "paid",
 		"date_created": "2025-03-11T20:56:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44592652625,
 		"items": [
 			{
@@ -4731,11 +4032,28 @@
 		]
 	},
 	{
+		"order_id": 2000010993449706,
+		"paid_amount": 44.2,
+		"status": "paid",
+		"date_created": "2025-03-11T20:56:15.000-04:00",
+		"shipping_id": 44592652625,
+		"items": [
+			{
+				"item_id": "MLB3329666959",
+				"category_id": "MLB270415",
+				"quantity": 2,
+				"unit_price": 22.1,
+				"listing_type_id": "",
+				"sale_fee": 8.79,
+				"seller_sku": "B166"
+			}
+		]
+	},
+	{
 		"order_id": 2000010994173204,
 		"paid_amount": 122.04,
 		"status": "paid",
 		"date_created": "2025-03-11T22:04:53.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44593158098,
 		"items": [
 			{
@@ -4754,7 +4072,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-11T22:57:47.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44593130529,
 		"items": [
 			{
@@ -4773,7 +4090,6 @@
 		"paid_amount": 257.25,
 		"status": "paid",
 		"date_created": "2025-03-12T00:32:42.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44593554264,
 		"items": [
 			{
@@ -4792,7 +4108,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-12T04:49:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44593760732,
 		"items": [
 			{
@@ -4811,7 +4126,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T06:56:35.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44593726495,
 		"items": [
 			{
@@ -4830,7 +4144,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-12T07:32:08.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594032390,
 		"items": [
 			{
@@ -4849,7 +4162,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-12T09:07:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594193653,
 		"items": [
 			{
@@ -4864,30 +4176,10 @@
 		]
 	},
 	{
-		"order_id": 2000010996999084,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-12T09:12:46.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44594222583,
-		"items": [
-			{
-				"item_id": "MLB3924547668",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 223.59,
-				"listing_type_id": "",
-				"sale_fee": 25.71,
-				"seller_sku": "667"
-			}
-		]
-	},
-	{
 		"order_id": 2000010997058496,
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T09:18:17.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594458792,
 		"items": [
 			{
@@ -4906,7 +4198,6 @@
 		"paid_amount": 84.8,
 		"status": "paid",
 		"date_created": "2025-03-12T10:06:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594694968,
 		"items": [
 			{
@@ -4925,7 +4216,6 @@
 		"paid_amount": 169.6,
 		"status": "paid",
 		"date_created": "2025-03-12T10:06:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594486361,
 		"items": [
 			{
@@ -4944,7 +4234,6 @@
 		"paid_amount": 169.6,
 		"status": "paid",
 		"date_created": "2025-03-12T10:06:36.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594485591,
 		"items": [
 			{
@@ -4963,7 +4252,6 @@
 		"paid_amount": 282.25,
 		"status": "paid",
 		"date_created": "2025-03-12T10:19:49.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44594552971,
 		"items": [
 			{
@@ -4982,7 +4270,6 @@
 		"paid_amount": 36.55,
 		"status": "paid",
 		"date_created": "2025-03-12T11:23:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 0,
 		"items": [
 			{
@@ -5001,7 +4288,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T12:16:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44595358814,
 		"items": [
 			{
@@ -5020,7 +4306,6 @@
 		"paid_amount": 48.62,
 		"status": "paid",
 		"date_created": "2025-03-12T16:54:42.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44596584111,
 		"items": [
 			{
@@ -5039,7 +4324,6 @@
 		"paid_amount": 106.99,
 		"status": "paid",
 		"date_created": "2025-03-12T17:32:17.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44596753293,
 		"items": [
 			{
@@ -5058,7 +4342,6 @@
 		"paid_amount": 61.02,
 		"status": "paid",
 		"date_created": "2025-03-12T18:05:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597108186,
 		"items": [
 			{
@@ -5077,7 +4360,6 @@
 		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-12T18:07:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597118204,
 		"items": [
 			{
@@ -5096,7 +4378,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-12T18:07:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597118204,
 		"items": [
 			{
@@ -5115,7 +4396,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-12T18:34:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597240366,
 		"items": [
 			{
@@ -5134,7 +4414,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-12T18:53:56.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597118377,
 		"items": [
 			{
@@ -5153,7 +4432,6 @@
 		"paid_amount": 42.2,
 		"status": "paid",
 		"date_created": "2025-03-12T19:21:19.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597246433,
 		"items": [
 			{
@@ -5172,7 +4450,6 @@
 		"paid_amount": 112.45,
 		"status": "paid",
 		"date_created": "2025-03-12T20:21:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44597740806,
 		"items": [
 			{
@@ -5191,7 +4468,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-12T21:59:17.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44598168594,
 		"items": [
 			{
@@ -5210,7 +4486,6 @@
 		"paid_amount": 63.91,
 		"status": "paid",
 		"date_created": "2025-03-12T22:08:53.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44598206030,
 		"items": [
 			{
@@ -5229,7 +4504,6 @@
 		"paid_amount": 116.31,
 		"status": "paid",
 		"date_created": "2025-03-12T22:41:49.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44598110291,
 		"items": [
 			{
@@ -5248,7 +4522,6 @@
 		"paid_amount": 69.97,
 		"status": "paid",
 		"date_created": "2025-03-13T00:21:11.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44598353087,
 		"items": [
 			{
@@ -5267,7 +4540,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-13T07:06:21.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44598901923,
 		"items": [
 			{
@@ -5286,7 +4558,6 @@
 		"paid_amount": 77.15,
 		"status": "paid",
 		"date_created": "2025-03-13T08:38:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44599215667,
 		"items": [
 			{
@@ -5305,7 +4576,6 @@
 		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-03-13T09:16:21.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44599587184,
 		"items": [
 			{
@@ -5324,7 +4594,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-13T09:44:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44599718384,
 		"items": [
 			{
@@ -5343,7 +4612,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-13T11:04:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44600114816,
 		"items": [
 			{
@@ -5362,7 +4630,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-13T11:08:03.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44600129744,
 		"items": [
 			{
@@ -5381,7 +4648,6 @@
 		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-13T14:16:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44600858133,
 		"items": [
 			{
@@ -5400,7 +4666,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-13T15:36:39.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44601253327,
 		"items": [
 			{
@@ -5419,7 +4684,6 @@
 		"paid_amount": 177.87,
 		"status": "paid",
 		"date_created": "2025-03-13T15:52:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44601331111,
 		"items": [
 			{
@@ -5438,7 +4702,6 @@
 		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-13T16:02:55.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44601381939,
 		"items": [
 			{
@@ -5457,7 +4720,6 @@
 		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-13T17:17:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44601926614,
 		"items": [
 			{
@@ -5476,7 +4738,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-13T19:38:56.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44602534450,
 		"items": [
 			{
@@ -5495,7 +4756,6 @@
 		"paid_amount": 44.7,
 		"status": "paid",
 		"date_created": "2025-03-13T20:45:49.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44602828286,
 		"items": [
 			{
@@ -5514,7 +4774,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-14T01:04:07.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44603400973,
 		"items": [
 			{
@@ -5533,7 +4792,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-14T08:43:21.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44604268636,
 		"items": [
 			{
@@ -5552,7 +4810,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-14T09:47:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44604530922,
 		"items": [
 			{
@@ -5571,7 +4828,6 @@
 		"paid_amount": 45.66,
 		"status": "paid",
 		"date_created": "2025-03-14T10:05:33.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44604401437,
 		"items": [
 			{
@@ -5590,7 +4846,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-14T10:18:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44604670430,
 		"items": [
 			{
@@ -5609,7 +4864,6 @@
 		"paid_amount": 42.2,
 		"status": "paid",
 		"date_created": "2025-03-14T11:15:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44604931302,
 		"items": [
 			{
@@ -5628,7 +4882,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-14T11:17:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44604939062,
 		"items": [
 			{
@@ -5647,7 +4900,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-14T11:44:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44605065084,
 		"items": [
 			{
@@ -5666,7 +4918,6 @@
 		"paid_amount": 114.49,
 		"status": "paid",
 		"date_created": "2025-03-14T11:44:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44605065074,
 		"items": [
 			{
@@ -5685,7 +4936,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-14T14:15:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44605536893,
 		"items": [
 			{
@@ -5704,7 +4954,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-14T15:00:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44605739821,
 		"items": [
 			{
@@ -5723,7 +4972,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-14T20:35:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44607248266,
 		"items": [
 			{
@@ -5742,7 +4990,6 @@
 		"paid_amount": 37.99,
 		"status": "paid",
 		"date_created": "2025-03-14T22:32:02.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44607400911,
 		"items": [
 			{
@@ -5761,7 +5008,6 @@
 		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-14T22:51:54.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44607450869,
 		"items": [
 			{
@@ -5780,7 +5026,6 @@
 		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-14T22:51:53.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44607451067,
 		"items": [
 			{
@@ -5799,7 +5044,6 @@
 		"paid_amount": 45.06,
 		"status": "paid",
 		"date_created": "2025-03-15T02:15:58.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44607740867,
 		"items": [
 			{
@@ -5818,7 +5062,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-15T06:05:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44608074362,
 		"items": [
 			{
@@ -5837,7 +5080,6 @@
 		"paid_amount": 59.29,
 		"status": "paid",
 		"date_created": "2025-03-15T06:29:15.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44608099048,
 		"items": [
 			{
@@ -5856,7 +5098,6 @@
 		"paid_amount": 49.32,
 		"status": "paid",
 		"date_created": "2025-03-15T07:00:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44608138500,
 		"items": [
 			{
@@ -5875,7 +5116,6 @@
 		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-15T11:50:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44608784095,
 		"items": [
 			{
@@ -5894,7 +5134,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-15T13:50:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44609448990,
 		"items": [
 			{
@@ -5913,7 +5152,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-15T14:50:06.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44609663638,
 		"items": [
 			{
@@ -5932,7 +5170,6 @@
 		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-15T15:34:28.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44609609903,
 		"items": [
 			{
@@ -5951,7 +5188,6 @@
 		"paid_amount": 30.51,
 		"status": "paid",
 		"date_created": "2025-03-15T16:15:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44609962996,
 		"items": [
 			{
@@ -5970,7 +5206,6 @@
 		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-15T18:19:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44610375670,
 		"items": [
 			{
@@ -5989,7 +5224,6 @@
 		"paid_amount": 86.58,
 		"status": "paid",
 		"date_created": "2025-03-16T02:02:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44611410094,
 		"items": [
 			{
@@ -6008,7 +5242,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-16T02:02:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44611410094,
 		"items": [
 			{
@@ -6027,7 +5260,6 @@
 		"paid_amount": 50.78,
 		"status": "paid",
 		"date_created": "2025-03-16T08:14:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44611430507,
 		"items": [
 			{
@@ -6046,7 +5278,6 @@
 		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-16T08:45:13.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44611695516,
 		"items": [
 			{
@@ -6065,7 +5296,6 @@
 		"paid_amount": 75.37,
 		"status": "paid",
 		"date_created": "2025-03-16T09:03:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44611525265,
 		"items": [
 			{
@@ -6084,7 +5314,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-03-16T11:55:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44612025683,
 		"items": [
 			{
@@ -6103,7 +5332,6 @@
 		"paid_amount": 54.88,
 		"status": "paid",
 		"date_created": "2025-03-16T14:35:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44612561635,
 		"items": [
 			{
@@ -6122,7 +5350,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-16T16:16:59.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44612905099,
 		"items": [
 			{
@@ -6141,7 +5368,6 @@
 		"paid_amount": 59.1,
 		"status": "paid",
 		"date_created": "2025-03-16T17:34:24.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44613165311,
 		"items": [
 			{
@@ -6160,7 +5386,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-16T18:10:13.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44613497004,
 		"items": [
 			{
@@ -6179,7 +5404,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-16T18:26:36.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44613344973,
 		"items": [
 			{
@@ -6198,7 +5422,6 @@
 		"paid_amount": 92.14,
 		"status": "paid",
 		"date_created": "2025-03-16T20:09:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44613934102,
 		"items": [
 			{
@@ -6217,7 +5440,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T05:41:36.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44614919278,
 		"items": [
 			{
@@ -6236,7 +5458,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T07:50:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44615166456,
 		"items": [
 			{
@@ -6255,7 +5476,6 @@
 		"paid_amount": 141.91,
 		"status": "paid",
 		"date_created": "2025-03-17T10:41:01.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44615892856,
 		"items": [
 			{
@@ -6274,7 +5494,6 @@
 		"paid_amount": 108.97,
 		"status": "paid",
 		"date_created": "2025-03-17T11:19:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616079690,
 		"items": [
 			{
@@ -6293,7 +5512,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-17T11:58:36.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616269654,
 		"items": [
 			{
@@ -6312,7 +5530,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T11:57:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616054897,
 		"items": [
 			{
@@ -6331,7 +5548,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T13:01:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616577480,
 		"items": [
 			{
@@ -6350,7 +5566,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T13:05:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616596706,
 		"items": [
 			{
@@ -6369,7 +5584,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-17T13:13:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616427771,
 		"items": [
 			{
@@ -6388,7 +5602,6 @@
 		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-17T14:00:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616873536,
 		"items": [
 			{
@@ -6407,7 +5620,6 @@
 		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-17T14:35:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44617050398,
 		"items": [
 			{
@@ -6426,7 +5638,6 @@
 		"paid_amount": 78,
 		"status": "paid",
 		"date_created": "2025-03-17T14:35:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44616841611,
 		"items": [
 			{
@@ -6445,7 +5656,6 @@
 		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-17T14:53:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44617148200,
 		"items": [
 			{
@@ -6464,7 +5674,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-17T15:38:03.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44617381210,
 		"items": [
 			{
@@ -6483,7 +5692,6 @@
 		"paid_amount": 88.4,
 		"status": "paid",
 		"date_created": "2025-03-17T20:16:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44618685522,
 		"items": [
 			{
@@ -6502,7 +5710,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-17T21:14:00.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44618740947,
 		"items": [
 			{
@@ -6521,7 +5728,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T08:15:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620144068,
 		"items": [
 			{
@@ -6540,7 +5746,6 @@
 		"paid_amount": 149.2,
 		"status": "paid",
 		"date_created": "2025-03-18T08:25:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620182038,
 		"items": [
 			{
@@ -6559,7 +5764,6 @@
 		"paid_amount": 149.2,
 		"status": "paid",
 		"date_created": "2025-03-18T08:56:36.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620306132,
 		"items": [
 			{
@@ -6578,7 +5782,6 @@
 		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-18T09:17:47.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620398030,
 		"items": [
 			{
@@ -6597,7 +5800,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-18T09:17:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620188319,
 		"items": [
 			{
@@ -6616,7 +5818,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T09:40:59.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620504444,
 		"items": [
 			{
@@ -6635,7 +5836,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T09:56:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620580830,
 		"items": [
 			{
@@ -6650,30 +5850,10 @@
 		]
 	},
 	{
-		"order_id": 2000011058797526,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-18T09:56:58.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44620580834,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 2,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "592"
-			}
-		]
-	},
-	{
 		"order_id": 2000011059012282,
 		"paid_amount": 69.06,
 		"status": "paid",
 		"date_created": "2025-03-18T10:14:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620456365,
 		"items": [
 			{
@@ -6692,7 +5872,6 @@
 		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-18T10:18:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620686348,
 		"items": [
 			{
@@ -6711,7 +5890,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-18T10:41:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620589857,
 		"items": [
 			{
@@ -6730,7 +5908,6 @@
 		"paid_amount": 28.86,
 		"status": "paid",
 		"date_created": "2025-03-18T11:17:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44620765337,
 		"items": [
 			{
@@ -6749,7 +5926,6 @@
 		"paid_amount": 126.72,
 		"status": "paid",
 		"date_created": "2025-03-18T12:29:14.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44621115517,
 		"items": [
 			{
@@ -6768,7 +5944,6 @@
 		"paid_amount": 85.18,
 		"status": "paid",
 		"date_created": "2025-03-18T13:35:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44621451455,
 		"items": [
 			{
@@ -6787,7 +5962,6 @@
 		"paid_amount": 169.35,
 		"status": "paid",
 		"date_created": "2025-03-18T13:46:08.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44621503697,
 		"items": [
 			{
@@ -6806,7 +5980,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T13:46:09.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44621504287,
 		"items": [
 			{
@@ -6821,30 +5994,10 @@
 		]
 	},
 	{
-		"order_id": 2000011061245870,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-18T13:46:33.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 0,
-		"items": [
-			{
-				"item_id": "MLB3151997217",
-				"category_id": "MLB270415",
-				"quantity": 1,
-				"unit_price": 91,
-				"listing_type_id": "",
-				"sale_fee": 15.02,
-				"seller_sku": "601"
-			}
-		]
-	},
-	{
 		"order_id": 2000011063460592,
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-18T17:19:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44622744826,
 		"items": [
 			{
@@ -6863,7 +6016,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-19T00:22:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44624149521,
 		"items": [
 			{
@@ -6882,7 +6034,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T05:55:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44624638834,
 		"items": [
 			{
@@ -6901,7 +6052,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T06:04:30.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44624439537,
 		"items": [
 			{
@@ -6920,7 +6070,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T07:57:27.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44624915726,
 		"items": [
 			{
@@ -6939,7 +6088,6 @@
 		"paid_amount": 85.18,
 		"status": "paid",
 		"date_created": "2025-03-19T08:40:47.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625072388,
 		"items": [
 			{
@@ -6958,7 +6106,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-19T09:06:53.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625177892,
 		"items": [
 			{
@@ -6977,7 +6124,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T09:21:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625241450,
 		"items": [
 			{
@@ -6996,7 +6142,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-19T09:26:22.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44627131407,
 		"items": [
 			{
@@ -7015,7 +6160,6 @@
 		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-19T09:29:26.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625066523,
 		"items": [
 			{
@@ -7034,7 +6178,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-19T09:36:01.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625095779,
 		"items": [
 			{
@@ -7053,7 +6196,6 @@
 		"paid_amount": 282.25,
 		"status": "paid",
 		"date_created": "2025-03-19T11:02:50.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625714982,
 		"items": [
 			{
@@ -7072,7 +6214,6 @@
 		"paid_amount": 54.06,
 		"status": "paid",
 		"date_created": "2025-03-19T11:30:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625632001,
 		"items": [
 			{
@@ -7091,7 +6232,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-19T11:33:04.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625644933,
 		"items": [
 			{
@@ -7110,7 +6250,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T12:02:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44625786047,
 		"items": [
 			{
@@ -7129,7 +6268,6 @@
 		"paid_amount": 66.3,
 		"status": "paid",
 		"date_created": "2025-03-19T12:06:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44626016114,
 		"items": [
 			{
@@ -7148,7 +6286,6 @@
 		"paid_amount": 49.65,
 		"status": "paid",
 		"date_created": "2025-03-19T13:12:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44626340238,
 		"items": [
 			{
@@ -7167,7 +6304,6 @@
 		"paid_amount": 34.81,
 		"status": "paid",
 		"date_created": "2025-03-19T14:01:12.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44626579932,
 		"items": [
 			{
@@ -7186,7 +6322,6 @@
 		"paid_amount": 52.76,
 		"status": "paid",
 		"date_created": "2025-03-19T14:05:08.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44626598444,
 		"items": [
 			{
@@ -7205,7 +6340,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-19T15:10:32.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44626921034,
 		"items": [
 			{
@@ -7224,7 +6358,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T15:36:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44627049782,
 		"items": [
 			{
@@ -7243,7 +6376,6 @@
 		"paid_amount": 46.54,
 		"status": "paid",
 		"date_created": "2025-03-19T16:58:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44627215399,
 		"items": [
 			{
@@ -7262,7 +6394,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-19T19:52:01.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44628170872,
 		"items": [
 			{
@@ -7281,7 +6412,6 @@
 		"paid_amount": 52.73,
 		"status": "paid",
 		"date_created": "2025-03-19T21:08:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44628290407,
 		"items": [
 			{
@@ -7300,7 +6430,6 @@
 		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-19T21:42:58.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44628633906,
 		"items": [
 			{
@@ -7319,7 +6448,6 @@
 		"paid_amount": 48.93,
 		"status": "paid",
 		"date_created": "2025-03-19T21:42:57.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44628633764,
 		"items": [
 			{
@@ -7334,30 +6462,10 @@
 		]
 	},
 	{
-		"order_id": 2000011076514872,
-		"paid_amount": 146.79,
-		"status": "partially_refunded",
-		"date_created": "2025-03-19T21:42:58.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44640852069,
-		"items": [
-			{
-				"item_id": "MLB3774709614",
-				"category_id": "MLB277628",
-				"quantity": 4,
-				"unit_price": 48.93,
-				"listing_type_id": "",
-				"sale_fee": 14.57,
-				"seller_sku": "B62"
-			}
-		]
-	},
-	{
 		"order_id": 2000011076798864,
 		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-19T22:15:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44628748928,
 		"items": [
 			{
@@ -7372,30 +6480,10 @@
 		]
 	},
 	{
-		"order_id": 2000011077926982,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-20T02:45:08.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44629214316,
-		"items": [
-			{
-				"item_id": "MLB3301694259",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 31.99,
-				"listing_type_id": "",
-				"sale_fee": 10.18,
-				"seller_sku": "B513"
-			}
-		]
-	},
-	{
 		"order_id": 2000011078303720,
 		"paid_amount": 71,
 		"status": "paid",
 		"date_created": "2025-03-20T06:41:45.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44629412886,
 		"items": [
 			{
@@ -7414,7 +6502,6 @@
 		"paid_amount": 55.68,
 		"status": "paid",
 		"date_created": "2025-03-20T06:58:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44629237069,
 		"items": [
 			{
@@ -7433,7 +6520,6 @@
 		"paid_amount": 111.36,
 		"status": "paid",
 		"date_created": "2025-03-20T06:58:35.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44629237077,
 		"items": [
 			{
@@ -7452,7 +6538,6 @@
 		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-20T08:22:31.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44629486285,
 		"items": [
 			{
@@ -7471,7 +6556,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-20T09:32:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44629980460,
 		"items": [
 			{
@@ -7490,7 +6574,6 @@
 		"paid_amount": 57.99,
 		"status": "paid",
 		"date_created": "2025-03-20T11:43:10.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44630576270,
 		"items": [
 			{
@@ -7509,7 +6592,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-20T12:07:18.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44630691286,
 		"items": [
 			{
@@ -7528,7 +6610,6 @@
 		"paid_amount": 62.83,
 		"status": "paid",
 		"date_created": "2025-03-20T13:04:24.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44630958916,
 		"items": [
 			{
@@ -7547,7 +6628,6 @@
 		"paid_amount": 95.97,
 		"status": "paid",
 		"date_created": "2025-03-20T14:18:35.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631312298,
 		"items": [
 			{
@@ -7566,7 +6646,6 @@
 		"paid_amount": 225.8,
 		"status": "paid",
 		"date_created": "2025-03-20T15:20:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631605170,
 		"items": [
 			{
@@ -7585,7 +6664,6 @@
 		"paid_amount": 35.35,
 		"status": "paid",
 		"date_created": "2025-03-20T15:57:25.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631775342,
 		"items": [
 			{
@@ -7604,7 +6682,6 @@
 		"paid_amount": 35.35,
 		"status": "paid",
 		"date_created": "2025-03-20T15:57:25.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631564661,
 		"items": [
 			{
@@ -7623,7 +6700,6 @@
 		"paid_amount": 57.42,
 		"status": "paid",
 		"date_created": "2025-03-20T17:13:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631891747,
 		"items": [
 			{
@@ -7642,7 +6718,6 @@
 		"paid_amount": 42.3,
 		"status": "paid",
 		"date_created": "2025-03-20T17:13:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631891747,
 		"items": [
 			{
@@ -7661,7 +6736,6 @@
 		"paid_amount": 56.99,
 		"status": "paid",
 		"date_created": "2025-03-20T17:13:29.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44631891747,
 		"items": [
 			{
@@ -7680,7 +6754,6 @@
 		"paid_amount": 65.22,
 		"status": "paid",
 		"date_created": "2025-03-20T17:56:40.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44632067231,
 		"items": [
 			{
@@ -7699,7 +6772,6 @@
 		"paid_amount": 77.15,
 		"status": "paid",
 		"date_created": "2025-03-20T18:30:20.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44632203049,
 		"items": [
 			{
@@ -7718,7 +6790,6 @@
 		"paid_amount": 78.5,
 		"status": "paid",
 		"date_created": "2025-03-20T21:16:34.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44632883209,
 		"items": [
 			{
@@ -7737,7 +6808,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-21T01:42:00.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44633488071,
 		"items": [
 			{
@@ -7756,7 +6826,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-21T08:15:44.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44634185930,
 		"items": [
 			{
@@ -7775,7 +6844,6 @@
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-21T08:35:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44634044163,
 		"items": [
 			{
@@ -7794,7 +6862,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-21T09:31:16.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44634257211,
 		"items": [
 			{
@@ -7813,7 +6880,6 @@
 		"paid_amount": 63.98,
 		"status": "paid",
 		"date_created": "2025-03-21T10:18:43.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44634453955,
 		"items": [
 			{
@@ -7832,7 +6898,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T10:49:46.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44634590939,
 		"items": [
 			{
@@ -7851,7 +6916,6 @@
 		"paid_amount": 112.9,
 		"status": "paid",
 		"date_created": "2025-03-21T11:36:48.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44635000890,
 		"items": [
 			{
@@ -7870,7 +6934,6 @@
 		"paid_amount": 50.75,
 		"status": "paid",
 		"date_created": "2025-03-21T12:20:04.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44635189432,
 		"items": [
 			{
@@ -7889,7 +6952,6 @@
 		"paid_amount": 31.99,
 		"status": "paid",
 		"date_created": "2025-03-21T13:27:58.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44635268583,
 		"items": [
 			{
@@ -7908,7 +6970,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T14:21:23.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44635496145,
 		"items": [
 			{
@@ -7927,7 +6988,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T15:13:52.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44635723175,
 		"items": [
 			{
@@ -7946,7 +7006,6 @@
 		"paid_amount": 35.3,
 		"status": "paid",
 		"date_created": "2025-03-21T15:15:37.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44635940586,
 		"items": [
 			{
@@ -7961,30 +7020,10 @@
 		]
 	},
 	{
-		"order_id": 2000011093691246,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-21T17:36:21.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44636274377,
-		"items": [
-			{
-				"item_id": "MLB3099260228",
-				"category_id": "MLB277628",
-				"quantity": 4,
-				"unit_price": 56.45,
-				"listing_type_id": "",
-				"sale_fee": 16.06,
-				"seller_sku": "586"
-			}
-		]
-	},
-	{
 		"order_id": 2000011093708474,
 		"paid_amount": 56.45,
 		"status": "paid",
 		"date_created": "2025-03-21T17:36:21.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44636274367,
 		"items": [
 			{
@@ -7999,30 +7038,10 @@
 		]
 	},
 	{
-		"order_id": 2000011093785358,
-		"paid_amount": 0,
-		"status": "cancelled",
-		"date_created": "2025-03-21T17:46:58.000-04:00",
-		"shipping_cost": 0,
-		"shipping_id": 44636522862,
-		"items": [
-			{
-				"item_id": "MLB3272367927",
-				"category_id": "MLB244658",
-				"quantity": 1,
-				"unit_price": 35.3,
-				"listing_type_id": "",
-				"sale_fee": 12.32,
-				"seller_sku": "290"
-			}
-		]
-	},
-	{
 		"order_id": 2000011094473788,
 		"paid_amount": 88.12,
 		"status": "paid",
 		"date_created": "2025-03-21T19:14:56.000-04:00",
-		"shipping_cost": 0,
 		"shipping_id": 44636621027,
 		"items": [
 			{

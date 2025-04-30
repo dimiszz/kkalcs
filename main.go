@@ -6,8 +6,8 @@ import (
 
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/mlapi/auth"
+	"dimi/kkalcs/mlapi/orders"
 	"dimi/kkalcs/mlapi/requests"
-	"dimi/kkalcs/mlapi/shipments"
 )
 
 type Paging struct {
@@ -31,50 +31,9 @@ func main() {
 
 func run() error {
 
-	// _, err := test.CreateTestUser()
-	// if err != nil {
-	// 	return fmt.Errorf("erro ao criar usuário de teste: %s", err)
-	//}
-	//Test()
-	//orders.FetchAll()
+	//err := CalculateProfit()
 
-	// _, err := orders.Fetch()
-	// if err != nil {
-	// 	fmt.Println("Erro:", err)
-	// }
-
-	//orders.Get("2000011094473788")
-
-	s, err := shipments.FetchCosts("44631564661")
-	if err != nil {
-		fmt.Println("Erro:", err)
-		return err
-	}
-	fmt.Println("Shipment: ", s)
-
-	return nil
-
-	// itemsId, err := getAllItemsIds()
-	// if err != nil {
-	// 	return fmt.Errorf("erro ao conseguir items: %s", err)
-	// }
-	// //fmt.Println("Items ID:", itemsId)
-	// //fmt.Println("Total de itens:", len(itemsId))
-
-	// err = getItemsDetails(itemsId)
-	// if err != nil {
-	// 	return fmt.Errorf("erro ao conseguir items: %s", err)
-	// }
-
-	//GetOrders()
-
-	fmt.Println()
-
-	// cate, err := categories.GetListingPrices("MLB244658")
-	// if err != nil {
-	// 	return fmt.Errorf("erro ao conseguir items: %s", err)
-	// }
-	// fmt.Println("Prices: ", cate)
+	orders.Get("2000010876085454")
 
 	return nil
 }
@@ -111,6 +70,17 @@ func getAllItemsIds() ([]string, error) {
 	return itemsId, nil
 }
 
+func GetRateLimit() error {
+	urla := "https://api.mercadolibre.com/marketplace/users/cap"
+
+	body, err := requests.MakeSimpleRequest(requests.GET, urla, nil)
+	if err != nil {
+		return fmt.Errorf("erro ao fazer requisição: %s", err)
+	}
+	fmt.Println("Corpo da resposta:", string(body))
+	return nil
+}
+
 func LoadUserId() {
 	access_token := auth.GetAcessToken()
 	start := len(access_token) - 10
@@ -136,4 +106,38 @@ func Test() {
 	}
 	fmt.Println("Corpo da resposta:", string(body))
 
+}
+
+func CalculateProfit() error {
+	ords, err := orders.FetchAll()
+	if err != nil {
+		return fmt.Errorf("erro ao buscar pedidos: %s", err)
+	}
+
+	// shipments_costs := make([]shipments.ShipmentCost, len(ords))
+	// for _, ord := range ords {
+	// 	if ord.Status == "cancelled" {
+	// 		continue
+	// 	}
+	// 	if ord.ShippingID == 0 {
+	// 		fmt.Println("Pedido sem ID de envio:", ord.OrderID)
+	// 		continue
+	// 	}
+	// 	s, err := shipments.FetchCosts(strconv.Itoa(ord.ShippingID))
+	// 	if err != nil {
+	// 		fmt.Println(ord)
+	// 		fmt.Println("Erro:", err, "SHIPMENT_ID: ", ord.ShippingID, " ORDER_ID: ", ord.OrderID)
+	// 		continue
+	// 	}
+	// 	if s.FinalCost != 0 {
+	// 		fmt.Println("Shipment: ", s, "Order ID:", ord.OrderID)
+	// 		continue
+	// 	}
+	// 	shipments_costs = append(shipments_costs, *s)
+	// }
+
+	fmt.Println("Total de pedidos:", len(ords))
+	orders.Total(ords)
+
+	return nil
 }

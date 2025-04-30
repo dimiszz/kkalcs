@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 
 	"dimi/kkalcs/mlapi/requests"
 )
@@ -19,43 +20,45 @@ type OrderItem struct {
 }
 
 type Order struct {
-	OrderID      int64       `json:"order_id"`
-	PaidAmount   float64     `json:"paid_amount"`
-	Status       string      `json:"status"`
-	DateCreated  string      `json:"date_created"`
-	ShippingCost float64     `json:"shipping_cost"`
-	ShippingID   int         `json:"shipping_id"`
-	Items        []OrderItem `json:"items"`
+	OrderID     int64       `json:"order_id"`
+	PaidAmount  float64     `json:"paid_amount"`
+	Status      string      `json:"status"`
+	DateCreated string      `json:"date_created"`
+	ShippingID  int         `json:"shipping_id"`
+	Items       []OrderItem `json:"items"`
 }
 
-func FetchAll() error {
+func FetchAll() ([]Order, error) {
 	const limit = 50
 	offset := 0
 
 	dateFrom := "2025-02-21T00:00:00Z"
 	dateTo := "2025-03-21T23:59:59Z"
 
+	// Status válidos para excluir pedidos cancelados
+	statuses := []string{"paid", "confirmed"}
+	validStatuses := strings.Join(statuses, ",")
+
 	all_ords := []Order{}
 
-	var temp_body []byte
-
 	for {
-		url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s&limit=%d&offset=%d&order.date_created.from=%s&order.date_created.to=%s", requests.USER_ID, limit, offset, dateFrom, dateTo)
+		url := fmt.Sprintf(
+			"https://api.mercadolibre.com/orders/search?seller=%s&limit=%d&offset=%d&order.date_created.from=%s&order.date_created.to=%s&order.status=%s",
+			requests.USER_ID, limit, offset, dateFrom, dateTo, validStatuses,
+		)
 
 		//url := fmt.Sprintf("https://api.mercadolibre.com/orders/search?seller=%s&limit=%d&offset=%d&date_from=%s&date_to=%s", USER_ID, limit, offset, dateFrom, dateTo)
 		fmt.Println("URL:", url)
 
 		body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
 
-		temp_body = body
-
 		if err != nil {
-			return fmt.Errorf("erro ao fazer requisição: %s", err)
+			return nil, fmt.Errorf("erro ao fazer requisição: %s", err)
 		}
 
 		ords, err := extract(body)
 		if err != nil {
-			return fmt.Errorf("erro ao extrair pedidos: %s", err)
+			return nil, fmt.Errorf("erro ao extrair pedidos: %s", err)
 		}
 
 		all_ords = append(all_ords, ords...)
@@ -65,7 +68,7 @@ func FetchAll() error {
 		}
 		err = json.Unmarshal(body, &paging)
 		if err != nil {
-			return fmt.Errorf("erro ao parsear a resposta de paginação: %s", err)
+			return nil, fmt.Errorf("erro ao parsear a resposta de paginação: %s", err)
 		}
 
 		// Se a quantidade de pedidos retornados for menor que o limite, significa que não há mais páginas
@@ -78,20 +81,20 @@ func FetchAll() error {
 		fmt.Println(offset)
 	}
 
-	fmt.Println("BODY: " + string(temp_body))
-
 	f, err := os.Create("all_orderns.json")
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 	defer f.Close()
 
-	as_json, _ := json.MarshalIndent(all_ords, "", "\t")
+	as_json, err := json.MarshalIndent(all_ords, "", "\t")
+	if err != nil {
+		return nil, err
+	}
+
 	f.Write(as_json)
 
-	Total(all_ords)
-
-	return nil
+	return all_ords, nil
 }
 
 func extract(data []byte) ([]Order, error) {
@@ -130,13 +133,8 @@ func extract(data []byte) ([]Order, error) {
 			OrderID:     r.ID,
 			Status:      r.Status,
 			DateCreated: r.DateCreated,
-			//ShippingCost: *r.ShippingCost,
-			ShippingID: r.Shipping.ID,
-			PaidAmount: r.PaidAmount,
-		}
-
-		if r.ShippingCost != nil {
-			order.ShippingCost = *r.ShippingCost
+			ShippingID:  r.Shipping.ID,
+			PaidAmount:  r.PaidAmount,
 		}
 
 		for _, oi := range r.OrderItems {
@@ -160,25 +158,24 @@ func extract(data []byte) ([]Order, error) {
 
 func Total(orders []Order) float64 {
 	var total float64
-	var shipping_cost float64
 	var sale_fee_total float64
 	for _, order := range orders {
-		shipping_cost += order.ShippingCost
 		for _, item := range order.Items {
 			total += item.UnitPrice * float64(item.Quantity)
 			sale_fee_total += item.SaleFee
 		}
 	}
 
-	fmt.Println("Shipping Cost:", shipping_cost)
-	fmt.Println("Total:", total)
+	fmt.Println("Total bruto:", total)
 	fmt.Println("Sale_fee_total: ", sale_fee_total)
 
 	median_tax := sale_fee_total / total
 
 	fmt.Println("Median Tax:", median_tax)
 
-	return total
+	fmt.Println("Total liquido:", total-sale_fee_total)
+
+	return total - sale_fee_total
 }
 
 func Get(orderId string) {
@@ -190,8 +187,6 @@ func Get(orderId string) {
 	}
 
 	fmt.Println("BODY:", string(body))
-
-	return
 }
 
 func Fetch() ([]Order, error) {
