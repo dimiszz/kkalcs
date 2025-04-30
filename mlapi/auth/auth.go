@@ -12,88 +12,86 @@ import (
 	"os/exec"
 	"runtime"
 	"strings"
+	"time"
 
 	"dimi/kkalcs/dotenv"
 )
 
 type oAuthResponse struct {
-	AccessToken  string `json:"access_token"`
-	TokenType    string `json:"token_type"`
-	ExpiresIn    int    `json:"expires_in"`
-	Scope        string `json:"scope"`
-	UserID       int    `json:"user_id"`
-	RefreshToken string `json:"refresh_token"`
+	AccessToken    string    `json:"access_token"`
+	TokenType      string    `json:"token_type"`
+	ExpiresIn      int       `json:"expires_in"`
+	ExpirationDate time.Time `json:"expiration_date"`
+	Scope          string    `json:"scope"`
+	UserID         int       `json:"user_id"`
+	RefreshToken   string    `json:"refresh_token"`
 }
-
-var temp_token string
 
 var currentAuthResponse *oAuthResponse
 
+// GetAcessToken retorna o token de acesso atual. Se o token estiver expirado, ele tenta trocá-lo pelo refresh token.
+// 1. Se não possui um token em memória, tenta pegar o último salvo em disco.
+// 2. Se não conseguir, inicia o fluxo de autenticação pela primeira vez.
+// 3. Se o token estiver expirado, tenta trocá-lo pelo refresh token.
 func GetAcessToken() string {
-
-	authtoken, err := GetSavedTokenFlow()
-	if err == nil {
-		currentAuthResponse = authtoken
-		return authtoken.AccessToken
-	}
+	var err error
 
 	if currentAuthResponse == nil {
-		currentAuthResponse = &oAuthResponse{}
-		authResponse, err := ExchangeCodeForToken(temp_token)
+		currentAuthResponse, err = GetSavedTokenFlow()
 		if err != nil {
-			SendAuthRequest()
-			token := getTempToken()
-			if token == "" {
-				panic("Token não encontrado.")
-			}
-			temp_token = token
-			authResponse, err = ExchangeCodeForToken(temp_token)
-			if err != nil {
-				panic(err)
-			}
+			currentAuthResponse = FirstTimeFlow()
 		}
-		currentAuthResponse = authResponse
-		return authResponse.AccessToken
 	}
 
-	currentAuthResponse, err := ExchangeRefreshToken(currentAuthResponse.RefreshToken)
-	if err != nil {
-		panic(err)
+	if tokenIsExpired() {
+		currentAuthResponse, err = ExchangeRefreshToken(currentAuthResponse.RefreshToken)
+		if err != nil {
+			panic(err)
+		}
 	}
+
 	return currentAuthResponse.AccessToken
 }
 
+func FirstTimeFlow() *oAuthResponse {
+	SendAuthRequest()
+	temp_token := getTempToken()
+	if temp_token == "" {
+		panic("Token não encontrado.")
+	}
+	authResponse, err := ExchangeCodeForToken(temp_token)
+	if err != nil {
+		panic(err)
+	}
+	return authResponse
+}
+
 func GetSavedTokenFlow() (*oAuthResponse, error) {
-	if currentAuthResponse != nil {
-		return nil, errors.New("token já existe")
-	}
-
-	authResponse, err := GetLastAuthResponse()
+	authResponse, err := get()
 
 	if err != nil {
 		return nil, err
 	}
 
-	authResponse, err = ExchangeRefreshToken(authResponse.RefreshToken)
-	if err != nil {
-		return nil, err
+	if authResponse.AccessToken == "" || authResponse.RefreshToken == "" {
+		return nil, errors.New("token não encontrado")
 	}
 
 	return authResponse, nil
 }
 
-func RegisterAuthResponse() {
+func save(authCredentials oAuthResponse) {
 	f, err := os.Create("auth_response.json")
 	if err != nil {
 		panic(err)
 	}
 	defer f.Close()
 
-	as_json, _ := json.MarshalIndent(currentAuthResponse, "", "\t")
+	as_json, _ := json.MarshalIndent(authCredentials, "", "\t")
 	f.Write(as_json)
 }
 
-func GetLastAuthResponse() (*oAuthResponse, error) {
+func get() (*oAuthResponse, error) {
 	f, err := os.Open("auth_response.json")
 	if err != nil {
 		return nil, err
@@ -152,6 +150,10 @@ func ExchangeRefreshToken(refresh_token string) (*oAuthResponse, error) {
 		return nil, errors.New("Erro ao decodificar resposta:" + err.Error())
 	}
 
+	response.ExpirationDate = calculateExpirationDate(response.ExpiresIn)
+
+	save(response)
+
 	return &response, nil
 }
 
@@ -192,7 +194,26 @@ func ExchangeCodeForToken(code string) (*oAuthResponse, error) {
 		return nil, errors.New("Erro ao decodificar resposta:" + err.Error())
 	}
 
+	response.ExpirationDate = calculateExpirationDate(response.ExpiresIn)
+
+	save(response)
+
 	return &response, nil
+}
+
+func tokenIsExpired() bool {
+	if currentAuthResponse == nil {
+		return true
+	}
+	if currentAuthResponse.ExpirationDate.Before(time.Now().UTC()) {
+		return true
+	}
+	return false
+}
+
+func calculateExpirationDate(expiresIn int) time.Time {
+	nowTime := time.Now().UTC()
+	return nowTime.Add(time.Duration(expiresIn) * time.Second)
 }
 
 // Aqui não é possível salvar o código, ele vai apenas pedir pra autenticar no navegador.

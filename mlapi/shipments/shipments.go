@@ -8,7 +8,6 @@ import (
 
 type ShipmentCost struct {
 	ShipmentID string  // Vamos precisar injetar ou passar isso externamente
-	SellerID   int64   // ID do vendedor
 	Cost       float64 // Quanto o vendedor pagou de frete
 	ChargeFlex float64 // Taxa adicional se usada entrega Flex
 }
@@ -32,7 +31,6 @@ func FetchCosts(shipmentID string) (*ShipmentCost, error) {
 func extract(data []byte, shipmentID string) (*ShipmentCost, error) {
 	var raw struct {
 		Senders []struct {
-			UserID  int64   `json:"user_id"`
 			Cost    float64 `json:"cost"`
 			Charges struct {
 				ChargeFlex float64 `json:"charge_flex"`
@@ -54,7 +52,6 @@ func extract(data []byte, shipmentID string) (*ShipmentCost, error) {
 
 	result := &ShipmentCost{
 		ShipmentID: shipmentID,
-		SellerID:   s.UserID,
 		Cost:       s.Cost,
 		ChargeFlex: s.Charges.ChargeFlex,
 	}

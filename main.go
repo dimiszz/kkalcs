@@ -27,8 +27,6 @@ func main() {
 	if err != nil {
 		fmt.Println("Erro:", err)
 	}
-
-	auth.RegisterAuthResponse()
 }
 
 func run() error {
