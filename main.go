@@ -1,12 +1,12 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"log/slog"
 	"os"
 	"time"
 
+	"dimi/kkalcs/api"
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/mlapi/auth"
 	"dimi/kkalcs/mlapi/orders"
@@ -29,7 +29,7 @@ func main() {
 	LoadUserId()
 	setupLogger()
 
-	err := run()
+	err := api.Run()
 	if err != nil {
 		slog.Error("Error in code execution", "error", err)
 	}
@@ -46,49 +46,6 @@ func run() error {
 	// fmt.Println("2025-02-21T00:00:00Z")
 
 	return err
-}
-
-func getAllItemsIds() ([]string, error) {
-	const limit = 50
-	var itemsId []string
-	offset := 0
-
-	for {
-		url := fmt.Sprintf("https://api.mercadolibre.com/users/%s/items/search?offset=%d&limit=%d", requests.USER_ID, offset, limit)
-
-		fmt.Println("URL:", url)
-
-		body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
-		if err != nil {
-			return nil, fmt.Errorf("erro ao fazer requisição: %s", err)
-		}
-
-		var result SearchResult
-		err = json.Unmarshal(body, &result)
-		if err != nil {
-			return nil, fmt.Errorf("erro ao parsear JSON: %s", err)
-		}
-
-		itemsId = append(itemsId, result.Results...)
-
-		if len(result.Results) < limit {
-			break
-		}
-		offset += limit
-	}
-
-	return itemsId, nil
-}
-
-func GetRateLimit() error {
-	urla := "https://api.mercadolibre.com/marketplace/users/cap"
-
-	body, err := requests.MakeSimpleRequest(requests.GET, urla, nil)
-	if err != nil {
-		return fmt.Errorf("erro ao fazer requisição: %s", err)
-	}
-	fmt.Println("Corpo da resposta:", string(body))
-	return nil
 }
 
 func LoadUserId() {
@@ -115,7 +72,6 @@ func Test() {
 		return
 	}
 	fmt.Println("Corpo da resposta:", string(body))
-
 }
 
 func CalculateProfit() error {
