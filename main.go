@@ -3,16 +3,13 @@ package main
 import (
 	"fmt"
 	"log/slog"
-	"os"
-	"time"
 
 	"dimi/kkalcs/api"
 	"dimi/kkalcs/dotenv"
+	"dimi/kkalcs/logger"
 	"dimi/kkalcs/mlapi/auth"
 	"dimi/kkalcs/mlapi/orders"
 	"dimi/kkalcs/mlapi/requests"
-
-	"github.com/lmittmann/tint"
 )
 
 type Paging struct {
@@ -110,14 +107,7 @@ func CalculateProfit() error {
 
 func setupLogger() {
 
-	w := os.Stderr
-
-	logger := slog.New(tint.NewHandler(w, &tint.Options{
-		Level:      slog.LevelDebug,
-		TimeFormat: time.Kitchen,
-	}))
-
-	slog.SetDefault(logger)
+	logger.SetupLogger()
 
 	slog.Debug("isso é debug") // não será exibido
 	slog.Info("isso é info")   // será exibido

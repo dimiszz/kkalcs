@@ -1,6 +1,7 @@
 package api
 
 import (
+	"dimi/kkalcs/logger"
 	"dimi/kkalcs/mlapi/orders"
 	"encoding/json"
 	"log/slog"
@@ -52,9 +53,8 @@ func loggerMdwr(next http.Handler) http.Handler {
 			r.Header.Set("X-Request-ID", requestID)
 		}
 
-		old_logger := slog.Default()
-		slog.SetDefault(slog.Default().With(slog.String("request_id", requestID)))
+		logger.SetRequestID(requestID)
 		next.ServeHTTP(w, r)
-		slog.SetDefault(old_logger)
+		logger.ResetRequestID()
 	})
 }
