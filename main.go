@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log/slog"
+	"time"
 
 	"dimi/kkalcs/api"
 	"dimi/kkalcs/dotenv"
@@ -46,10 +47,7 @@ func run() error {
 }
 
 func LoadUserId() {
-	access_token := auth.GetAcessToken()
-	start := len(access_token) - 10
-	userID := access_token[start:]
-	requests.USER_ID = userID
+	requests.USER_ID = auth.GetUserID()
 }
 
 func Test() {
@@ -72,7 +70,10 @@ func Test() {
 }
 
 func CalculateProfit() error {
-	ords, err := orders.FetchAll()
+	dateFrom := time.Date(2025, time.February, 21, 0, 0, 0, 0, time.UTC)
+	dateTo := time.Date(2025, time.March, 21, 23, 59, 59, 0, time.UTC)
+
+	ords, err := orders.FetchAll(dateFrom, dateTo)
 	if err != nil {
 		return fmt.Errorf("erro ao buscar pedidos: %s", err)
 	}

@@ -53,6 +53,14 @@ func GetAcessToken() string {
 	return currentAuthResponse.AccessToken
 }
 
+func GetUserID() string {
+	if currentAuthResponse == nil {
+		GetAcessToken()
+		return fmt.Sprintf("%d", currentAuthResponse.UserID)
+	}
+	return fmt.Sprintf("%d", currentAuthResponse.UserID)
+}
+
 func FirstTimeFlow() *oAuthResponse {
 	SendAuthRequest()
 	temp_token := getTempToken()

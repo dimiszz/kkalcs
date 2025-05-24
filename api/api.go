@@ -6,6 +6,8 @@ import (
 	"encoding/json"
 	"log/slog"
 	"net/http"
+	"strconv"
+	"time"
 
 	"github.com/google/uuid"
 )
@@ -25,24 +27,61 @@ func Run() error {
 }
 
 func getOrders(w http.ResponseWriter, r *http.Request) {
-	// Handle the request to get orders here
-	// You can use the requests package to make API calls to Mercado Libre
-	// and return the response to the client.
+	query := r.URL.Query()
 
-	data, err := orders.FetchAll()
+	year1Str := query.Get("year1")
+	month1Str := query.Get("month1")
+	year2Str := query.Get("year2")
+	month2Str := query.Get("month2")
+
+	if year1Str == "" || month1Str == "" || year2Str == "" || month2Str == "" {
+		http.Error(w, "Missing date parameters. Required: year1, month1, year2, month2", http.StatusBadRequest)
+		return
+	}
+	year1, err := strconv.Atoi(year1Str)
+	if err != nil {
+		http.Error(w, "Invalid year1 parameter", http.StatusBadRequest)
+		return
+	}
+	month1, err := strconv.Atoi(month1Str)
+	if err != nil || month1 < 1 || month1 > 12 {
+		http.Error(w, "Invalid month1 parameter", http.StatusBadRequest)
+		return
+	}
+	year2, err := strconv.Atoi(year2Str)
+	if err != nil {
+		http.Error(w, "Invalid year2 parameter", http.StatusBadRequest)
+		return
+	}
+	month2, err := strconv.Atoi(month2Str)
+	if err != nil || month2 < 1 || month2 > 12 {
+		http.Error(w, "Invalid month2 parameter", http.StatusBadRequest)
+		return
+	}
+	if year1 > year2 || (year1 == year2 && month1 > month2) {
+		http.Error(w, "Invalid date range", http.StatusBadRequest)
+		return
+	}
+
+	dateFrom := time.Date(year1, time.Month(month1), 21, 0, 0, 0, 0, time.UTC)
+	dateTo := time.Date(year2, time.Month(month2), 22, 0, 0, 0, 0, time.UTC).Add(-1 * time.Nanosecond)
+	slog.Info("Fetching orders", "dateFrom", dateFrom, "dateTo", dateTo)
+
+	data, err := orders.FetchAll(dateFrom, dateTo)
 	if err != nil {
 		slog.Error("Failed to fetch orders", "error", err)
 		http.Error(w, "Internal error", http.StatusInternalServerError)
 		return
 	}
-	jsonData, err := json.Marshal(data)
+	result := orders.Total(data)
+	jsonResult, err := json.Marshal(result)
 	if err != nil {
 		slog.Error("Failed to marshal orders", "error", err)
 		http.Error(w, "Internal error", http.StatusInternalServerError)
 		return
 	}
 	w.WriteHeader(http.StatusOK)
-	w.Write(jsonData)
+	w.Write([]byte(jsonResult))
 }
 
 func loggerMdwr(next http.Handler) http.Handler {

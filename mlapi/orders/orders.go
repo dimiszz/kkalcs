@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"time"
 
 	"dimi/kkalcs/mlapi/requests"
 )
@@ -28,12 +29,12 @@ type Order struct {
 	Items       []OrderItem `json:"items"`
 }
 
-func FetchAll() ([]Order, error) {
+func FetchAll(dateFrom, dateTo time.Time) ([]Order, error) {
 	const limit = 50
 	offset := 0
 
-	dateFrom := "2025-02-21T00:00:00Z"
-	dateTo := "2025-03-21T23:59:59Z"
+	dateFromString := dateFrom.Format("2006-01-02T15:04:05Z")
+	dateToString := dateTo.Format("2006-01-02T15:04:05Z")
 
 	// Status válidos para excluir pedidos cancelados
 	statuses := []string{"paid", "confirmed"}
@@ -44,7 +45,7 @@ func FetchAll() ([]Order, error) {
 	for {
 		url := fmt.Sprintf(
 			"https://api.mercadolibre.com/orders/search?seller=%s&limit=%d&offset=%d&order.date_created.from=%s&order.date_created.to=%s&order.status=%s",
-			requests.USER_ID, limit, offset, dateFrom, dateTo, validStatuses,
+			requests.USER_ID, limit, offset, dateFromString, dateToString, validStatuses,
 		)
 
 		body, err := requests.MakeSimpleRequest(requests.GET, url, nil)
@@ -153,7 +154,7 @@ func extract(data []byte) ([]Order, error) {
 	return orders, nil
 }
 
-func Total(orders []Order) float64 {
+func Total(orders []Order) any {
 	var total float64
 	var sale_fee_total float64
 	for _, order := range orders {
@@ -162,17 +163,20 @@ func Total(orders []Order) float64 {
 			sale_fee_total += item.SaleFee
 		}
 	}
-
-	fmt.Println("Total bruto:", total)
-	fmt.Println("Sale_fee_total: ", sale_fee_total)
-
 	median_tax := sale_fee_total / total
+	total_liquido := total - sale_fee_total
 
-	fmt.Println("Median Tax:", median_tax)
-
-	fmt.Println("Total liquido:", total-sale_fee_total)
-
-	return total - sale_fee_total
+	return struct { // This is an anonymous struct
+		TotalBruto   float64
+		SaleFeeTotal float64
+		MedianTax    float64
+		TotalLiquido float64
+	}{
+		TotalBruto:   total,
+		SaleFeeTotal: sale_fee_total,
+		MedianTax:    median_tax,
+		TotalLiquido: total_liquido,
+	}
 }
 
 func Get(orderId string) {
