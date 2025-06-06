@@ -2,98 +2,129 @@ package api
 
 import (
 	"dimi/kkalcs/logger"
-	"dimi/kkalcs/mlapi/orders"
+	grpc_orders "dimi/kkalcs/rpc"
+	pb "dimi/kkalcs/pb/orderspb"
+
 	"encoding/json"
+	"html/template"
+	"log"
 	"log/slog"
+	"net"
 	"net/http"
 	"strconv"
-	"time"
-
+	
 	"github.com/google/uuid"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials/insecure"
 )
 
-func Run() error {
-	mux := http.NewServeMux()
+func getOrdersFromGRPC(r *http.Request) (*pb.OrderResponse, error) {
+	conn, err := grpc.NewClient(":50050", grpc.WithTransportCredentials(insecure.NewCredentials()))
+	if err != nil {
+		return nil, err
+	}
+	defer conn.Close()
+	client := pb.NewOrderServiceClient(conn)
 
+	// Para GET, pegamos de query params. Para POST (HTMX), pegamos de FormValue.
+	year1, _ := strconv.Atoi(r.FormValue("year1"))
+	month1, _ := strconv.Atoi(r.FormValue("month1"))
+	year2, _ := strconv.Atoi(r.FormValue("year2"))
+	month2, _ := strconv.Atoi(r.FormValue("month2"))
+
+	if r.Method == "GET" {
+		query := r.URL.Query()
+		year1, _ = strconv.Atoi(query.Get("year1"))
+		month1, _ = strconv.Atoi(query.Get("month1"))
+		year2, _ = strconv.Atoi(query.Get("year2"))
+		month2, _ = strconv.Atoi(query.Get("month2"))
+	}
+
+	req := &pb.OrderRequest{
+		Year1:  int32(year1),
+		Month1: int32(month1),
+		Year2:  int32(year2),
+		Month2: int32(month2),
+	}
+
+	return client.GetTotalOrders(r.Context(), req)
+}
+
+func getOrders(w http.ResponseWriter, r *http.Request) {
+	resp, err := getOrdersFromGRPC(r)
+	if err != nil {
+		// Idealmente, você traduziria o código de erro gRPC para um status HTTP apropriado.
+		slog.Error("gRPC call failed", "error", err)
+		http.Error(w, "Internal error: "+err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(resp)
+}
+
+func getOrdersHtmxView(w http.ResponseWriter, r *http.Request) {
+	resp, err := getOrdersFromGRPC(r)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte(`<p class="error">Erro ao buscar dados: ` + err.Error() + `</p>`))
+		return
+	}
+
+	tmpl, _ := template.New("orderResult").Parse(`
+		<div id="result-card">
+			<h4>Resultados para o Período: {{.PeriodProcessed}}</h4>
+			<p><strong>Total Bruto:</strong> R$ {{printf "%.2f" .TotalBruto}}</p>
+			<p><strong>Total Taxas:</strong> R$ {{printf "%.2f" .SaleFeeTotal}}</p>
+			<p><strong>Taxa Média:</strong> {{printf "%.2f" .MedianTax}}%</p>
+			<hr>
+			<p><strong>Total Líquido:</strong> R$ {{printf "%.2f" .TotalLiquido}}</p>
+		</div>
+	`)
+	tmpl.Execute(w, resp)
+}
+
+func serveIndexPage(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "index.html")
+}
+
+func Run() error {
+	go func() {
+		lis, err := net.Listen("tcp", ":50050")
+		if err != nil {
+			log.Fatalf("failed to listen on gRPC port: %v", err)
+		}
+		grpcServer := grpc.NewServer()
+		pb.RegisterOrderServiceServer(grpcServer, &grpc_orders.Server{})
+		slog.Info("Starting gRPC server on :50050")
+		if err := grpcServer.Serve(lis); err != nil {
+			log.Fatalf("gRPC server failed: %v", err)
+		}
+	}()
+
+	// Configurar rotas HTTP
+	mux := http.NewServeMux()
+	mux.HandleFunc("GET /", serveIndexPage)
 	mux.HandleFunc("GET /api/v1/orders", getOrders)
+	mux.HandleFunc("POST /api/v1/orders-view", getOrdersHtmxView)
 
 	server := &http.Server{
 		Addr:    ":8080",
 		Handler: loggerMdwr(mux),
 	}
-	slog.Info("Starting server on :8080")
-	err := server.ListenAndServe()
-	return err
-}
-
-func getOrders(w http.ResponseWriter, r *http.Request) {
-	query := r.URL.Query()
-
-	year1Str := query.Get("year1")
-	month1Str := query.Get("month1")
-	year2Str := query.Get("year2")
-	month2Str := query.Get("month2")
-
-	if year1Str == "" || month1Str == "" || year2Str == "" || month2Str == "" {
-		http.Error(w, "Missing date parameters. Required: year1, month1, year2, month2", http.StatusBadRequest)
-		return
-	}
-	year1, err := strconv.Atoi(year1Str)
-	if err != nil {
-		http.Error(w, "Invalid year1 parameter", http.StatusBadRequest)
-		return
-	}
-	month1, err := strconv.Atoi(month1Str)
-	if err != nil || month1 < 1 || month1 > 12 {
-		http.Error(w, "Invalid month1 parameter", http.StatusBadRequest)
-		return
-	}
-	year2, err := strconv.Atoi(year2Str)
-	if err != nil {
-		http.Error(w, "Invalid year2 parameter", http.StatusBadRequest)
-		return
-	}
-	month2, err := strconv.Atoi(month2Str)
-	if err != nil || month2 < 1 || month2 > 12 {
-		http.Error(w, "Invalid month2 parameter", http.StatusBadRequest)
-		return
-	}
-	if year1 > year2 || (year1 == year2 && month1 > month2) {
-		http.Error(w, "Invalid date range", http.StatusBadRequest)
-		return
-	}
-
-	dateFrom := time.Date(year1, time.Month(month1), 21, 0, 0, 0, 0, time.UTC)
-	dateTo := time.Date(year2, time.Month(month2), 22, 0, 0, 0, 0, time.UTC).Add(-1 * time.Nanosecond)
-	slog.Info("Fetching orders", "dateFrom", dateFrom, "dateTo", dateTo)
-
-	data, err := orders.FetchAll(dateFrom, dateTo)
-	if err != nil {
-		slog.Error("Failed to fetch orders", "error", err)
-		http.Error(w, "Internal error", http.StatusInternalServerError)
-		return
-	}
-	result := orders.Total(data)
-	jsonResult, err := json.Marshal(result)
-	if err != nil {
-		slog.Error("Failed to marshal orders", "error", err)
-		http.Error(w, "Internal error", http.StatusInternalServerError)
-		return
-	}
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(jsonResult))
+	slog.Info("Starting HTTP server on :8080")
+	return server.ListenAndServe()
 }
 
 func loggerMdwr(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		requestID := r.Header.Get("X-Request-ID")
-		if requestID == "" {
-			requestID = uuid.New().String() // You can generate a UUID instead
-			r.Header.Set("X-Request-ID", requestID)
-		}
-
-		logger.SetRequestID(requestID)
-		next.ServeHTTP(w, r)
-		logger.ResetRequestID()
-	})
+    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+        requestID := r.Header.Get("X-Request-ID")
+        if requestID == "" {
+            requestID = uuid.New().String()
+            r.Header.Set("X-Request-ID", requestID)
+        }
+        logger.SetRequestID(requestID)
+        next.ServeHTTP(w, r)
+        logger.ResetRequestID()
+    })
 }

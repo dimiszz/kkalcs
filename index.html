@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders Dashboard</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+    <h1>Consultar Pedidos</h1>
+    <form hx-post="/api/v1/orders-view" hx-target="#results" hx-swap="innerHTML">
+        <div>
+            <label>De:</label>
+            <input type="number" name="year1" placeholder="Ano" required value="2023">
+            <input type="number" name="month1" placeholder="Mês" required value="1">
+        </div>
+        <div>
+            <label>Até:</label>
+            <input type="number" name="year2" placeholder="Ano" required value="2025">
+            <input type="number" name="month2" placeholder="Mês" required value="12">
+        </div>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <hr>
+    <h2>Resultados</h2>
+    <div id="results">
+        </div>
+</body>
+</html>

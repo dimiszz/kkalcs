@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package orders;
+
+option go_package = "./orderspb";
+
+service OrderService {
+  rpc GetTotalOrders(OrderRequest) returns (OrderResponse);
+}
+
+message OrderRequest {
+  int32 year1 = 1;
+  int32 month1 = 2;
+  int32 year2 = 3;
+  int32 month2 = 4;
+}
+
+message OrderResponse {
+  double total_bruto = 1;
+  double sale_fee_total = 2;
+  double median_tax = 3;
+  double total_liquido = 4;
+  string period_processed = 5;
+}

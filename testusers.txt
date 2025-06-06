@@ -16,3 +16,6 @@ seller:
     "site_status": "active",
     "password": "4dhcM3QDok"
 }
+
+
+protoc --proto_path=proto proto/*.proto --go_out=./pb --go-grpc_out=./pb
