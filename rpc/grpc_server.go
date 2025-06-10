@@ -4,29 +4,20 @@ package rpc
 import (
 	"context"
 	"time"
-	"encoding/json"
 	"fmt"
 
-	"dimi/kkalcs/mlapi/orders" // Seu pacote de negócio
-	pb "dimi/kkalcs/pb/orderspb" // Pacote gerado pelo protoc
+	"dimi/kkalcs/mlapi/orders"
+	pb "dimi/kkalcs/pb/orderspb"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
-
-type totalsPayload struct {
-	TotalBruto   float64
-	SaleFeeTotal float64
-	MedianTax    float64
-	TotalLiquido float64
-}
 
 type Server struct {
 	pb.UnimplementedOrderServiceServer
 }
 
 func (s *Server) GetTotalOrders(ctx context.Context, req *pb.OrderRequest) (*pb.OrderResponse, error) {
-	// 1. Toda a validação e lógica de negócio que estava no seu handler HTTP agora vive aqui.
 	if req.GetYear1() == 0 || req.GetMonth1() == 0 || req.GetYear2() == 0 || req.GetMonth2() == 0 {
 		return nil, status.Error(codes.InvalidArgument, "Missing date parameters")
 	}
@@ -40,27 +31,17 @@ func (s *Server) GetTotalOrders(ctx context.Context, req *pb.OrderRequest) (*pb.
 	dateFrom := time.Date(int(req.Year1), time.Month(req.Month1), 21, 0, 0, 0, 0, time.UTC)
 	dateTo := time.Date(int(req.Year2), time.Month(req.Month2), 22, 0, 0, 0, 0, time.UTC).Add(-1 * time.Nanosecond)
 
-	// 2. Chamadas para o seu pacote de negócio
 	data, err := orders.FetchAll(dateFrom, dateTo)
 	if err != nil {
 		return nil, status.Errorf(codes.Internal, "failed to fetch orders: %v", err)
 	}
-	// 3. Chamamos sua função original, que retorna `any`
-	anonymousResult := orders.Total(data)
+	typedResultAny := orders.Total(data)
 
-	// 4. Convertemos o resultado `any` para um array de bytes JSON.
-	jsonBytes, err := json.Marshal(anonymousResult)
-	if err != nil {
-		return nil, status.Errorf(codes.Internal, "failed to marshal anonymous result: %v", err)
+	typedResult, ok := typedResultAny.(struct { TotalBruto float64; SaleFeeTotal float64; MedianTax float64; TotalLiquido float64 })
+	if !ok {
+		return nil, status.Error(codes.Internal, "failed to cast result from orders.Total")
 	}
 
-	// 5. Lemos os bytes JSON para a nossa struct local `totalsPayload`.
-	var typedResult totalsPayload
-	if err := json.Unmarshal(jsonBytes, &typedResult); err != nil {
-		return nil, status.Errorf(codes.Internal, "failed to unmarshal to typed result: %v", err)
-	}
-
-	// 6. Agora podemos usar `typedResult` com segurança!
 	return &pb.OrderResponse{
 		TotalBruto:      typedResult.TotalBruto,
 		SaleFeeTotal:    typedResult.SaleFeeTotal,

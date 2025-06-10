@@ -6,38 +6,38 @@ import (
 	pb "dimi/kkalcs/pb/orderspb"
 
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"log"
 	"log/slog"
 	"net"
 	"net/http"
 	"strconv"
-	
+
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
 
-func getOrdersFromGRPC(r *http.Request) (*pb.OrderResponse, error) {
+var grpcClient pb.OrderServiceClient
+
+func InitGRPCClient() error {
 	conn, err := grpc.NewClient(":50050", grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
-		return nil, err
+		return err
 	}
-	defer conn.Close()
-	client := pb.NewOrderServiceClient(conn)
+	grpcClient = pb.NewOrderServiceClient(conn)
+	return nil
+}
 
-	// Para GET, pegamos de query params. Para POST (HTMX), pegamos de FormValue.
-	year1, _ := strconv.Atoi(r.FormValue("year1"))
-	month1, _ := strconv.Atoi(r.FormValue("month1"))
-	year2, _ := strconv.Atoi(r.FormValue("year2"))
-	month2, _ := strconv.Atoi(r.FormValue("month2"))
-
-	if r.Method == "GET" {
-		query := r.URL.Query()
-		year1, _ = strconv.Atoi(query.Get("year1"))
-		month1, _ = strconv.Atoi(query.Get("month1"))
-		year2, _ = strconv.Atoi(query.Get("year2"))
-		month2, _ = strconv.Atoi(query.Get("month2"))
+func getOrdersFromGRPC(r *http.Request) (*pb.OrderResponse, error) {
+	year1, err1 := strconv.Atoi(r.FormValue("year1"))
+	month1, err2 := strconv.Atoi(r.FormValue("month1"))
+	year2, err3 := strconv.Atoi(r.FormValue("year2"))
+	month2, err4 := strconv.Atoi(r.FormValue("month2"))
+	if err1 != nil || err2 != nil || err3 != nil || err4 != nil {
+		slog.Error("invalid or missing date parameters", "err1", err1, "err2", err2, "err3", err3, "err4", err4)
+		return nil, fmt.Errorf("invalid or missing date parameters")
 	}
 
 	req := &pb.OrderRequest{
@@ -47,13 +47,12 @@ func getOrdersFromGRPC(r *http.Request) (*pb.OrderResponse, error) {
 		Month2: int32(month2),
 	}
 
-	return client.GetTotalOrders(r.Context(), req)
+	return grpcClient.GetTotalOrders(r.Context(), req)
 }
 
 func getOrders(w http.ResponseWriter, r *http.Request) {
 	resp, err := getOrdersFromGRPC(r)
 	if err != nil {
-		// Idealmente, você traduziria o código de erro gRPC para um status HTTP apropriado.
 		slog.Error("gRPC call failed", "error", err)
 		http.Error(w, "Internal error: "+err.Error(), http.StatusInternalServerError)
 		return
@@ -101,8 +100,14 @@ func Run() error {
 			log.Fatalf("gRPC server failed: %v", err)
 		}
 	}()
+	err := InitGRPCClient()
 
-	// Configurar rotas HTTP
+	if err != nil {
+		slog.Error("Failed to initialize gRPC client", "error", err)
+		return err
+	}
+
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /", serveIndexPage)
 	mux.HandleFunc("GET /api/v1/orders", getOrders)
@@ -117,14 +122,14 @@ func Run() error {
 }
 
 func loggerMdwr(next http.Handler) http.Handler {
-    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-        requestID := r.Header.Get("X-Request-ID")
-        if requestID == "" {
-            requestID = uuid.New().String()
-            r.Header.Set("X-Request-ID", requestID)
-        }
-        logger.SetRequestID(requestID)
-        next.ServeHTTP(w, r)
-        logger.ResetRequestID()
-    })
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		requestID := r.Header.Get("X-Request-ID")
+		if requestID == "" {
+			requestID = uuid.New().String()
+			r.Header.Set("X-Request-ID", requestID)
+		}
+		logger.SetRequestID(requestID)
+		next.ServeHTTP(w, r)
+		logger.ResetRequestID()
+	})
 }
