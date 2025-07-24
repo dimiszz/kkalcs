@@ -5,12 +5,13 @@ import (
 	"log/slog"
 	"time"
 
-	"dimi/kkalcs/api"
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/logger"
 	"dimi/kkalcs/mlapi/auth"
 	"dimi/kkalcs/mlapi/orders"
 	"dimi/kkalcs/mlapi/requests"
+	shpauth "dimi/kkalcs/shpeapi/auth"
+	shporder "dimi/kkalcs/shpeapi/orders"
 )
 
 type Paging struct {
@@ -26,11 +27,12 @@ func main() {
 	dotenv.Load()
 	LoadUserId()
 	setupLogger()
-
-	err := api.Run()
-	if err != nil {
-		slog.Error("Error in code execution", "error", err)
-	}
+	fmt.Println(shpauth.GetAcessToken())
+	shporder.Chance()
+	// err := api.Run()
+	// if err != nil {
+	// 	slog.Error("Error in code execution", "error", err)
+	// }
 }
 
 func run() error {
