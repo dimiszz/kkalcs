@@ -1,3 +1,4 @@
+// auth.go (Modified with minor additions)
 package auth
 
 import (
@@ -27,7 +28,7 @@ type oAuthResponse struct {
 	ExpiresIn      int       `json:"expires_in"`
 	ExpirationDate time.Time `json:"expiration_date"`
 	Scope          string    `json:"scope"`
-	UserID         int       `json:"user_id"`
+	UserID         int       `json:"user_id"` // For Mercado Libre. For Shopee, this will be the primary shop_id.
 	RefreshToken   string    `json:"refresh_token"`
 }
 
@@ -35,7 +36,7 @@ type oAuthResponse struct {
 type ShopeeAuthResponse struct {
 	AccessToken    string    `json:"access_token"`
 	RefreshToken   string    `json:"refresh_token"`
-	ExpiresIn      int       `json:"expires_in"`
+	ExpiresIn      int       `json:"expire_in"`    // Shopee uses expire_in
 	ShopIDList     []int64   `json:"shop_id_list"` // For initial token exchange
 	ShopID         int64     `json:"shop_id"`      // For refresh token exchange
 	PartnerID      int64     `json:"partner_id"`
@@ -57,7 +58,7 @@ func (s *ShopeeAuthResponse) ToOAuthResponse() *oAuthResponse {
 		RefreshToken:   s.RefreshToken,
 		ExpiresIn:      s.ExpiresIn,
 		ExpirationDate: s.ExpirationDate,
-		UserID:         int(shopID),
+		UserID:         int(shopID), // Store Shopee shop_id as UserID for consistency
 		TokenType:      "Bearer",
 		Scope:          "",
 	}
@@ -72,27 +73,41 @@ func GetAcessToken() string {
 	if currentAuthResponse == nil {
 		currentAuthResponse, err = GetSavedTokenFlow()
 		if err != nil {
+			// If no saved token, trigger the first-time flow
+			fmt.Println("No saved Shopee token found. Initiating first-time authentication flow.")
 			currentAuthResponse = FirstTimeFlow()
 		}
 	}
 
 	if tokenIsExpired() {
+		fmt.Println("Shopee access token expired, attempting to refresh...")
+		// Use the saved shop_id (UserID) for refreshing
 		shopID := int64(currentAuthResponse.UserID)
 		currentAuthResponse, err = ExchangeRefreshToken(currentAuthResponse.RefreshToken, shopID)
 		if err != nil {
-			panic(err)
+			panic(fmt.Errorf("failed to refresh Shopee access token: %w", err))
 		}
 	}
 
 	return currentAuthResponse.AccessToken
 }
 
-// GetUserID returns the shop_id, ensuring the token flow has been initiated.
+// GetUserID returns the shop_id as a string, ensuring the token flow has been initiated.
 func GetUserID() string {
 	if currentAuthResponse == nil {
-		GetAcessToken()
+		GetAcessToken() // Ensure authentication is performed
 	}
-	return fmt.Sprintf("%d", currentAuthResponse.UserID)
+	return fmt.Sprintf("%d", currentAuthResponse.UserID) // This will be the shop_id for Shopee
+}
+
+// GetPartnerID returns the Shopee Partner ID from environment variables.
+func GetPartnerID() string {
+	return dotenv.Get("APP_ID_SHP")
+}
+
+// GetPartnerKey returns the Shopee Partner Key from environment variables.
+func GetPartnerKey() string {
+	return dotenv.Get("APP_SECRET_KEY_SHP")
 }
 
 // FirstTimeFlow handles the entire initial authentication process.
@@ -100,17 +115,17 @@ func FirstTimeFlow() *oAuthResponse {
 	SendAuthRequest()
 	code, shopIDStr, err := getTempToken()
 	if err != nil {
-		panic(err)
+		panic(fmt.Errorf("error getting temp token: %w", err))
 	}
 
 	shopID, err := strconv.ParseInt(shopIDStr, 10, 64)
 	if err != nil {
-		panic("Invalid shop_id received from URL: " + shopIDStr)
+		panic(fmt.Sprintf("Invalid shop_id received from URL: %s, error: %v", shopIDStr, err))
 	}
 
 	authResponse, err := ExchangeCodeForToken(code, shopID)
 	if err != nil {
-		panic(err)
+		panic(fmt.Errorf("error exchanging code for token: %w", err))
 	}
 	return authResponse
 }
@@ -126,21 +141,27 @@ func GetSavedTokenFlow() (*oAuthResponse, error) {
 		return nil, errors.New("saved token is incomplete")
 	}
 
+	// Re-calculate expiration date on load, as time.Now() changes.
+	authResponse.ExpirationDate = calculateExpirationDate(authResponse.ExpiresIn)
+
 	return authResponse, nil
 }
 
 // save persists the authentication credentials to a JSON file.
 func save(authCredentials oAuthResponse) {
-	f, err := os.Create("auth_response-shpe.json")
+	f, err := os.Create("auth_response-shpe.json") // Consistent filename
 	if err != nil {
-		panic(err)
+		panic(fmt.Errorf("error creating auth file: %w", err))
 	}
 	defer f.Close()
 
-	as_json, _ := json.MarshalIndent(authCredentials, "", "\t")
+	as_json, err := json.MarshalIndent(authCredentials, "", "\t")
+	if err != nil {
+		panic(fmt.Errorf("error marshaling auth credentials: %w", err))
+	}
 	_, err = f.Write(as_json)
 	if err != nil {
-		panic(err)
+		panic(fmt.Errorf("error writing auth credentials to file: %w", err))
 	}
 }
 
@@ -169,8 +190,8 @@ func get() (*oAuthResponse, error) {
 func ExchangeCodeForToken(code string, shopID int64) (*oAuthResponse, error) {
 	timestamp := time.Now().Unix()
 	path := "/api/v2/auth/token/get"
-	partnerID := dotenv.Get("APP_ID_SHP")
-	partnerKey := dotenv.Get("APP_SECRET_KEY_SHP")
+	partnerID := GetPartnerID()
+	partnerKey := GetPartnerKey()
 
 	type requestBody struct {
 		Code   string `json:"code"`
@@ -228,8 +249,8 @@ func ExchangeCodeForToken(code string, shopID int64) (*oAuthResponse, error) {
 func ExchangeRefreshToken(refreshToken string, shopID int64) (*oAuthResponse, error) {
 	timestamp := time.Now().Unix()
 	path := "/api/v2/auth/access_token/get"
-	partnerID := dotenv.Get("APP_ID_SHP")
-	partnerKey := dotenv.Get("APP_SECRET_KEY_SHP")
+	partnerID := GetPartnerID()
+	partnerKey := GetPartnerKey()
 
 	type requestBody struct {
 		RefreshToken string `json:"refresh_token"`
@@ -237,7 +258,11 @@ func ExchangeRefreshToken(refreshToken string, shopID int64) (*oAuthResponse, er
 		PartnerID    int64  `json:"partner_id"`
 	}
 
-	partnerIDInt, _ := strconv.ParseInt(partnerID, 10, 64)
+	partnerIDInt, err := strconv.ParseInt(partnerID, 10, 64)
+	if err != nil {
+		return nil, fmt.Errorf("invalid partner ID: %w", err)
+	}
+
 	bodyData := requestBody{
 		RefreshToken: refreshToken,
 		ShopID:       shopID,
@@ -280,7 +305,7 @@ func ExchangeRefreshToken(refreshToken string, shopID int64) (*oAuthResponse, er
 	}
 
 	if shopeeResponse.RefreshToken == "" {
-		shopeeResponse.RefreshToken = refreshToken
+		shopeeResponse.RefreshToken = refreshToken // Ensure refresh token is preserved if API doesn't return it
 	}
 	shopeeResponse.ExpirationDate = calculateExpirationDate(shopeeResponse.ExpiresIn)
 	response := shopeeResponse.ToOAuthResponse()
@@ -304,17 +329,16 @@ func calculateExpirationDate(expiresIn int) time.Time {
 
 // SendAuthRequest generates the initial authorization URL and opens it in the browser.
 func SendAuthRequest() {
-	partnerID := dotenv.Get("APP_ID_SHP")
-	partnerKey := dotenv.Get("APP_SECRET_KEY_SHP")
+	partnerID := GetPartnerID()
+	partnerKey := GetPartnerKey()
 	redirectURI := dotenv.Get("REDIRECT_URI_SHP")
 	timestamp := time.Now().Unix()
 	path := "/api/v2/shop/auth_partner"
 
-	// FIX: Updated to use the correct signature generation method.
 	baseString := fmt.Sprintf("%s%s%d", partnerID, path, timestamp)
 	sign := CalculateHmacSha256(baseString, partnerKey)
 
-	authPath := fmt.Sprintf("https://partner.shopeemobile.com%s?partner_id=%s&redirect=%s&timestamp=%d&sign=%s", path, partnerID, redirectURI, timestamp, sign)
+	authPath := fmt.Sprintf("https://partner.shopeemobile.com%s?partner_id=%s&redirect=%s&timestamp=%d&sign=%s", path, partnerID, url.QueryEscape(redirectURI), timestamp, sign)
 	openbrowser(authPath)
 }
 
