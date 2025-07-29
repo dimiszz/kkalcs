@@ -3,305 +3,151 @@ package orders
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil" // Using ioutil for simplicity, consider os.ReadFile for Go 1.16+
+	"log/slog"
 	"strings"
 	"time"
 
-	"dimi/kkalcs/shpeapi/auth"     // Your existing auth package for Shopee
-	"dimi/kkalcs/shpeapi/requests" // The adapted requests package
+	"dimi/kkalcs/shpeapi/requests"
 )
 
-const shopeeBaseURL = "https://partner.shopeemobile.com"
+const (
+	shopeeBaseURL        = "https://partner.shopeemobile.com"
+	orderListAPIPath     = "/api/v2/order/get_order_list"
+	orderDetailAPIPath   = "/api/v2/order/get_order_detail"
+	orderDetailBatchSize = 50  // Máximo de order_sn por chamada na API de detalhes
+	orderListBatchSize   = 100 // Máximo de pedidos por página na API de lista
+)
 
-// ShopeeOrderItem represents an item within a Shopee order
+// ... (structs ShopeeOrderItem e ShopeeOrder permanecem as mesmas) ...
 type ShopeeOrderItem struct {
-	ItemID               int64   `json:"item_id"`
 	ItemName             string  `json:"item_name"`
-	ModelID              int64   `json:"model_id"`
 	ModelName            string  `json:"model_name"`
-	ModelQuantity        int     `json:"model_quantity"`
+	ModelSKU             string  `json:"model_sku"`
+	ModelQuantity        int     `json:"model_quantity_purchased"`
 	ModelOriginalPrice   float64 `json:"model_original_price"`
 	ModelDiscountedPrice float64 `json:"model_discounted_price"`
-	ActualShippingFee    float64 `json:"actual_shipping_fee"`
-	BuyerPaidShippingFee float64 `json:"buyer_paid_shipping_fee"`
-	CommissionFee        float64 `json:"commission_fee"`
-	ServiceFee           float64 `json:"service_fee"`
-	SellerCoinCashBack   float64 `json:"seller_coin_cash_back"`
 }
 
-// ShopeeOrder represents a Shopee order
 type ShopeeOrder struct {
-	OrderSN              string  `json:"order_sn"`
-	OrderStatus          string  `json:"order_status"`
-	CreateTime           int64   `json:"create_time"`
-	UpdateTime           int64   `json:"update_time"`
-	PayTime              int64   `json:"pay_time"`
-	BuyerUserID          int64   `json:"buyer_user_id"`
-	BuyerUsername        string  `json:"buyer_username"`
-	TotalAmount          float64 `json:"total_amount"`
-	Currency             string  `json:"currency"`
-	ShippingID           int64   `json:"shipping_id"`
-	Region               string  `json:"region"`
-	ActualShippingCost   float64 `json:"actual_shipping_cost"`
-	BuyerPaidShippingFee float64 `json:"buyer_paid_shipping_fee"`
-	SellerCoinCashBack   float64 `json:"seller_coin_cash_back"`
-	CommissionFee        float64 `json:"commission_fee"`
-	ServiceFee           float64 `json:"service_fee"`
-	PaymentInfo          struct {
-		PayableAmount float64 `json:"payable_amount"`
-	} `json:"payment_info"`
-	ShopeeOrderItems []ShopeeOrderItem `json:"items"`
+	OrderSN          string            `json:"order_sn"`
+	OrderStatus      string            `json:"order_status"`
+	TotalAmount      float64           `json:"total_amount"`
+	CreateTime       int64             `json:"create_time"`
+	ShopeeOrderItems []ShopeeOrderItem `json:"item_list"`
 }
 
-// FetchAllShopeeOrders fetches all Shopee orders within a given date range.
-// It batches calls to GetShopeeOrderDetail to reduce the total number of API requests.
-func FetchAllShopeeOrders(dateFrom, dateTo time.Time) ([]ShopeeOrder, error) {
-	const maxDateRangeDays = 15 // Shopee's API limit for time_from and time_to
-	const pageSize = 100        // Maximum page size for get_order_list
-	const batchSize = 50        // Number of order SNs to fetch details for in one GetShopeeOrderDetail call
+// GetOrderListByDateRange busca a lista de order_sn com base em um período.
+// Esta função é o novo ponto de entrada para a reconciliação.
+func GetOrderListByDateRange(dateFrom, dateTo time.Time) ([]string, error) {
+	var allOrderSNs []string
+	cursor := "" // O cursor é usado para paginar através dos resultados
 
-	allOrders := []ShopeeOrder{}
-	shopID := auth.GetUserID()
+	slog.Info("Fetching order list by date range", "from", dateFrom, "to", dateTo)
 
-	currentDate := dateFrom
-	for currentDate.Before(dateTo) || currentDate.Equal(dateTo) {
-		endOfPeriod := currentDate.Add(maxDateRangeDays * 24 * time.Hour)
-		if endOfPeriod.After(dateTo) {
-			endOfPeriod = dateTo
-		}
-
-		fmt.Printf("Fetching orders from %s to %s\n", currentDate.Format("2006-01-02"), endOfPeriod.Format("2006-01-02"))
-
-		cursor := ""
-		for {
-			orderSNs, nextCursor, err := FetchShopeeOrderList(currentDate, endOfPeriod, pageSize, cursor, shopID)
-			if err != nil {
-				return nil, fmt.Errorf("error fetching Shopee order list page: %w", err)
-			}
-
-			// Batch fetch details for multiple orders
-			for i := 0; i < len(orderSNs); i += batchSize {
-				end := i + batchSize
-				if end > len(orderSNs) {
-					end = len(orderSNs)
-				}
-				batchSNs := orderSNs[i:end]
-
-				detailedOrders, err := GetShopeeOrderDetailsBatch(batchSNs)
-				if err != nil {
-					fmt.Printf("Warning: Could not fetch details for batch of orders %v: %v. Continuing with next batch.\n", batchSNs, err)
-					// Decide how to handle batch errors: skip batch, retry, log and continue.
-					// For now, we log and continue to next batch.
-					continue
-				}
-				allOrders = append(allOrders, detailedOrders...)
-				time.Sleep(50 * time.Millisecond) // Small delay between batch detail fetches
-			}
-
-			if nextCursor == "" {
-				break
-			}
-			cursor = nextCursor
-			time.Sleep(100 * time.Millisecond) // Be nice to the API between pages of order lists
-		}
-		currentDate = endOfPeriod.Add(24 * time.Hour)
-	}
-
-	err := saveShopeeOrdersToFile(allOrders, "all_shopee_orders.json")
-	if err != nil {
-		fmt.Printf("Warning: Could not save Shopee orders to file: %v\n", err)
-	}
-
-	return allOrders, nil
-}
-
-// FetchShopeeOrderList makes a single request to Shopee's get_order_list API
-// and returns only the order SNs (IDs) to minimize data fetched initially.
-func FetchShopeeOrderList(dateFrom, dateTo time.Time, pageSize int, cursor string, shopID string) ([]string, string, error) {
-	apiPath := "/api/v2/order/get_order_list"
-
-	timeFromUnix := dateFrom.Unix()
-	timeToUnix := dateTo.Unix()
-
-	orderStatus := "COMPLETED"
-
-	queryParams := requests.NewQueryParams()
-	queryParams.Add("time_from", fmt.Sprintf("%d", timeFromUnix))
-	queryParams.Add("time_to", fmt.Sprintf("%d", timeToUnix))
-	queryParams.Add("page_size", fmt.Sprintf("%d", pageSize))
-	queryParams.Add("order_status", orderStatus)
-	queryParams.Add("time_range_field", "update_time")
-	if cursor != "" {
+	for {
+		queryParams := requests.NewQueryParams()
+		queryParams.Add("time_range_field", "create_time")
+		queryParams.Add("time_from", fmt.Sprintf("%d", dateFrom.Unix()))
+		queryParams.Add("time_to", fmt.Sprintf("%d", dateTo.Unix()))
+		queryParams.Add("page_size", fmt.Sprintf("%d", orderListBatchSize))
 		queryParams.Add("cursor", cursor)
-	}
+		// Opcional: filtrar por status de pedido, ex: "COMPLETED"
+		// queryParams.Add("order_status", "COMPLETED")
 
-	body, err := requests.MakeShopeeRequest(requests.GET, shopeeBaseURL, apiPath, queryParams, nil)
-	if err != nil {
-		return nil, "", fmt.Errorf("error making Shopee API request: %w", err)
-	}
-
-	fmt.Println("Corpo da resposta:", string(body))
-
-	var response struct {
-		RequestID string `json:"request_id"`
-		Error     string `json:"error"`
-		Message   string `json:"message"`
-		Response  struct {
-			OrderList []struct {
-				OrderSN string `json:"order_sn"`
-			} `json:"order_list"`
-			More       bool   `json:"more"`
-			NextCursor string `json:"next_cursor"`
-		} `json:"response"`
-	}
-
-	err = json.Unmarshal(body, &response)
-	if err != nil {
-		return nil, "", fmt.Errorf("error unmarshaling Shopee order list response: %w", err)
-	}
-
-	if response.Error != "" {
-		return nil, "", fmt.Errorf("Shopee API error: %s - %s", response.Error, response.Message)
-	}
-
-	var orderSNs []string
-	for _, rawOrder := range response.Response.OrderList {
-		orderSNs = append(orderSNs, rawOrder.OrderSN)
-	}
-
-	return orderSNs, response.Response.NextCursor, nil
-}
-
-// GetShopeeOrderDetailsBatch fetches details for multiple Shopee orders in a single API call.
-func GetShopeeOrderDetailsBatch(orderSNs []string) ([]ShopeeOrder, error) {
-	if len(orderSNs) == 0 {
-		return nil, nil // No orders to fetch
-	}
-
-	apiPath := "/api/v2/order/get_order_detail"
-
-	// Join the order SNs into a comma-separated string
-	orderSNList := strings.Join(orderSNs, ",")
-
-	queryParams := requests.NewQueryParams()
-	queryParams.Add("order_sn_list", orderSNList) // Corrected parameter name
-
-	queryParams.Add("response_optional_fields", "item_list,actual_shipping_cost,buyer_paid_shipping_fee,seller_coin_cash_back,commission_fee,service_fee,payment_info")
-
-	body, err := requests.MakeShopeeRequest(requests.GET, shopeeBaseURL, apiPath, queryParams, nil)
-	if err != nil {
-		return nil, fmt.Errorf("error making Shopee order detail API request for batch %v: %w", orderSNs, err)
-	}
-
-	var response struct {
-		RequestID string `json:"request_id"`
-		Error     string `json:"error"`
-		Message   string `json:"message"`
-		Response  struct {
-			OrderList []struct { // get_order_detail returns an array of orders
-				OrderSN              string            `json:"order_sn"`
-				OrderStatus          string            `json:"order_status"`
-				CreateTime           int64             `json:"create_time"`
-				UpdateTime           int64             `json:"update_time"`
-				PayTime              int64             `json:"pay_time"`
-				BuyerUserID          int64             `json:"buyer_user_id"`
-				BuyerUsername        string            `json:"buyer_username"`
-				TotalAmount          float64           `json:"total_amount"`
-				ActualShippingCost   float64           `json:"actual_shipping_cost"`
-				BuyerPaidShippingFee float64           `json:"buyer_paid_shipping_fee"`
-				SellerCoinCashBack   float64           `json:"seller_coin_cash_back"`
-				CommissionFee        float64           `json:"commission_fee"`
-				ServiceFee           float64           `json:"service_fee"`
-				Currency             string            `json:"currency"`
-				ShippingID           int64             `json:"shipping_id"`
-				Region               string            `json:"region"`
-				Items                []ShopeeOrderItem `json:"item_list"`
-				PaymentInfo          struct {
-					PayableAmount float64 `json:"payable_amount"`
-				} `json:"payment_info"`
-			} `json:"order_list"`
-		} `json:"response"`
-	}
-	err = json.Unmarshal(body, &response)
-	if err != nil {
-		return nil, fmt.Errorf("error unmarshaling Shopee order detail batch response: %w", err)
-	}
-
-	if response.Error != "" {
-		return nil, fmt.Errorf("Shopee API error for batch %v: %s - %s", orderSNs, response.Error, response.Message)
-	}
-
-	var orders []ShopeeOrder
-	for _, rawOrder := range response.Response.OrderList {
-		order := ShopeeOrder{
-			OrderSN:              rawOrder.OrderSN,
-			OrderStatus:          rawOrder.OrderStatus,
-			CreateTime:           rawOrder.CreateTime,
-			UpdateTime:           rawOrder.UpdateTime,
-			PayTime:              rawOrder.PayTime,
-			BuyerUserID:          rawOrder.BuyerUserID,
-			BuyerUsername:        rawOrder.BuyerUsername,
-			TotalAmount:          rawOrder.TotalAmount,
-			Currency:             rawOrder.Currency,
-			ShippingID:           rawOrder.ShippingID,
-			Region:               rawOrder.Region,
-			ActualShippingCost:   rawOrder.ActualShippingCost,
-			BuyerPaidShippingFee: rawOrder.BuyerPaidShippingFee,
-			SellerCoinCashBack:   rawOrder.SellerCoinCashBack,
-			CommissionFee:        rawOrder.CommissionFee,
-			ServiceFee:           rawOrder.ServiceFee,
-			PaymentInfo:          rawOrder.PaymentInfo,
-			ShopeeOrderItems:     rawOrder.Items,
+		body, err := requests.MakeShopeeRequest(requests.GET, shopeeBaseURL, orderListAPIPath, queryParams, nil)
+		if err != nil {
+			return nil, fmt.Errorf("failed to fetch order list page: %w", err)
 		}
-		orders = append(orders, order)
+
+		var response struct {
+			Error    string `json:"error"`
+			Message  string `json:"message"`
+			Response struct {
+				More       bool   `json:"more"`
+				NextCursor string `json:"next_cursor"`
+				OrderList  []struct {
+					OrderSN string `json:"order_sn"`
+				} `json:"order_list"`
+			} `json:"response"`
+		}
+
+		if err := json.Unmarshal(body, &response); err != nil {
+			return nil, fmt.Errorf("failed to unmarshal order list response: %w", err)
+		}
+
+		if response.Error != "" {
+			return nil, fmt.Errorf("shopee API error fetching order list: %s - %s", response.Error, response.Message)
+		}
+
+		for _, order := range response.Response.OrderList {
+			allOrderSNs = append(allOrderSNs, order.OrderSN)
+		}
+
+		if !response.Response.More {
+			break // Sai do loop se não houver mais páginas
+		}
+		cursor = response.Response.NextCursor
 	}
 
-	return orders, nil
+	slog.Info("Successfully fetched all order SNs for the period.", "count", len(allOrderSNs))
+	return allOrderSNs, nil
 }
 
-// CalculateShopeeOrderMetrics calculates total sales and estimated profit for Shopee orders.
-func CalculateShopeeOrderMetrics(orders []ShopeeOrder) struct {
-	TotalGrossSales    float64
-	TotalFees          float64
-	TotalShippingCosts float64
-	TotalNetSales      float64
-} {
-	var totalGrossSales float64
-	var totalFees float64
-	var totalShippingCosts float64
-
-	for _, order := range orders {
-		totalGrossSales += order.TotalAmount
-		totalFees += order.CommissionFee
-		totalFees += order.ServiceFee
-		totalShippingCosts += order.ActualShippingCost
+// FetchOrderDetailsBySN busca os detalhes de uma lista específica de order_sn.
+// Esta é a função que o pacote de reconciliação irá chamar.
+func FetchOrderDetailsBySN(orderSNs []string) (map[string]ShopeeOrder, error) {
+	orderMap := make(map[string]ShopeeOrder)
+	if len(orderSNs) == 0 {
+		return orderMap, nil
 	}
 
-	totalNetSales := totalGrossSales - totalFees - totalShippingCosts
+	slog.Info("Fetching order details in batches by SN list...")
+	for i := 0; i < len(orderSNs); i += orderDetailBatchSize {
+		end := i + orderDetailBatchSize
+		if end > len(orderSNs) {
+			end = len(orderSNs)
+		}
+		batchSNs := orderSNs[i:end]
 
-	return struct {
-		TotalGrossSales    float64
-		TotalFees          float64
-		TotalShippingCosts float64
-		TotalNetSales      float64
-	}{
-		TotalGrossSales:    totalGrossSales,
-		TotalFees:          totalFees,
-		TotalShippingCosts: totalShippingCosts,
-		TotalNetSales:      totalNetSales,
-	}
-}
+		slog.Info("Processing detail batch", "start_index", i, "size", len(batchSNs))
 
-// saveShopeeOrdersToFile is a helper to save fetched orders to a JSON file.
-func saveShopeeOrdersToFile(orders []ShopeeOrder, filename string) error {
-	asJSON, err := json.MarshalIndent(orders, "", "\t")
-	if err != nil {
-		return fmt.Errorf("error marshaling Shopee orders to JSON: %w", err)
+		queryParams := requests.NewQueryParams()
+		queryParams.Add("order_sn_list", strings.Join(batchSNs, ","))
+		// Buscamos apenas os campos que o pacote 'payments' não nos fornece.
+		queryParams.Add("response_optional_fields", "item_list,total_amount,order_status,create_time")
+
+		body, err := requests.MakeShopeeRequest(requests.GET, shopeeBaseURL, orderDetailAPIPath, queryParams, nil)
+		if err != nil {
+			slog.Error("Request to get_order_detail failed for batch, skipping.", "batch_sns", batchSNs, "error", err)
+			continue // Pula para o próximo lote em caso de erro
+		}
+
+		var response struct {
+			Response struct {
+				OrderList []ShopeeOrder `json:"order_list"`
+			} `json:"response"`
+			Error   string `json:"error"`
+			Message string `json:"message"`
+		}
+
+		if err := json.Unmarshal(body, &response); err != nil {
+			slog.Error("Failed to unmarshal get_order_detail batch response, skipping.", "error", err)
+			continue
+		}
+
+		if response.Error != "" {
+			slog.Error("Shopee API error in get_order_detail, skipping batch.", "error", response.Error, "message", response.Message)
+			continue
+		}
+
+		// Adiciona os pedidos do lote ao mapa.
+		for _, order := range response.Response.OrderList {
+			orderMap[order.OrderSN] = order
+		}
+
+		time.Sleep(100 * time.Millisecond)
 	}
 
-	err = ioutil.WriteFile(filename, asJSON, 0644)
-	if err != nil {
-		return fmt.Errorf("error writing Shopee orders to file %s: %w", filename, err)
-	}
-	return nil
+	slog.Info("Finished fetching order details.", "total_details_fetched", len(orderMap))
+	return orderMap, nil
 }

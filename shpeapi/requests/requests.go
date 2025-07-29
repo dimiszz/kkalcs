@@ -161,7 +161,7 @@ func MakeShopeeRequest(method Method, baseURL, apiPath string, queryParams Query
 
 	respBodyBytes, _ := io.ReadAll(resp.Body)
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("Shopee API error: status code %d, body: %s", resp.StatusCode, string(respBodyBytes))
+		return nil, fmt.Errorf("shopee API error: status code %d, body: %s", resp.StatusCode, string(respBodyBytes))
 	}
 
 	return respBodyBytes, nil
