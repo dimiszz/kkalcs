@@ -35,29 +35,55 @@ type MetricsResult struct {
 }
 
 // FetchAndReconcileTransactions orquestra o fluxo de busca e reconciliação.
-// A lógica desta função já está correta e não precisa de alterações.
+// Agora lida com o limite de 15 dias da API dividindo o período em chunks.
 func FetchAndReconcileTransactions(dateFrom, dateTo time.Time) ([]ReconciledOrder, error) {
-	slog.Info("Step 1: Fetching order SNs for the given date range...")
-	orderSNsToFetch, err := orders.GetOrderListByDateRange(dateFrom, dateTo)
-	if err != nil {
-		return nil, fmt.Errorf("could not fetch order list for the period: %w", err)
+	slog.Info("Step 1: Fetching order SNs for the given date range in 15-day chunks...")
+
+	var allOrderSNs []string
+
+	// Split the date range into 15-day chunks
+	for currentFrom := dateFrom; currentFrom.Before(dateTo); {
+		// Calculate the end date for this chunk (max 15 days)
+		currentTo := currentFrom.AddDate(0, 0, 15)
+		if currentTo.After(dateTo) {
+			currentTo = dateTo
+		}
+
+		slog.Info("Fetching orders for chunk",
+			"from", currentFrom.Format("2006-01-02"),
+			"to", currentTo.Format("2006-01-02"))
+
+		chunkOrderSNs, err := orders.GetOrderListByDateRange(currentFrom, currentTo)
+		if err != nil {
+			return nil, fmt.Errorf("could not fetch order list for period %s to %s: %w",
+				currentFrom.Format("2006-01-02"), currentTo.Format("2006-01-02"), err)
+		}
+
+		allOrderSNs = append(allOrderSNs, chunkOrderSNs...)
+		slog.Info("Fetched orders for chunk", "count", len(chunkOrderSNs))
+
+		// Move to the next chunk
+		currentFrom = currentTo
+
+		// Add a small delay between requests to be respectful to the API
+		time.Sleep(100 * time.Millisecond)
 	}
 
-	if len(orderSNsToFetch) == 0 {
+	if len(allOrderSNs) == 0 {
 		slog.Info("No orders found for the specified period.")
 		return []ReconciledOrder{}, nil
 	}
-	slog.Info("Successfully fetched order SNs.", "count", len(orderSNsToFetch))
+	slog.Info("Successfully fetched all order SNs.", "total_count", len(allOrderSNs))
 
 	slog.Info("Step 2: Fetching detailed financial data in batches...")
-	financialsMap, err := payments.GetEscrowDetailBatch(orderSNsToFetch)
+	financialsMap, err := payments.GetEscrowDetailBatch(allOrderSNs)
 	if err != nil {
 		return nil, fmt.Errorf("could not fetch escrow details in batch: %w", err)
 	}
 	slog.Info("Successfully fetched detailed financial data.", "count", len(financialsMap))
 
 	slog.Info("Step 3: Fetching order item details...")
-	orderDetailsMap, err := orders.FetchOrderDetailsBySN(orderSNsToFetch)
+	orderDetailsMap, err := orders.FetchOrderDetailsBySN(allOrderSNs)
 	if err != nil {
 		slog.Warn("Could not fetch some order details, proceeding with financial data only.", "error", err)
 	}

@@ -108,7 +108,6 @@ func ExchangeCodeForToken(code string, shopID int64) (*oAuthResponse, error) {
 	defer resp.Body.Close()
 
 	respBody, _ := io.ReadAll(resp.Body)
-	slog.Debug("Shopee API Raw Response (Initial Token):", "body", string(respBody))
 
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("API error: %s - %s", resp.Status, string(respBody))

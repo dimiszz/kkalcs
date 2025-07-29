@@ -6,6 +6,7 @@ import (
 	"os"
 	"time"
 
+	"dimi/kkalcs/api"
 	"dimi/kkalcs/dotenv"
 	"dimi/kkalcs/logger"
 	"dimi/kkalcs/mlapi/auth"
@@ -27,11 +28,11 @@ func main() {
 	dotenv.Load()
 	LoadUserId()
 	setupLogger()
-	simpleTest()
-	// err := api.Run()
-	// if err != nil {
-	// 	slog.Error("Error in code execution", "error", err)
-	// }
+	//simpleTest()
+	err := api.Run()
+	if err != nil {
+		slog.Error("Error in code execution", "error", err)
+	}
 }
 
 func run() error {
